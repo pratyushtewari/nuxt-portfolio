@@ -15,19 +15,19 @@
         <h4 class="footer-links-title inline-heading">Work</h4>
         <ul id="project-links" class="footer-links-list">
           <li>
-            <router-link to="/projects/eatlas">Eatlas</router-link>
+            <nuxt-link to="/projects/eatlas">Eatlas</nuxt-link>
           </li>
           <li>
-            <router-link to="/projects/chelada">Chelada</router-link>
+            <nuxt-link to="/projects/chelada">Chelada</nuxt-link>
           </li>
           <li>
-            <router-link to="/projects/presquevu">PresqueVu</router-link>
+            <nuxt-link to="/projects/presquevu">PresqueVu</nuxt-link>
           </li>
           <li>
-            <router-link to="/projects/dynamo">Dynamo</router-link>
+            <nuxt-link to="/projects/dynamo">Dynamo</nuxt-link>
           </li>
           <li>
-            <router-link to="/projects/slate">Slate</router-link>
+            <nuxt-link to="/projects/slate">Slate</nuxt-link>
           </li>
         </ul>
       </c>
@@ -35,7 +35,7 @@
         <h4 class="footer-links-title inline-heading">Connect</h4>
         <ul class="footer-links-list">
           <li>
-            <router-link to="/about">About</router-link>
+            <nuxt-link to="/about">About</nuxt-link>
           </li>
           <li>
             <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>

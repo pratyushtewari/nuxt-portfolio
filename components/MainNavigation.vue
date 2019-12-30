@@ -3,10 +3,10 @@
     <ul ref="links">
       <!-- inser more links here -->
       <li v-on:click="toggleNavMenu">
-        <router-link to="/">HOME</router-link>
+        <nuxt-link to="/">HOME</nuxt-link>
       </li>
       <li v-on:click="toggleNavMenu">
-        <router-link to="/about">ABOUT</router-link>
+        <nuxt-link to="/about">ABOUT</nuxt-link>
       </li>
       <!-- <li><a href="contact.html">Contact</a></li> -->
     </ul>

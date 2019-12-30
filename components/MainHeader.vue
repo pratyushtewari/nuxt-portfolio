@@ -1,6 +1,6 @@
 <template>
   <header class="pt-header">
-    <router-link
+    <nuxt-link
       id="pt-logo"
       to="/"
     >
@@ -8,7 +8,7 @@
         src="~/assets/img/pratyush_logo_onlight.svg"
         alt="Pratyush Tewari Logo"
       >
-    </router-link>
+    </nuxt-link>
     <MainNavigation />
   </header>
 </template>
