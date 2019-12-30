@@ -38,7 +38,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/directives.js'
+    '@/plugins/directives.js',
+    //'@plugins/vuetify.js'
   ],
   /*
   ** Nuxt.js dev-modules
