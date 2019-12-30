@@ -1,4 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
 const webpack = require("webpack");
 export default {
   mode: 'universal',
@@ -27,8 +26,6 @@ export default {
   css: [
       '@/assets/styles/main.scss'
   ],
-
-  modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
         '@/assets/styles/variables.scss',
@@ -38,41 +35,17 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/directives.js',
-    //'@plugins/vuetify.js'
+    '@/plugins/directives.js'
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/vuetify',
   ],
   /*
   ** Nuxt.js modules
   */
- buildModules: [
-  ],
-  /*
-  ** vuetify module configuration
-  ** https://github.com/nuxt-community/vuetify-module
-  */
-  vuetify: {
-    // customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
-  },
+  modules: ['@nuxtjs/style-resources'],
   /*
   ** Build configuration
   */
@@ -88,13 +61,8 @@ export default {
     ],
     extend (config, ctx) {
       if (ctx.isDev) {
-        console.log ("!!!!!!!!!!!!!!");
         config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
       }
     }
-  },
-  generate: {
-    fallback: true, // if you want to use '404.html' instead of the default '200.html'
-    fallback: '~/pages/404.html' // if your hosting needs a custom location
   }
 }

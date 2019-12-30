@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div>
     <h1>PresqueVu</h1>
     <DefinitionBox :data="[{title: 'METACOGNITION', definition: ' is the cognizance and knowledge of one’s own thinking and thinking processes.'},{title: 'SELF-REGULATED LEARNING', definition: ' is a goal-oriented learning process driven by motivation and metacognitive processes.'}]"></DefinitionBox>
   </div>

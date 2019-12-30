@@ -27,7 +27,6 @@
             <p>Our client came to us with the vision of an elaborate personal learning companion built on emerging technologies. To make our work more manageable, we needed to specify a scope within this larger, more ambitious vision. After considering student needs in areas such as scheduling and organization, we decided to focus on <b>METACOGNITION</b> and <b>SELF-REGULATED LEARNING</b>. While there has been extensive research in other areas of learning and education, it became apparent through our literature review and expert interviews that metacognition is a relatively unexplored area with a high potential for impact. Please refer to pages 4 through 5 for more detail regarding our area of focus.</p>
           </c>
       </grid>
-    
   </div>
 </template>
 

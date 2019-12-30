@@ -5,7 +5,7 @@
       v-scroll="handleScroll"
       class="page-content"
     >
-      <router-view></router-view>
+    <nuxt />
     </div>
     <MainFooter />
   </div>

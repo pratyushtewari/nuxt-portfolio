@@ -1,41 +1,6 @@
 <template>
-  <div class="page">
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>    
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>    
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
-    <h1>HOME</h1>   
+  <div>
+    <h1>HOME</h1>
   </div>
 </template>
 
