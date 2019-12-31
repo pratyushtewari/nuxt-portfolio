@@ -1,9 +1,6 @@
 <template>
   <header class="pt-header">
-    <nuxt-link
-      id="pt-logo"
-      to="/"
-    >
+    <nuxt-link id="pt-logo" to="/">
       <img
         src="~/assets/img/pratyush_logo_onlight.svg"
         alt="Pratyush Tewari Logo"
@@ -14,13 +11,13 @@
 </template>
 
 <script>
-  import MainNavigation from './MainNavigation';
-  export default {
-    name: "MainHeader",
-    components: {
-      MainNavigation
-    }
-  };
+import MainNavigation from "./MainNavigation"
+export default {
+  name: "MainHeader",
+  components: {
+    MainNavigation
+  }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -5,13 +5,17 @@
         {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
       </h1>
     </div>
-    <div class="c2"><div :class="imgclass"></div></div>
+    <div class="c2">
+      <div :class="imgclass" />
+    </div>
     <div class="c3">
       {{ description }}
     </div>
     <div class="c4">
       <div :class="buttonClass">
-        <nuxt-link :to="href">View Project</nuxt-link>
+        <nuxt-link :to="href">
+          View Project
+        </nuxt-link>
       </div>
     </div>
   </grid>
@@ -27,9 +31,9 @@ export default {
       href: `/projects/${this.name.toLowerCase()}`,
       buttonClass: `pt-project-view-button ${this.name.toLowerCase()}`,
       imgclass: `pt-project-pic  ${this.name.toLowerCase()}`
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
@@ -76,41 +80,41 @@ h1 {
   }
   // &.vidyo {
   //     border: 1px solid $vidyo;
-    //   a:hover {
-    //   background-color: $vidyo;
-    // }
+  //   a:hover {
+  //   background-color: $vidyo;
+  // }
   // }
   &.chelada {
     border: 1px solid $chelada;
-        a:hover {
+    a:hover {
       background-color: $chelada;
       color: $baseWhite;
     }
   }
   &.dynamo {
     border: 1px solid $dynamo;
-        a:hover {
+    a:hover {
       background-color: $dynamo;
     }
   }
   &.eatlas {
     border: 1px solid $eatlas;
-        a:hover {
+    a:hover {
       background-color: $eatlas;
       color: $baseWhite;
     }
   }
   // &.flock {
   //     border: 1px solid $flock;
-    //   a:hover {
-    //   background-color: $flock;
-    // }
+  //   a:hover {
+  //   background-color: $flock;
+  // }
   // }
   // &.luna {
   //     border: 1px solid $luna;
-    //   a:hover {
-    //   background-color: $luna;
-    // }
+  //   a:hover {
+  //   background-color: $luna;
+  // }
   // }
   &.presquevu {
     border: 1px solid $presquevu;
@@ -127,7 +131,7 @@ h1 {
   // }
   &.slate {
     border: 1px solid $slate;
-        a:hover {
+    a:hover {
       background-color: $slate;
     }
   }

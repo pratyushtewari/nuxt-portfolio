@@ -1,6 +1,6 @@
 <template>
   <div class="denifitionBox">
-    <div class="definition" v-for="x in data" :key="x.title">
+    <div v-for="x in data" :key="x.title" class="definition">
       <span class="inline-heading">{{ x.title }}</span>&nbsp;{{ x.definition }}
     </div>
   </div>
@@ -9,8 +9,8 @@
 <script>
 export default {
   name: "DenifitionBox",
-  props: ['data']
-};
+  props: ["data"]
+}
 </script>
 
 <style lang="scss" scoped>
@@ -22,5 +22,4 @@ export default {
 .definition:not(:last-child) {
   margin-bottom: 1rem;
 }
-
 </style>

@@ -2,7 +2,7 @@
   <footer id="footer">
     <grid col="4" col-s="2" class="footer-container">
       <c span="2" span-s="2" class="footer-summary">
-        <div class="footer-logo"></div>
+        <div class="footer-logo" />
         <div class="footer-summary-text">
           I am a UX designer with expertise in Human-Computer Interaction and
           computer-science background. I am passionate about making people's
@@ -12,30 +12,46 @@
         </div>
       </c>
       <c span="1">
-        <h4 class="footer-links-title inline-heading">Work</h4>
+        <h4 class="footer-links-title inline-heading">
+          Work
+        </h4>
         <ul id="project-links" class="footer-links-list">
           <li>
-            <nuxt-link to="/projects/eatlas">Eatlas</nuxt-link>
+            <nuxt-link to="/projects/eatlas">
+              Eatlas
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/chelada">Chelada</nuxt-link>
+            <nuxt-link to="/projects/chelada">
+              Chelada
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/presquevu">PresqueVu</nuxt-link>
+            <nuxt-link to="/projects/presquevu">
+              PresqueVu
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/dynamo">Dynamo</nuxt-link>
+            <nuxt-link to="/projects/dynamo">
+              Dynamo
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/slate">Slate</nuxt-link>
+            <nuxt-link to="/projects/slate">
+              Slate
+            </nuxt-link>
           </li>
         </ul>
       </c>
       <c span="1">
-        <h4 class="footer-links-title inline-heading">Connect</h4>
+        <h4 class="footer-links-title inline-heading">
+          Connect
+        </h4>
         <ul class="footer-links-list">
           <li>
-            <nuxt-link to="/about">About</nuxt-link>
+            <nuxt-link to="/about">
+              About
+            </nuxt-link>
           </li>
           <li>
             <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>
@@ -57,7 +73,7 @@
       </c>
     </grid>
     <div class="footer-container">
-      <span class="fading-border"></span>
+      <span class="fading-border" />
       <div class="footer-copyright">
         <a
           target="_blank"
@@ -73,25 +89,25 @@
 <script>
 export default {
   name: "MainFooter"
-};
+}
 </script>
 
 <style lang="scss" scoped>
 footer#footer {
   margin: 50px 0px 0px 0px;
-  
+
   background: $footerBackgroundGrey;
   color: #939393 !important;
 
   c {
-    padding-top:36px;
+    padding-top: 36px;
   }
 
   &.white {
     background: #ffffff;
   }
 
-  a {    
+  a {
     color: inherit;
   }
 
@@ -129,7 +145,7 @@ footer#footer {
     }
 
     .fading-border {
-      margin-top: 36px; 
+      margin-top: 36px;
       display: block;
       width: 100%;
       height: 1px;
@@ -148,7 +164,6 @@ footer#footer {
       text-align: center;
       padding: 1.6rem;
       opacity: 0.5;
-      
 
       &:focus,
       &:hover {
