@@ -8,11 +8,11 @@
   </div>
 </template>
 <script>
-import MainHeader from "~/components/MainHeader"
-import MainFooter from "~/components/MainFooter"
+import MainHeader from '~/components/MainHeader';
+import MainFooter from '~/components/MainFooter';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     MainHeader,
     MainFooter
@@ -21,13 +21,13 @@ export default {
     handleScroll: function() {
       if (window.scrollY > 2) {
         this.$refs.header.$el.setAttribute(
-          "style",
-          "box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);"
-        )
+          'style',
+          'box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);'
+        );
       } else {
-        this.$refs.header.$el.setAttribute("style", "")
+        this.$refs.header.$el.setAttribute('style', '');
       }
     }
   }
-}
+};
 </script>

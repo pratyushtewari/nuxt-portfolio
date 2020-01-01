@@ -1,16 +1,17 @@
 <template>
   <div class="denifitionBox">
     <div v-for="x in data" :key="x.title" class="definition">
-      <span class="inline-heading">{{ x.title }}</span>&nbsp;{{ x.definition }}
+      <span class="inline-heading">{{ x.title }}</span>
+      &nbsp;{{ x.definition }}
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "DenifitionBox",
-  props: ["data"]
-}
+  name: 'DenifitionBox',
+  props: ['data']
+};
 </script>
 
 <style lang="scss" scoped>

@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import DefinitionBox from "~/components/DefinitionBox"
+import DefinitionBox from '~/components/DefinitionBox';
 export default {
-  name: "PresqueVu",
+  name: 'PresqueVu',
   components: {
     DefinitionBox
   }
-}
+};
 </script>

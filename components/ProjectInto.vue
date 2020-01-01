@@ -23,17 +23,16 @@
 
 <script>
 export default {
-  name: "ProjectIntro",
-  props: ["name", "description", "color"],
+  name: 'ProjectIntro',
+  props: ['name', 'description', 'color'],
   data: function() {
     return {
-      name: "sd",
       href: `/projects/${this.name.toLowerCase()}`,
       buttonClass: `pt-project-view-button ${this.name.toLowerCase()}`,
       imgclass: `pt-project-pic  ${this.name.toLowerCase()}`
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -153,22 +152,22 @@ h1 {
   align-self: flex-end;
   min-width: 300px;
   &.eatlas {
-    background-image: url("~@/assets/img/project_intros/eatlas_home.png");
+    background-image: url('~@/assets/img/project_intros/eatlas_home.png');
   }
   // &.rover {
   //     background-image: url("~@/assets/img/project_intros/rover_home.png");
   // }
   &.chelada {
-    background-image: url("~@/assets/img/project_intros/chelada_home.png");
+    background-image: url('~@/assets/img/project_intros/chelada_home.png');
   }
   &.presquevu {
-    background-image: url("~@/assets/img/project_intros/presquevu_home.png");
+    background-image: url('~@/assets/img/project_intros/presquevu_home.png');
   }
   &.dynamo {
-    background-image: url("~@/assets/img/project_intros/dynamo_home.png");
+    background-image: url('~@/assets/img/project_intros/dynamo_home.png');
   }
   &.slate {
-    background-image: url("~@/assets/img/project_intros/slate_home.svg");
+    background-image: url('~@/assets/img/project_intros/slate_home.svg');
     background-position: top;
     max-width: 300px;
   }

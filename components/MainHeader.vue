@@ -4,20 +4,20 @@
       <img
         src="~/assets/img/pratyush_logo_onlight.svg"
         alt="Pratyush Tewari Logo"
-      >
+      />
     </nuxt-link>
     <MainNavigation />
   </header>
 </template>
 
 <script>
-import MainNavigation from "./MainNavigation"
+import MainNavigation from './MainNavigation';
 export default {
-  name: "MainHeader",
+  name: 'MainHeader',
   components: {
     MainNavigation
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -19,26 +19,26 @@
 
 <script>
 export default {
-  name: "MainNavigation",
+  name: 'MainNavigation',
   data() {
     return {
-      theme: ""
-    }
+      theme: ''
+    };
   },
   methods: {
     toggleNavMenu: function(event) {
-      $(this.$refs.links).toggleClass("is-visible")
-      event.stopPropagation()
+      $(this.$refs.links).toggleClass('is-visible');
+      event.stopPropagation();
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 .pt-main-nav {
   width: 44px;
   height: 100%;
-  background: url("~@/assets/img/pt-icon-menu.svg") no-repeat center center;
+  background: url('~@/assets/img/pt-icon-menu.svg') no-repeat center center;
   background-size: 44px 44px;
   cursor: pointer;
 
@@ -122,7 +122,7 @@ export default {
     }
 
     .selected a {
-      background: url("~@/assets/img/underline.svg") no-repeat center bottom;
+      background: url('~@/assets/img/underline.svg') no-repeat center bottom;
       background-size: 50px;
     }
   }

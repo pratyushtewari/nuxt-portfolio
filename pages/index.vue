@@ -24,11 +24,11 @@
 </template>
 
 <script>
-import ProjectIntro from "~/components/ProjectInto"
+import ProjectIntro from '~/components/ProjectInto';
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     ProjectIntro
   }
-}
+};
 </script>

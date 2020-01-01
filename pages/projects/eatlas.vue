@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import DefinitionBox from "~/components/DefinitionBox"
+import DefinitionBox from '~/components/DefinitionBox';
 export default {
-  name: "Eatlas",
+  name: 'Eatlas',
   components: {
     DefinitionBox
   }
-}
+};
 </script>

@@ -2,7 +2,9 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
+    es6: true,
+    jquery: true
   },
   parserOptions: {
     parser: 'babel-eslint'
@@ -16,13 +18,15 @@ module.exports = {
   ],
   // required to lint *.vue files
   plugins: [
-    'vue'
+    'vue', 'prettier'
   ],
   // add your custom rules here
   rules: {
-    'semi': [2, 'never'],
+    'semi': [2, 'always'],
     'no-console': 'off',
     'vue/max-attributes-per-line': 'off',
-    'prettier/prettier': ['error', { 'semi': false }]
+    'prettier/prettier': ['warn'],
+    'vue/require-prop-types' : 'off',
+    'vue/html-self-closing' : 'off'
   }
 }
