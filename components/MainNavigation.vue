@@ -2,13 +2,13 @@
   <nav class="pt-main-nav" @click="toggleNavMenu">
     <ul ref="links">
       <!-- inser more links here -->
-      <li @click="toggleNavMenu">
-        <nuxt-link to="/">
+      <li>
+        <nuxt-link to="/" @click="closeNavMenu">
           HOME
         </nuxt-link>
       </li>
-      <li @click="toggleNavMenu">
-        <nuxt-link to="/about">
+      <li>
+        <nuxt-link to="/about" @click="closeNavMenu">
           ABOUT
         </nuxt-link>
       </li>
@@ -22,12 +22,18 @@ export default {
   name: 'MainNavigation',
   data() {
     return {
-      theme: ''
+      currentPage : 'home'
     };
   },
   methods: {
     toggleNavMenu: function(event) {
       $(this.$refs.links).toggleClass('is-visible');
+      console.log("!!!!" + $nuxt._route.path);
+    },
+    closeNavMenu: function(event) {
+      $(this.$refs.links).removeClass('is-visible');
+      
+      console.log(">>>" + $nuxt._route.path);
       event.stopPropagation();
     }
   }
@@ -83,8 +89,7 @@ export default {
     height: auto;
     background: none;
     cursor: auto;
-    position: fixed;
-    right: 5%;
+    margin: 0 5% 0 0;
 
     ul {
       position: static;
@@ -110,13 +115,12 @@ export default {
     }
 
     a {
-      font-size: 1em;
+      padding: 1.6rem;
       text-transform: uppercase;
       display: inline-block;
       height: auto;
       line-height: normal;
       background: transparent;
-      padding: 0.6em 1em;
       border-top: none;
       color: $baseRed;
     }

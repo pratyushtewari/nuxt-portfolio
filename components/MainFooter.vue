@@ -1,89 +1,91 @@
 <template>
-  <footer id="footer">
-    <grid col="4" col-s="2" class="footer-container">
-      <c span="2" span-s="2" class="footer-summary">
-        <div class="footer-logo" />
-        <div class="footer-summary-text">
-          I am a UX designer with expertise in Human-Computer Interaction and
-          computer-science background. I am passionate about making people's
-          life easier and delightful through empathy, research and design. I
-          believe in bending technology to suit people's habits and lifestyle
-          which makes it an easier and faster adoption.
+  <client-only placeholder="Loading...">
+    <footer id="footer">
+      <grid col="4" col-s="2" class="footer-container">
+        <c span="2" span-s="2" class="footer-summary">
+          <div class="footer-logo" />
+          <div class="footer-summary-text">
+            I am a UX designer with expertise in Human-Computer Interaction and
+            computer-science background. I am passionate about making people's
+            life easier and delightful through empathy, research and design. I
+            believe in bending technology to suit people's habits and lifestyle
+            which makes it an easier and faster adoption.
+          </div>
+        </c>
+        <c span="1">
+          <h4 class="footer-links-title inline-heading">
+            Work
+          </h4>
+          <ul id="project-links" class="footer-links-list">
+            <li>
+              <nuxt-link to="/projects/eatlas">
+                Eatlas
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/projects/chelada">
+                Chelada
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/projects/presquevu">
+                PresqueVu
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/projects/dynamo">
+                Dynamo
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/projects/slate">
+                Slate
+              </nuxt-link>
+            </li>
+          </ul>
+        </c>
+        <c span="1">
+          <h4 class="footer-links-title inline-heading">
+            Connect
+          </h4>
+          <ul class="footer-links-list">
+            <li>
+              <nuxt-link to="/about">
+                About
+              </nuxt-link>
+            </li>
+            <li>
+              <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/uxsual">Twitter</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://linkedin.com/in/pratyushtewari">
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/pratyushtewari">
+                Github
+              </a>
+            </li>
+          </ul>
+        </c>
+      </grid>
+      <div class="footer-container">
+        <span class="fading-border" />
+        <div class="footer-copyright">
+          <a
+            target="_blank"
+            href="https://www.youtube.com/playlist?list=PL9gYFjMb3V297umW9XKuBvnUWYVQExeK-"
+          >
+            <span>©2019 Pratyush Tewari - made with ❤️on 🌏</span>
+          </a>
         </div>
-      </c>
-      <c span="1">
-        <h4 class="footer-links-title inline-heading">
-          Work
-        </h4>
-        <ul id="project-links" class="footer-links-list">
-          <li>
-            <nuxt-link to="/projects/eatlas">
-              Eatlas
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/projects/chelada">
-              Chelada
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/projects/presquevu">
-              PresqueVu
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/projects/dynamo">
-              Dynamo
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/projects/slate">
-              Slate
-            </nuxt-link>
-          </li>
-        </ul>
-      </c>
-      <c span="1">
-        <h4 class="footer-links-title inline-heading">
-          Connect
-        </h4>
-        <ul class="footer-links-list">
-          <li>
-            <nuxt-link to="/about">
-              About
-            </nuxt-link>
-          </li>
-          <li>
-            <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://twitter.com/uxsual">Twitter</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://linkedin.com/in/pratyushtewari">
-              Linkedin
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://github.com/pratyushtewari">
-              Github
-            </a>
-          </li>
-        </ul>
-      </c>
-    </grid>
-    <div class="footer-container">
-      <span class="fading-border" />
-      <div class="footer-copyright">
-        <a
-          target="_blank"
-          href="https://www.youtube.com/playlist?list=PL9gYFjMb3V297umW9XKuBvnUWYVQExeK-"
-        >
-          <span>©2019 Pratyush Tewari - made with ❤️on 🌏</span>
-        </a>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </client-only>
 </template>
 
 <script>

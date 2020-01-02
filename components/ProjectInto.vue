@@ -1,24 +1,26 @@
 <template>
-  <grid col="2" col-s="1" class=" intro">
-    <div class="c1">
-      <h1>
-        {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
-      </h1>
-    </div>
-    <div class="c2">
-      <div :class="imgclass" />
-    </div>
-    <div class="c3">
-      {{ description }}
-    </div>
-    <div class="c4">
-      <div :class="buttonClass">
-        <nuxt-link :to="href">
-          View Project
-        </nuxt-link>
+  <client-only placeholder="Loading...">
+    <grid col="2" col-s="1" class=" intro">
+      <div class="c1">
+        <h1>
+          {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
+        </h1>
       </div>
-    </div>
-  </grid>
+      <div class="c2">
+        <div :class="imgclass"></div>
+      </div>
+      <div class="c3">
+        {{ description }}
+      </div>
+      <div class="c4">
+        <div :class="buttonClass">
+          <nuxt-link :to="href">
+            View Project
+          </nuxt-link>
+        </div>
+      </div>
+    </grid>
+  </client-only>
 </template>
 
 <script>
@@ -29,7 +31,7 @@ export default {
     return {
       href: `/projects/${this.name.toLowerCase()}`,
       buttonClass: `pt-project-view-button ${this.name.toLowerCase()}`,
-      imgclass: `pt-project-pic  ${this.name.toLowerCase()}`
+      imgclass: `pt-project-pic ${this.name.toLowerCase()}`
     };
   }
 };
@@ -179,18 +181,25 @@ h1 {
   // }
 }
 @media only screen and (max-width: 768px) {
+  h1 {
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+    line-height: 1;
+  }
   .pt-project-pic {
     height: 150px;
     max-width: 100%;
   }
   .c1 {
     grid-row: 1;
+    justify-self: center;
   }
   .c2 {
     grid-row: 2;
   }
   .c3 {
     grid-row: 3;
+    margin-block-end: 24px;
   }
   .c4 {
     grid-row: 4;

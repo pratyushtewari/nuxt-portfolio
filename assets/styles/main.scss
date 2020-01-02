@@ -3,124 +3,141 @@
 @import '@/assets/styles/variables.scss';
 
 html * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.6rem;
-    line-height: 1.6;    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+}
+
+body {
+  line-height: 1.6;
 }
 
 *,
 *:after,
 *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'ptfont';
-    src: url("~assets/fonts/ptfont.eot");
-    /* IE9 Compat Modes */
-    src:url('~assets/fonts/ptfont.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('~assets/fonts/ptfont.woff') format('woff'),
-    /* Modern Browsers */
-    url('~assets/fonts/ptfont.ttf') format('truetype')
-    // /* Safari, Android, iOS */
-    // url( 'mywebfont.svg#svgFontName') format('svg'))
-    // /* Legacy iOS */ 
+  font-family: 'ptfont';
+  src: url('~assets/fonts/ptfont.eot');
+  /* IE9 Compat Modes */
+  src: url('~assets/fonts/ptfont.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('~assets/fonts/ptfont.woff') format('woff'),
+    /* Modern Browsers */ url('~assets/fonts/ptfont.ttf') format('truetype');
+  // /* Safari, Android, iOS */
+  // url( 'mywebfont.svg#svgFontName') format('svg'))
+  // /* Legacy iOS */
 }
 
-
 @font-face {
-    font-family: 'gotham_bold';
-    src: url('~assets/fonts/gotham_bold_regular-webfont.woff2') format('woff2'),
-         url('~assets/fonts/gotham_bold_regular-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'gotham_bold';
+  src: url('~assets/fonts/gotham_bold_regular-webfont.woff2') format('woff2'),
+    url('~assets/fonts/gotham_bold_regular-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2)
+      format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 body {
-    font-size:62.5%;
-    font-family: 'Source Sans Pro', 'Alegreya Sans', sans-serif;
-    color: $baseTextBlueBlack;
-    background-color: $baseWhite;
+  font-size: 62.5%;
+  font-family: 'Source Sans Pro', 'Alegreya Sans', sans-serif;
+  color: $baseTextBlueBlack;
+  background-color: $baseWhite;
 }
 
 a {
-    color: $baseRed;
-    text-decoration: none;
+  color: $baseRed;
+  text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-font-weight: normal;
-margin-bottom: 1.6rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*reset for mobile browsers */
+  font-weight: normal;
+  margin: 1.6rem 0 0 0;
 }
 
 h1 {
-    font-family: 'ptfont', serif;
-    font-size: 4.8rem;
+  font-family: 'ptfont', serif;
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'gotham_bold';
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-family: 'gotham_bold';
+  font-size: 1.6rem;
+  line-height: 1.2;
 }
 
 p {
-    margin: 1em 0;
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .page-content {
-    line-height: 1.4;
-    color: $baseTextBlueBlack;
-    background-color: $baseWhite;
-    margin: 1.6rem;
-    width: 70%;
-    margin: auto;
-    // display: flex;
-    // flex-direction: column;
+  color: $baseTextBlueBlack;
+  background-color: $baseWhite;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
 }
 
 @media only screen and (min-width: 768px) {
-.page-content {
-    line-height: 1.6;
-}
+  .page-content {
+    width: 70%;
+  }
 
-    h1
-    {
-        font-size: 6rem;
-    }
-    h2 {
-        font-size: 2rem;
-        line-height: 1;
-        font-weight: bold;
-        font-family: 'gotham_bold';
-    }
-    h3 {
-        color: #ee4023;
-        font-size: 1.6rem;
-        
-    }
-    h4 {
-        color: #42C8F5;
-        font-size: 1.6rem;
-        line-height: 1.6;
-        font-weight: bold;
-    }
-    p {
-        font-size: 1.6rem;
-        line-height: 1.6;
-    }   
-}
-@media only screen and (min-width: 1170px) {
-    p {
-        font-size: 1.6rem;
-        line-height: 1.6;
-    }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 4.6;
+  }
+  h3 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  h4 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
 }
 
 .inline-heading {
-    font-weight: bold;
-    font-family: 'gotham_bold';
-    font-size: 1.2rem;
-    text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'gotham_bold';
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 // .heading {
@@ -131,7 +148,7 @@ p {
 //     margin: auto;
 //     position: relative;
 //     z-index: 0;
-    
+
 //     &.color::before {
 //         content: '';
 //         width: 90%;
@@ -202,8 +219,7 @@ p {
 //     z-index: -1;
 // }
 
-
-// /* -------------------------------- 
+// /* --------------------------------
 
 // Modules - reusable parts of our design
 
@@ -235,12 +251,11 @@ p {
 //     display: table;
 //     clear: both;
 // }
-// /* -------------------------------- 
+// /* --------------------------------
 
-// Main components 
+// Main components
 
 // -------------------------------- */
-
 
 // content {
 //     position: fixed;
@@ -358,7 +373,6 @@ p {
 //         padding-top: 50px;
 //     }
 // }
-
 
 // .quote {
 //     display: inline-block;
@@ -479,7 +493,7 @@ p {
 //         width: 245px;
 //         display: block;
 //     }
-    
+
 // }
 // .finger {
 //     width: 100%;
@@ -518,11 +532,11 @@ p {
 //         transform: rotate(-3deg);
 //         z-index: -1;
 //     }
-    
+
 //     .intro-video {
 //         margin: 50px 0;
 //     }
-    
+
 //     div:first-child {
 //         max-width: 500px;
 //     }
@@ -552,7 +566,7 @@ p {
 //     position: relative;
 //     z-index: 0;
 //     padding-bottom: 20px;
-    
+
 //     a {
 //         text-decoration: initial;
 //         color: initial;
@@ -567,7 +581,7 @@ p {
 //         &:hover {
 //             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 //         }
-    
+
 //         > img {
 //             width: 60px;
 //         }
@@ -622,7 +636,7 @@ p {
 //     float: right;
 //     clear: right;
 // }
-// @media only screen and (max-width: 960px) 
+// @media only screen and (max-width: 960px)
 // {
 // .two_third, .two_third.last, .one_third, .one_third.last {
 //     width: 100%;

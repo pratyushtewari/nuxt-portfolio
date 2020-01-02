@@ -1,11 +1,13 @@
 <template>
   <header class="pt-header">
-    <nuxt-link id="pt-logo" to="/">
-      <img
-        src="~/assets/img/pratyush_logo_onlight.svg"
-        alt="Pratyush Tewari Logo"
-      />
-    </nuxt-link>
+    <div id="pt-logo">
+      <nuxt-link to="/">
+        <img
+          src="~/assets/img/pratyush_logo_onlight.svg"
+          alt="Pratyush Tewari Logo"
+        />
+      </nuxt-link>
+    </div>
     <MainNavigation />
   </header>
 </template>
@@ -22,6 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .pt-header {
+  z-index: 1000;
   position: sticky;
   display: flex;
   top: 0;
@@ -35,6 +38,9 @@ export default {
     margin: 0 0 0 5%;
     display: flex;
     flex-grow: 1;
+    a {
+      display: flex;
+    }
     img {
       display: block;
       width: 80px;
