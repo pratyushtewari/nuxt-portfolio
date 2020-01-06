@@ -30,6 +30,17 @@ grid > c[span^="6"] { --grid-cs: 6 }
 grid > c[span^="7"] { --grid-cs: 7 }
 grid > c[span^="8"] { --grid-cs: 8 }
 
+grid > c[start] {align-self: start}
+grid > c[middle] {align-self: middle}
+grid > c[end] {align-self: end}
+
+grid > c[left] {justify-self: left}
+grid > c[center] {justify-self: center; display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+grid > c[right] {justify-self: right}
+
 /* span=...+width, span=...-end */
 grid > c[span$="+1"], grid > c[span="1"] { --grid-ce: 1 }
 grid > c[span$="+2"], grid > c[span$="-1"], grid > c[span="2"] { --grid-ce: 2 }

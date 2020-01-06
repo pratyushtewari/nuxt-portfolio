@@ -19,6 +19,17 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+}
+.sticky-top {
+  position: sticky;
+  top: 86px;
+}
+.sticky-bottom {
+  position: sticky;
+  bottom: 0px;
+}
 
 @font-face {
   font-family: 'ptfont';
@@ -136,7 +147,7 @@ p {
 .inline-heading {
   font-weight: bold;
   font-family: 'gotham_bold';
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 

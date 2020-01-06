@@ -19,8 +19,6 @@ export default {
   background-color: $footerBackgroundGrey;
   padding: 1rem;
   border-radius: 4px;
-  position: sticky;
-  top: 86px;
 }
 .definition:not(:last-child) {
   margin-bottom: 1rem;
