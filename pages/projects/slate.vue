@@ -57,6 +57,7 @@
         </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
     <div class="page" data="page2">
       <grid col="3" col-s="1">
       <c span="1" span-s="1">
@@ -74,6 +75,7 @@
       </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
     <div class="page" data="page3">
       <h2>OUR CLIENT CHALLENGE</h2>
       <h3>
@@ -99,6 +101,7 @@
         </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
     <div class="page" data="page4">
       <h2>SCHEDULE</h2>
       <grid col="3" col-s="1">
@@ -112,6 +115,7 @@
         </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
     <div class="page" data="page5">
       <grid col="3" col-s="1">
         <c span="2" span-s="1">
@@ -134,6 +138,7 @@
         </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
     <div class="page" data="page6">
       <grid col="3" col-s="1">
         <c center span="2" span-s="1">
@@ -160,6 +165,7 @@
         </c>
       </grid>
     </div>
+    <span class="fading-border"></span>
   </div>
 </template>
 
@@ -187,7 +193,6 @@ img {
   .page {
     padding-bottom: 48px;
     margin-bottom: 48px;
-    border-bottom: 1px solid $footerBackgroundGrey;
   }
   h2 {
     line-height: 1.6;

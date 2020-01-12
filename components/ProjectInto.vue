@@ -1,6 +1,7 @@
 <template>
   <client-only placeholder="Loading...">
-    <grid col="2" col-s="1" class=" intro">
+    <div class="projects">
+    <grid col="2" col-s="1">
       <div class="c1">
         <h1>
           {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
@@ -20,6 +21,8 @@
         </div>
       </div>
     </grid>
+    <span class="fading-border"></span>
+    </div>
   </client-only>
 </template>
 
@@ -57,18 +60,16 @@ h1 {
   grid-row: 3;
   margin-block-end: 48px;
 }
-.intro {
+.projects {
   max-width: 1000px;
-  margin: 48px auto;
-  &:not(:last-child) {
-    border-bottom: 1px solid $contentDividerLine;
-  }
+  margin: 48px auto 0;
   &:nth-child(even) {
     .c2 {
       grid-column: 1;
     }
   }
 }
+
 .pt-project-view-button {
   background-color: $footerBackgroundGrey;
   display: inline-block;

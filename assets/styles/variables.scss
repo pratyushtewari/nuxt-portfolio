@@ -1,3 +1,45 @@
+//defining scss variable 
+//light theme
+$colors: (
+  baseBackground: rgba(255, 255, 255, 1),
+  baseText: hsl(211, 30%, 25%), // rgba(44, 62, 81, 1),
+  baseBackgroundHighlight: #f2f5f8,
+  baseBackgroundSubdude: #f2f5f8
+);
+//dark theme
+$colors-dark: (
+  baseBackground: hsl(211, 30%, 25%), // rgba(44, 62, 81, 1),
+  baseText: rgba(255, 255, 255, 1),
+  baseBackgroundHighlight: hsl(211, 30%, 35%), // rgba(44, 62, 81, 1), #3e5874
+  baseBackgroundSubdude: hsl(211, 30%, 15%), // rgba(44, 62, 81, 1), #1b2632 
+);
+//converting scss variable into css variable
+:root {
+  @each $name, $color in $colors{
+      --color-#{$name} : #{$color};
+  };
+  --theme: 'light';
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    @each $name, $color in $colors-dark{
+      --color-#{$name} : #{$color};
+    };
+    --theme : 'dark';
+  }
+}
+
+//creating a function to get color instead of using css varible
+@function getColor($color-name){
+    @return var(--color-#{$color-name});
+}
+
+@function getimage($img-name){
+  @return var(--color-#{$img-name});
+}
+
+
 $headerHeight: 70px;
 // colors
 $baseTextBlueBlack: rgba(44, 62, 81, 1);

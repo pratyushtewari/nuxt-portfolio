@@ -16,7 +16,7 @@ export default {
 
 <style lang="scss" scoped>
 .denifitionBox {
-  background-color: $footerBackgroundGrey;
+  background-color: getColor(baseBackgroundHighlight);
   padding: 1rem;
   border-radius: 4px;
 }

@@ -2,10 +2,7 @@
   <header class="pt-header">
     <div id="pt-logo">
       <nuxt-link to="/">
-        <img
-          src="~/assets/img/pratyush_logo_onlight.svg"
-          alt="Pratyush Tewari Logo"
-        />
+        <span class="main-logo" alt="Pratyush Tewari Logo"></span>
       </nuxt-link>
     </div>
     <MainNavigation />
@@ -18,6 +15,12 @@ export default {
   name: 'MainHeader',
   components: {
     MainNavigation
+  },
+  methods: {
+  getImgUrl() {
+    const url = (this.$store.state.isDark) ? require("@/assets/img/pratyush_logo_ondark.svg") : require("@/assets/img/pratyush_logo_onlight.svg");
+    return url;
+    }
   }
 };
 </script>
@@ -31,7 +34,8 @@ export default {
   left: 0;
   width: 100%;
   height: $headerHeight;
-  background: $baseWhite;
+  background: getColor(baseBackground);
+  color: getColor(baseText);
   transition: 300ms;
   // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); - added upon scrolling in App.vue
   #pt-logo {
@@ -41,7 +45,7 @@ export default {
     a {
       display: flex;
     }
-    img {
+    .main-logo {
       display: block;
       width: 80px;
     }

@@ -98,7 +98,7 @@ export default {
 footer#footer {
   margin: 50px 0px 0px 0px;
 
-  background: $footerBackgroundGrey;
+  background: getColor(baseBackgroundSubdude);
   color: #939393 !important;
 
   c {
@@ -150,16 +150,8 @@ footer#footer {
       margin-top: 36px;
       display: block;
       width: 100%;
-      height: 1px;
-      background: -webkit-gradient(
-        radial,
-        50% 50%,
-        0,
-        50% 50%,
-        350,
-        from($footerLineGrey),
-        to(rgba(255, 255, 255, 0))
-      );
+      height: 2px;      
+      background: radial-gradient(ellipse at center, getColor(baseBackgroundHighlight), transparent 70%)
     }
 
     .footer-copyright {

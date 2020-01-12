@@ -11,7 +11,16 @@ html * {
 body {
   line-height: 1.6;
 }
-
+.main-logo {
+  background: url("~assets/img/pratyush_logo_onlight.svg") center no-repeat;
+  background-size: contain;
+}
+@media(prefers-color-scheme: dark) {
+  .main-logo {
+    background: url("~assets/img/pratyush_logo_ondark.svg") center no-repeat;
+    background-size: contain;
+  }
+}
 *,
 *:after,
 *:before {
@@ -68,8 +77,12 @@ img {
 body {
   font-size: 62.5%;
   font-family: 'Source Sans Pro', 'Alegreya Sans', sans-serif;
-  color: $baseTextBlueBlack;
-  background-color: $baseWhite;
+  color: getColor(baseText);
+  background-color: getColor(baseBackground);
+  // &::after{
+  //   content: var(--theme);
+  //   display: none;
+  // }
 }
 
 a {
@@ -111,8 +124,8 @@ p {
 }
 
 .page-content {
-  color: $baseTextBlueBlack;
-  background-color: $baseWhite;
+  // color: $baseTextColor;
+  // background-color: $baseBackgroundColor;
   width: 90%;
   margin: auto;
   max-width: 1200px;
@@ -149,6 +162,14 @@ p {
   font-family: 'gotham_bold';
   font-size: 1.4rem;
   text-transform: uppercase;
+}
+
+.fading-border {
+  margin-bottom: 48px;
+  display: block;
+  width: 100%;
+  height: 2px;      
+  background: radial-gradient(ellipse at center, getColor(baseBackgroundHighlight), transparent 70%)
 }
 
 // .heading {

@@ -17,6 +17,9 @@ export default {
     MainHeader,
     MainFooter
   },
+  mounted: function () {
+    this.$store.commit('setIsDark', window.matchMedia('(prefers-color-scheme: dark)').matches);
+  },
   methods: {
     handleScroll: function() {
       if (window.scrollY > 2) {
