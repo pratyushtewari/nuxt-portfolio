@@ -166,6 +166,248 @@
       </grid>
     </div>
     <span class="fading-border"></span>
+    <div class="page" data="page7">
+      <h2>SELF-REGULATED LEARNING STRATEGIES</h2>
+      <br>
+      <grid col="3" col-s="1">
+        <c span="1">
+          <p class="sticky-top">
+            We referenced this list of 10 <span class="inline-heading">SELF-REGULATED LEARNING</span> strategies in our investigation of high school students’ metacognitive needs. Originated by Zimmerman and Martinez-Pons, each strategy suggests the presence of a student’s agency and goals, and refers to a set of actions carried out for the purpose of acquiring knowledge or skill.
+          </p>
+        </c>
+        <c span="2" span-s="1">
+          <h4>SELF-EVALUATING</h4>
+          Self-initiating evaluations of one’s progress and quality of work.
+          EX: A student revisits their notes to check if they have completed a problem set correctly.
+          <h4>ORGANIZING & TRANSFORMING</h4>
+          Self-initiating changes in existing instructional material to improve learning. EX: A student creates an outline before writing an essay.
+          <h4>GOAL SETTING & PLANNING</h4>
+          Setting goals and planning a sequence of steps in order to achieve them.
+          EX: A student aims for an “A” on a test, creates a study plan, and starts studying two weeks in advance.
+          <h4>SEEKING INFORMATION</h4>
+          Self-initiating the search for additional information from books and other non-social sources. EX: A student visits the library to gather relevant information before writing a research paper.
+          <h4>KEEPING RECORDS & MONITORING</h4>
+          Self-initiating the record of events, results, or progress while learning.
+          EX: A student takes notes during a class lecture and creates flash cards of important definitions.
+          <h4>ENVIRONMENT RESTRUCTURING</h4>
+          Self-initiating the selection or arrangement of a physical workspace to improve the learning process. EX: A student turns off the music in their room so that it will not distract them.
+          <h4>SELF-CONSEQUENCES</h4>
+          Conceptualizing rewards or punishments in instances of success or failure.
+          EX: A student tells themselves that they can have ice cream if they finish a project within the hour.
+          <h4>REHEARSING & MEMORIZING</h4>
+          Self-initiating the memorization of material through practice or the use of mnemonic devices. EX: A student memorizes a history fact for an exam by repeatedly writing it down.
+          <h4>SEEKING SOCIAL ASSISTANCE</h4>
+          Self-initiating the asking for help from peers, teachers, or adults.
+          EX: A student asks a friend for help in understanding a mathematical formula.
+          <h4>REVIEWING RECORDS</h4>
+          Self-initiating the review of notes, tests, or textbooks while preparing for a test or a class. EX: A student reviews several unit assessments in preparation for a final exam.
+        </c>
+      </grid>
+    </div>
+    <span class="fading-border"></span>
+    <div class="page" data="page8">
+      <h2>EXPERT INTERVIEWS</h2>
+      Topics we covered in this initial phase of research include motivation, metacognition, scheduling, teens, rapport, and learning technologies. In addition to giving us a better sense of the problems facing learning and education, the subject matter experts we met with were able to shed light on some of the solutions currently being used to address these problems.
+      <br>
+      <br>
+      <br>
+      <grid col="3" col-s="1">
+      <c span="1">
+
+        <div class="sticky-top">
+          <img style="width:134px" src="@/assets/img/projects/slate/faculty/VINCENT_ALEVEN.png"/>
+          <p class="name">VINCENT <span class="last">ALEVEN</span></p>
+          <div class="intro">
+            <p>NAMED A TOP AUTHOR IN COMPUTER EDUCATION BY MICROSOFT</p>
+            <br>
+            <p class="inline-heading">ASSOCIATE PROFESSOR</p>
+            <p>CMU HUMAN-COMPUTER INTERACTION INSTITUTE</p>
+            <br>
+            <p class="inline-heading">RESEARCH AREAS:</p>
+            <p>ENABLING TECHNOLOGIES</p>
+            <p>LEARNING SCIENCES & TECHNOLOGIES</p>
+          </div>
+        </div>
+      </c>
+      <c span="2" span-s="1">
+        <h3>
+          <ul style="list-style-type:disc;">
+            <li>Train in a way that encourages metacognitive skills across domains.</li>
+            <li>Teachable agents hold a lot of promise for training metacognitive skills.</li>
+            <li>Habit-building is important to maintaining metacognitive skills.</li>
+          </ul>
+        </h3>
+        <br>
+        <p>In his discussion with us, Professor Aleven highlighted some of his findings on metacognition and intelligent tutors in the context of our research. He pointed out that while it is possible to train metacognitive skills, those skills do not appear to remain once training has ceased. This transient nature suggests that a system able to prolong training effects could potentially help students develop lasting metacognitive habits.</p>
+        <br>
+        <p>Aleven also suggested possible opportunities in the transfer of metacognitive skills across domains. Although the possibility of this transfer is consistent with existing literature on learning principles, this area that has seen little research due to its daunting nature. According to Aleven, showing the use of metacognitive skills across domains could reinforce such transfer. For example, one of these skills might be self-explanation. Having students learn to explain concepts to themselves could help them understand their level of learning and how they might improve.</p>        
+        <br>
+        <p>In addition, Aleven mentioned certain opportunities for design. He described teachable agents as one of the greater innovations from the learning sciences in the last decade, with projects such as Betty’s Brain by Vanderbilt University’s Teachable Agents Group incorporating metacognitive training.</p>
+      </c>
+      </grid>
+
+      <br>
+      <br>
+      <span class="fading-border"></span>
+      <grid col="3" col-s="1">
+      <c span="1">
+        <div class="sticky-top">
+          <img style="width:134px" src="@/assets/img/projects/slate/faculty/SAMANTHA_FINKELSTEIN.png"/>
+          <p class="name">SAMANTHA <span class="last">FINKELSTEIN</span></p>
+          <div class="intro">
+            <p>PHD STUDENT AT CMU’S HUMAN-COMPUTER INTERACTION INSTITUTE RESEARCHING THE EFFECT OF VIRTUAL PEERS IN LEARNING</p>
+            <br>
+            <p class="inline-heading">PHD STUDENT</p>
+            <p>CARNEGIE MELLON UNIVERSITY</p>
+            <br>
+            <p class="inline-heading">RESEARCH AREAS:</p>
+            <p>HUMAN-AGENT INTERACTION RAPPORT</p>
+          </div>
+        </div>
+      </c>
+      <c span="2" span-s="1">
+        <h3>
+          <ul style="list-style-type:disc;">
+            <li>Playful rudeness in the agents helps creating rapport with the student.</li>
+            <li>Teachable agent leads to greater learning outcomes than teaching agents.</li>
+            <li>Agents with personalities different than the students grabs their attention.</li>
+          </ul>
+        </h3>
+        <br>
+        <p>Samantha helped us develop a better understanding of virtual peer systems. Much of our discussion revolved around teaching agents, teachable agents, avatars, authorable agents, and effective techniques to build rapport with each.</p>
+        <br>
+        <p>We focused in particular on teachable agents, which are virtual peers a student must teach how to solve a problem. She suggested developing virtual peers with a personality different from the student, in order to get students to think differently about the same topic.</p>        
+        <br>
+        <p>In order to build rapport and engagement with the technology, Samantha suggested to include an awareness of the student’s culture, the use of colloquial terms, and a touch of rudeness in responses from the virtual peer. Her work has showed that an agent’s overly polite responses to rude inputs from students took away from their immersion. While we should be cautious and sensitive in our use of these ideas, simulating playfulness may increase student engagement.</p>
+        <br><br>
+        <DefinitionBox class="sticky-top"
+            :data="[
+              {
+                title: 'TEACHABLE AGENT',
+                definition:
+                  'is an artificial intelligence system in which a student teaches a virtual agent various subjects and the agent learns from the student.'
+              },
+              {
+                title: 'TEACHING AGENT',
+                definition:
+                  'is an artificial intelligence system that mimics the behavior of a teacher.'
+              }
+            ]"
+          />
+      </c>
+      </grid>
+
+      <br>
+      <br>
+      <span class="fading-border"></span>
+      <grid col="3" col-s="1">
+      <c span="1">
+        <div class="sticky-top">
+          <img style="width:134px" src="@/assets/img/projects/slate/faculty/KEN_KOEDINGER.png"/>
+          <p class="name">KEN <span class="last">KOEDINGER</span></p>
+          <div class="intro">
+            <p>UNIVERSALLY RECOGNIZED IN INTELLIGENT TUTORING SYSTEMS WITH OVER 20 YEARS OF EXPERIENCE IN THE FIELD</p>
+            <br>
+            <p class="inline-heading">PROFESSOR</p>
+            <p>CMU HUMAN-COMPUTER INTERACTION INSTITUTE</p>
+            <br>
+            <p class="inline-heading">RESEARCH AREAS:</p>
+            <p>LEARNING SCIENCES</p>
+            <p>EDUCATIONAL TECHNOLOGIES</p>
+          </div>
+        </div>
+      </c>
+      <c span="2" span-s="1">
+        <h3>
+          <ul style="list-style-type:disc;">
+            <li>The best learning strategies depend on the domain.</li>
+            <li>Motivation is a necessary aspect of training in the self-regulated learning strategies.</li>
+          </ul>
+        </h3>
+        <br>
+        <p>While Professor Koedinger discussed many values of metacognitive tutoring, he also brought up myths and nuances about metacognition that we should bear in mind. For instance, he suggested we exercise caution in assuming that successful learning comes from or leads to good self-regulation. Although his previous research has yielded positive results in using a tutor to change student behavior in a domain level skill, it has not been shown that those changes in behavior lead to stronger domain learning.</p>
+        <br>
+        <p>It may be a similar case for students attempting to develop self-regulation strategies. According to Koedinger, those students may be no better off simply because they don’t care. While they may achieve success in exercising self-regulating strategies when prompted to do so, they are unlikely to use them otherwise. This suggests that any system we design to help in the development of metacog- nitive skills may be best paired with a system that builds trust in the value of those skills.</p>        
+        <br>
+        <p>Furthermore, Koedinger discussed how different domains may benefit from different metacognitive strategies. Thus, while teaching these skills in a cross-domain system, we should ensure that particular strategies are taught in their appropriate contexts.</p>
+      </c>
+      </grid>
+
+      <br>
+      <br>
+      <span class="fading-border"></span>
+      <grid col="3" col-s="1">
+      <c span="1">
+        <div class="sticky-top">
+          <img style="width:134px" src="@/assets/img/projects/slate/faculty/BRUCE_MCLAREN.png"/>
+          <p class="name">BRUCE <span class="last">MCLAREN</span></p>
+          <div class="intro">
+            <p>NAMED A TOP AUTHOR IN COMPUTERS AND EDUCATION BY MICROSOFT</p>
+            <br>
+            <p class="inline-heading">SENIOR SYSTEMS SCIENTIST</p>
+            <p>CARNEGIE MELLON UNIVERSITY</p>
+            <br>
+            <p class="inline-heading">RESEARCH AREAS:</p>
+            <p>LEARNING SCIENCE</p>
+            <p>COLLABORATIVE LEARNING</p>
+            <p>E-LEARNING PRINCIPLES</p>
+            <p>APPLICATION OF AI TO EDUCATIONAL SYSTEMS INTELLIGENT TUTORING SYSTEMS.</p>            
+          </div>
+        </div>
+      </c>
+      <c span="2" span-s="1">
+        <h3>
+          <ul style="list-style-type:disc;">
+            <li>Video games can be used to engage students in educational content.</li>
+            <li>Students need guidance and an organized way to search materials.</li>
+            <li>Students can be weaned off help to start searching for content on their own.</li>            
+          </ul>
+        </h3>
+        <br>
+        <p>Bruce shared his insights on cultivating motivation and getting students engaged in learning systems. According to him, researchers have been successful in disguising educational content in video games for the younger generation of students.</p>
+        <br>
+        <p>Keeping the vast collection of online learning content in mind, Bruce suggested building a system on top of existing curated content to help learners organize their searches. An important question we might use to guide us is how to provide the appropriate content to students based on their individual characteristics. Furthermore, some method of weaning students off any guidance and encouraging them to discover content on their own may prove highly beneficial.</p>
+      </c>
+      </grid>
+
+
+<br>
+      <br>
+      <span class="fading-border"></span>
+      <grid col="3" col-s="1">
+      <c span="1">
+        <div class="sticky-top">
+          <img style="width:134px" src="@/assets/img/projects/slate/faculty/AMY_OGAN.png"/>
+          <p class="name">AMY <span class="last">OGAN</span></p>
+          <div class="intro">
+            <p>RECENTLY APPOINTED ASSISTANT PROFESSOR WITH A RESEARCH FOCUS IN EDUCATIONAL TECHNOLOGIES</p>
+            <br>
+            <p class="inline-heading">ASSISTANT PROFESSOR</p>
+            <p>CMU LANGUAGE TECHNOLOGIES INSTITUTE</p>
+            <br>
+            <p class="inline-heading">RESEARCH AREAS:</p>
+            <p>LEARNING SCIENCES & TECHNOLOGIES</p>         
+          </div>
+        </div>
+      </c>
+      <c span="2" span-s="1">
+        <h3>
+          <ul style="list-style-type:disc;">
+            <li>Labeling students according to performance and achievement can be harmful to the students.</li>
+            <li>Spaced reminders improves students’ organizational skills.</li>
+            <li>The system should gain students’ trust.</li>        
+          </ul>
+        </h3>
+        <br>
+        <p>After listening to our brief about the Hobbes Project, Assistant Professor Ogan shared concerns about grouping students according to performance and/or potential. In particular, she suggested that labeling students as low potential could be extremely harmful.</p>
+        <br>
+        <p>Ogan also spoke of the ability learning companions have to improve students’ organizational skills by providing spaced reminders. These could be given when they should be studying, when they should be partaking in other activities, or when they should be doing tasks for classes in order to avoid a stressful situation when a due date approaches. Once students begin to trust the system, they may benefit greatly from its recommendations and be inclined to use it more frequently.</p>
+      </c>
+      </grid>
+
+
+    </div>
+    <span class="fading-border"></span>
   </div>
 </template>
 
@@ -202,5 +444,20 @@ img {
   }
   h4 {
     color: #42c8f5;
+  }
+  .name {
+    font-size: 2rem;
+    font-family: 'gotham_book';
+    .last {
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: 'gotham_bold';
+    }
+  }
+  .intro {
+    font-size: 1.2rem;
+    &>* {
+      font-size: 1.2rem;
+    }
   }
 </style>

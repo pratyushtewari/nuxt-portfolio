@@ -74,6 +74,13 @@ img {
     U+FEFF, U+FFFD;
 }
 
+@font-face {
+  font-family: 'gotham_book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gotham Book'), url('~assets/fonts/gotham_book_regular-webfont.woff') format('woff');
+  }
+
 body {
   font-size: 62.5%;
   font-family: 'Source Sans Pro', 'Alegreya Sans', sans-serif;
