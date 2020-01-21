@@ -17,9 +17,11 @@ export default {
     MainNavigation
   },
   methods: {
-  getImgUrl() {
-    const url = (this.$store.state.isDark) ? require("@/assets/img/pratyush_logo_ondark.svg") : require("@/assets/img/pratyush_logo_onlight.svg");
-    return url;
+    getImgUrl() {
+      const url = this.$store.state.isDark
+        ? require('@/assets/img/pratyush_logo_ondark.svg')
+        : require('@/assets/img/pratyush_logo_onlight.svg');
+      return url;
     }
   }
 };

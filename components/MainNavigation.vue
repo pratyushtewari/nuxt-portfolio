@@ -22,18 +22,19 @@ export default {
   name: 'MainNavigation',
   data() {
     return {
-      currentPage : 'home'
+      currentPage: 'home'
     };
   },
   methods: {
     toggleNavMenu: function(event) {
+      event.stopPropagation();
       $(this.$refs.links).toggleClass('is-visible');
-      console.log("!!!!" + $nuxt._route.path);
+      // console.log('!!!!' + $nuxt._route.path);
     },
     closeNavMenu: function(event) {
       $(this.$refs.links).removeClass('is-visible');
-      
-      console.log(">>>" + $nuxt._route.path);
+
+      // console.log('>>>' + $nuxt._route.path);
       event.stopPropagation();
     }
   }

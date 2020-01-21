@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-carousel": "^0.18.0",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",

@@ -95,12 +95,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 footer#footer {
   margin: 50px 0px 0px 0px;
   background: getColor(baseBackgroundSubdude);
   color: #939393;
-  
+
   c {
     padding-top: 36px;
   }
@@ -145,19 +144,23 @@ footer#footer {
     .footer-links-title {
       color: $baseTextBlueBlack;
     }
-    @media(prefers-color-scheme: dark) {
-    .footer-links-title {    
+    @media (prefers-color-scheme: dark) {
+      .footer-links-title {
         // color: #4ecdc4;
-        color: #fee66d;    
-        }
+        color: #fee66d;
+      }
     }
 
     .fading-border {
       margin-top: 36px;
       display: block;
       width: 100%;
-      height: 2px;      
-      background: radial-gradient(ellipse at center, getColor(baseBackgroundHighlight), transparent 70%)
+      height: 2px;
+      background: radial-gradient(
+        ellipse at center,
+        getColor(baseBackgroundHighlight),
+        transparent 70%
+      );
     }
 
     .footer-copyright {

@@ -1,27 +1,27 @@
 <template>
   <client-only placeholder="Loading...">
     <div class="projects">
-    <grid col="2" col-s="1">
-      <div class="c1">
-        <h1>
-          {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
-        </h1>
-      </div>
-      <div class="c2">
-        <div :class="imgclass"></div>
-      </div>
-      <div class="c3">
-        {{ description }}
-      </div>
-      <div class="c4">
-        <div :class="buttonClass">
-          <nuxt-link :to="href">
-            View Project
-          </nuxt-link>
+      <grid col="2" col-s="1">
+        <div class="c1">
+          <h1>
+            {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
+          </h1>
         </div>
-      </div>
-    </grid>
-    <span class="fading-border"></span>
+        <div class="c2">
+          <div :class="imgclass"></div>
+        </div>
+        <div class="c3">
+          {{ description }}
+        </div>
+        <div class="c4">
+          <div :class="buttonClass">
+            <nuxt-link :to="href">
+              View Project
+            </nuxt-link>
+          </div>
+        </div>
+      </grid>
+      <span class="fading-border"></span>
     </div>
   </client-only>
 </template>

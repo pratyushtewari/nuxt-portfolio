@@ -1,14 +1,19 @@
 <template>
   <div class="container">
-    <h1 v-if="error.statusCode === 404">
-      Page not found
-    </h1>
-    <h1 v-else>
-      An error occurred
-    </h1>
-    <nuxt-link to="/">
-      Home page
-    </nuxt-link>
+    <div v-if="error.statusCode === 404">    
+    </div>
+    <div v-else>
+    </div>
+    <grid col="1">
+      <c>
+        <h1>Womp Womp!</h1>
+        <div class="center">
+        <h2>There is nothing here!</h2>
+        <img src="@/assets/img/doggy-searching.gif" alt="Doggy Searching Image" style="width: inherit;">
+        <p>May I suggest going to my <nuxt-link to="/">home page</nuxt-link>.</p>
+        </div>
+      </c>
+    </grid>
   </div>
 </template>
 
@@ -17,3 +22,6 @@ export default {
   props: ['error']
 };
 </script>
+<style scoped>
+
+</style>

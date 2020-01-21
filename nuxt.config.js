@@ -1,5 +1,10 @@
 const webpack = require('webpack');
 export default {
+  vue: {
+    config: {
+      ignoredElements: ['grid', 'c']
+    }
+  },
   mode: 'universal',
   /*
    ** Headers of the page
@@ -32,7 +37,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/directives.js'],
+  plugins: [
+    {src: '@/plugins/directives.js'},
+    {src: '@/plugins/vue-typed-js.js'},
+    {src: '@/plugins/vue-carousel.js', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
