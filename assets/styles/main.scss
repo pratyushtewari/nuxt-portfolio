@@ -116,14 +116,18 @@ h2 {
   font-family: 'gotham_bold';
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1.6;
+  color: $slate;
 }
 h3 {
   font-size: 1.6rem;
+  color: getColor(h3Textcolor);
 }
 h4 {
   font-family: 'gotham_bold';
   font-size: 1.6rem;
   line-height: 1.2;
+  color: $slate;
 }
 
 p {
@@ -205,9 +209,20 @@ p {
   .VueCarousel-slide {
     align-self: center;
   }
+  .VueCarousel-navigation-button {
+    
+      color: getColor(baseText) !important;
+    
+  } 
 }
 
 //////// 
+.main-content {
+
+  overflow: auto;
+  width: 100%;  
+  -webkit-overflow-scrolling: touch;
+}
 
 .center {
   text-align: center;
@@ -220,12 +235,7 @@ p {
   width: initial;
   margin: auto;
 }
-.space-above {
-  padding-top: 50px;
-}
-.less-space-above {
-  padding-top: 20px;
-}
+
 .full-width {
   width: 100%;
   height: auto;
@@ -261,30 +271,7 @@ p {
   }
 }
 
-.heading {
-    line-height: 1.9375em;
-    letter-spacing: 0.25px;
-    max-width: 700px;
-    padding: 75px 0;
-    margin: auto;
-    position: relative;
-    z-index: 0;
 
-    &.color::before {
-        content: '';
-        width: 90%;
-        height: 60%;
-        background: #ffe66d;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        transform: rotate(-3deg);
-        z-index: -1;
-    }
-}
 
 
 h3.main.center:before {
@@ -341,96 +328,6 @@ Main components
 -------------------------------- */
 
 
-// #pt-intro {
-//     position: fixed;
-//     pointer-events: none;
-//     height: 300px;
-//     margin-top: 0;
-//     width: 100%;
-//     text-align: center;
-//     background-color: #d0bfae;
-//     background: #e4e2ed;
-//     background: -moz-linear-gradient(left, #e4e2ed 30%, #d1c0b0 72%);
-//     background: -webkit-linear-gradient(left, #e4e2ed 30%,#d1c0b0 72%);
-//     background: linear-gradient(to right, #e4e2ed 30%,#d1c0b0 72%);
-//     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e2ed', endColorstr='#d1c0b0',GradientType=1 );
-
-//     #pt-intro-background {
-//         height: 100%;
-//         width: 100%;
-//         max-width: 1080px;
-//         margin: auto;
-//         background: url("~assets/img/pratyush_tewari_intro_pic.jpg") no-repeat center center;
-//         background-size: cover;
-//         // box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-//     }
-
-//     #pt-intro-tagline {
-//         text-align: left;
-//         position: absolute;
-//         width: 90%;
-//         max-width: 768px;
-//         left: 50%;
-//         bottom: 0;
-//         right: auto;
-//         -webkit-transform: translateX(-50%) translateY(-50%);
-//         -moz-transform: translateX(-50%) translateY(-50%);
-//         -ms-transform: translateX(-50%) translateY(-50%);
-//         -o-transform: translateX(-50%) translateY(-50%);
-//         transform: translateX(-50%) translateY(-50%);
-//     }
-
-//     h1 {
-//         font-size: 2.4rem;
-//         color: $baseTextBlueBlack;
-//     }
-
-//     h2 {
-//         font-size: 1.6rem;
-//         color: $baseTextBlueBlack;
-//     }
-// }
-// @media only screen and (min-width: 768px) {
-//     #pt-intro {
-//         height: 300px;
-
-//         h1 {
-//             font-size: 3.2rem;
-//         }
-
-//         h2 {
-//             font-size: 2.8rem;
-//         }
-//     }
-// }
-// @media only screen and (min-width: 1170px) {
-//     #pt-intro {
-//         position: fixed;
-//         top: 70px;
-//         left: 0;
-//         width: 100%;
-//         margin-top: 0;
-
-//         #pt-intro-background {
-//             /* origin for the scale transformation */
-//             -webkit-transform-origin: 50% 100%;
-//             -moz-transform-origin: 50% 100%;
-//             -ms-transform-origin: 50% 100%;
-//             -o-transform-origin: 50% 100%;
-//             transform-origin: 50% 100%;
-//             -webkit-backface-visibility: hidden;
-//             backface-visibility: hidden;
-//         }
-
-//         h1 {
-//             font-size: 4rem;
-//         }
-
-//         h2 {
-//             font-size: 3.2rem;
-//         }
-//     }
-// }
 
 .pt-container-middle {
     &:nth-child(2n+1) .pt-project-intro {

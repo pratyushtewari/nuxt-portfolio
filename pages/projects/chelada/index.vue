@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-content">
     <h1>
       <img class="project-name-logo" src="./img/chelada_logo.png" />
       Chelada

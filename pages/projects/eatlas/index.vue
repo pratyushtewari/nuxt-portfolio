@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-content">
     <h1><img class="pt-project-logo" src="./img/eatlas_logo.svg" />Eatlas</h1>
 
     <grid col="3" col-s="1">
@@ -28,7 +28,11 @@
 
 <script>
 export default {
-  name: 'Eatlas',
+  name: 'Eatlas',  
+  // beforeDestroy() {
+  //     console.log("SDFSDFSD");
+  //     this.$children[0].$destroy();
+  // },
   data: function() {
     return {
       quotes: [

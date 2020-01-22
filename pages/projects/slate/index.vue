@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-content">
     <h1><img class="project-name-logo" src="./img/slate_logo.svg" />Slate</h1>
     <div class="page" data="page1">
       <h2>EXECUTIVE SUMMARY</h2>
@@ -789,21 +789,6 @@ grid {
 .page {
   padding-bottom: 48px;
   margin-bottom: 48px;
-}
-h2 {
-  line-height: 1.6;
-}
-h3 {
-  color: #ee4023;
-}
-h4 {
-  color: #42c8f5;
-}
-@media (prefers-color-scheme: dark) {
-  h3 {
-    // color: #4ecdc4;
-    color: #fee66d;
-  }
 }
 .name {
   font-size: 2rem;
