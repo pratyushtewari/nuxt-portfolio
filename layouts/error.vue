@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="page-content">
     <div v-if="error.statusCode === 404">    
     </div>
     <div v-else>

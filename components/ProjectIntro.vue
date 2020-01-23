@@ -71,21 +71,6 @@ h1 {
 }
 
 .pt-project-view-button {
-  background-color: $footerBackgroundGrey;
-  display: inline-block;
-  border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  height: 48px;
-  text-align: center;
-  & * {
-    line-height: 30px;
-  }
-  // &.vidyo {
-  //     border: 1px solid $vidyo;
-  //   a:hover {
-  //   background-color: $vidyo;
-  // }
-  // }
   &.chelada {
     border: 1px solid $chelada;
     a:hover {
@@ -106,18 +91,6 @@ h1 {
       color: $baseWhite;
     }
   }
-  // &.flock {
-  //     border: 1px solid $flock;
-  //   a:hover {
-  //   background-color: $flock;
-  // }
-  // }
-  // &.luna {
-  //     border: 1px solid $luna;
-  //   a:hover {
-  //   background-color: $luna;
-  // }
-  // }
   &.presquevu {
     border: 1px solid $presquevu;
     a:hover {
@@ -125,12 +98,6 @@ h1 {
       color: $baseWhite;
     }
   }
-  // &.rover {
-  //     border: 1px solid $rover;
-  //  a:hover {
-  //     background-color: $rover;
-  //   }
-  // }
   &.slate {
     border: 1px solid $slate;
     a:hover {

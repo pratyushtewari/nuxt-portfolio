@@ -775,6 +775,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+h2 {
+font-family: 'gotham_bold';
+}
 img {
   border-radius: 4px;
 }

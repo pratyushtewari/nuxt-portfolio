@@ -42,10 +42,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .pt-main-nav {
   width: 44px;
   height: 100%;
-  background: url('~@/assets/img/pt-icon-menu.svg') no-repeat center center;
+  background: url('~@/assets/img/pt-icon-menu_onlight.svg') center no-repeat;
   background-size: 44px 44px;
   cursor: pointer;
 
@@ -62,11 +63,11 @@ export default {
   }
 
   ul.is-visible {
-    -webkit-transform: translateY(50px);
-    -moz-transform: translateY(50px);
-    -ms-transform: translateY(50px);
-    -o-transform: translateY(50px);
-    transform: translateY(50px);
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px);
   }
 
   a {
@@ -77,11 +78,16 @@ export default {
     background: $baseTextBlueBlack;
     border-top: 1px solid $baseGreyblack;
     color: $baseWhite;
+  
+    &:hover {
+      color: #00bd9b;
+      text-decoration: none;
+    }    
   }
-
-  a:hover {
-    color: #00bd9b;
-    text-decoration: none;
+}
+@media(prefers-color-scheme: dark) {
+  .pt-main-nav {
+    background: url("~assets/img/pt-icon-menu_ondark.svg") center no-repeat;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -91,8 +97,11 @@ export default {
     background: none;
     cursor: auto;
     margin: 0 5% 0 0;
+    display: flex;
 
     ul {
+      display: flex;
+      align-items: center;
       position: static;
       width: auto;
       -webkit-transform: translateY(0);
@@ -100,7 +109,6 @@ export default {
       -ms-transform: translateY(0);
       -o-transform: translateY(0);
       transform: translateY(0);
-      line-height: 70px;
     }
 
     ul.is-visible {
@@ -124,11 +132,11 @@ export default {
       background: transparent;
       border-top: none;
       color: $baseRed;
-    }
-
-    .selected a {
-      background: url('~@/assets/img/underline.svg') no-repeat center bottom;
-      background-size: 50px;
+      &.nuxt-link-exact-active {
+        background: url('~@/assets/img/underline.svg') no-repeat center bottom;
+        background-size: 50px;
+        background-position-y: 35px;
+      }
     }
   }
 }

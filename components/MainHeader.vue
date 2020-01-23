@@ -35,7 +35,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: $headerHeight;
+  height: 40px;
   background: getColor(baseBackground);
   color: getColor(baseText);
   transition: 300ms;
@@ -49,7 +49,17 @@ export default {
     }
     .main-logo {
       display: block;
-      width: 80px;
+      width: 60px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pt-header {
+    height: 60px;
+    #pt-logo {
+      .main-logo {
+        width: 80px;
+      }
     }
   }
 }

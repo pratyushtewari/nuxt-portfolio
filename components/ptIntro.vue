@@ -2,7 +2,7 @@
   <section id="pt-intro">
       <div ref="mainImage" v-scroll="handleScroll" id="pt-intro-background">
           <div id="pt-intro-tagline">
-              <h1>Hi there!</h1>
+              <h1>Hey!</h1>
               <h2>You found me.</h2>
           </div>
       </div>

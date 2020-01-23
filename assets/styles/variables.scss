@@ -1,39 +1,41 @@
-//defining scss variable 
-$headerHeight: 70px;
 // colors
-$baseTextBlueBlack: rgba(44, 62, 81, 1);
-$baseGreyblack: rgba(53, 56, 70, 1);
-$baseGreen: rgba(78, 205, 196, 1);
-$baseWhite: rgba(255, 255, 255, 1);
-$baseRed: rgba(255, 107, 107, 1);
-$baseYellow: rgba(255, 230, 109, 1);
-$footerBackgroundGrey: rgba(242, 245, 248, 1);
-$footerTextGrey: rgba(147, 147, 147, 1);
-$footerLineGrey: rgba(205, 206, 210, 1);
-$contentDividerLine: rgba(238, 238, 238, 1);
-$h3slantBackground: rgba(0, 188, 212, 0.4);
-$slate: #44c9f5;
-$dynamo: #a4cd3a;
-$presquevu: #fd8500;
-$chelada: #4356a5;
-$eatlas: #4f87db;
+$baseTextBlueBlack: #2C3E51;
+$baseGreyblack: #353846;
+$baseGreen: #4DCDC3;
+$baseWhite: #FFFFFF;
+$baseRed: #FF6B6A;
+$baseYellow: #FEE66C;
+$footerBackgroundGrey: #F2F5F8;
+$footerTextGrey: #939393;
+$footerLineGrey: #CDCED2;
+$contentDividerLine: #EEEEEE;
+$logoblue: #00AAF4;
+$slate: #44C9F5;
+$dynamo: #A4CD3A;
+$presquevu: #FD8500;
+$chelada: #4356A5;
+$eatlas: #4F87DB;
 
 
 //light theme
 $colors: (
-  baseBackground: rgba(255, 255, 255, 1),
-  baseText: hsl(211, 30%, 25%), // rgba(44, 62, 81, 1),
+  baseBackground: #FFFFFF,
+  baseText: hsl(211, 30%, 25%),
   baseBackgroundHighlight: #f2f5f8,
   baseBackgroundSubdude: #f2f5f8,
-  h3Textcolor: $baseRed
+  baseBackgrounddarker: #cdd9e4,
+  h3Textcolor: $baseRed,
+  h4Textcolor: $logoblue,
 );
 //dark theme
 $colors-dark: (
-  baseBackground: hsl(211, 30%, 25%), // rgba(44, 62, 81, 1),
-  baseText: rgba(255, 255, 255, 1),
-  baseBackgroundHighlight: hsl(211, 30%, 35%), // rgba(44, 62, 81, 1), #3e5874
-  baseBackgroundSubdude: hsl(211, 30%, 15%), // rgba(44, 62, 81, 1), #1b2632 
-  h3Textcolor: $baseYellow
+  baseBackground: hsl(211, 30%, 25%),
+  baseText: #FFFFFF,
+  baseBackgroundHighlight: hsl(211, 30%, 35%),
+  baseBackgroundSubdude: hsl(211, 30%, 15%),
+  baseBackgrounddarker: hsl(211, 30%, 15%),
+  h3Textcolor: $baseYellow,
+  h4Textcolor: $slate,
 );
 //converting scss variable into css variable
 :root {

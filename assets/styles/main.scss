@@ -113,24 +113,35 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-family: 'gotham_bold';
+  font-family: 'ptfont','gotham_bold';
   font-size: 2rem;
   font-weight: bold;
-  line-height: 1.6;
-  color: $slate;
+  line-height: 1.5;
+  &:after {
+    content: 'h2'
+  }
 }
 h3 {
   font-size: 1.6rem;
+  line-height: 1.5;
   color: getColor(h3Textcolor);
+  &:after {
+    content: 'h3'
+  }
 }
 h4 {
   font-family: 'gotham_bold';
-  font-size: 1.6rem;
-  line-height: 1.2;
-  color: $slate;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: getColor(h4Textcolor);
+  &:after {
+    content: 'h4'
+  }
 }
 
 p {
+  font-size: 1.6rem;
+  line-height: 1.5;
   font-weight: 400;
 }
 
@@ -138,22 +149,23 @@ p {
 
   h1 {
     font-size: 6rem;
+    line-height: 2;
   }
   h2 {
-    font-size: 2rem;
-    line-height: 4.6;
+    font-size: 3.2rem;
+    line-height: 1.5;
   }
   h3 {
-    font-size: 1.6rem;
-    line-height: 1.6;
+    font-size: 2rem;
+    line-height: 1.5;
   }
   h4 {
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   p {
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 
@@ -216,6 +228,18 @@ p {
   } 
 }
 
+.pt-project-view-button {
+  background-color: $footerBackgroundGrey;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  height: 48px;
+  text-align: center;
+  & * {
+    line-height: 30px;
+  }
+}
+
 //////// 
 .main-content {
 
@@ -271,24 +295,6 @@ p {
   }
 }
 
-
-
-
-h3.main.center:before {
-    content: '';
-    width: 500px;
-    max-width: 90%;
-    height: 60%;
-    background: $h3slantBackground;
-    position: absolute;
-    top: -32px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    transform: rotate(-3deg);
-    z-index: -1;
-}
 
 /* --------------------------------
 
