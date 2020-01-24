@@ -1,7 +1,7 @@
 <template>
   <div>
-    <MainHeader ref="header" />    
-    <nuxt v-scroll="handleScroll"/>
+    <MainHeader ref="header" />
+    <nuxt v-scroll="handleScroll" />
     <MainFooter />
   </div>
 </template>

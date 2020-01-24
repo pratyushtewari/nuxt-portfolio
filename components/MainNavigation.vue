@@ -42,7 +42,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .pt-main-nav {
   width: 44px;
   height: 100%;
@@ -78,16 +77,16 @@ export default {
     background: $baseTextBlueBlack;
     border-top: 1px solid $baseGreyblack;
     color: $baseWhite;
-  
+
     &:hover {
       color: #00bd9b;
       text-decoration: none;
-    }    
+    }
   }
 }
-@media(prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .pt-main-nav {
-    background: url("~assets/img/pt-icon-menu_ondark.svg") center no-repeat;
+    background: url('~assets/img/pt-icon-menu_ondark.svg') center no-repeat;
   }
 }
 @media only screen and (min-width: 768px) {

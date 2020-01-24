@@ -33,7 +33,9 @@
           <br />
           <br />
 
-          <h4 class="center">PROBLEM SPACE</h4>
+          <h4 class="center">
+            PROBLEM SPACE
+          </h4>
           <p>
             The market is saturated with time-based reminder application.
             Recently, with applications like Google Now, people can now set
@@ -45,7 +47,9 @@
             triggered when the designated person is in proximity.
           </p>
 
-          <h4 class="center">PROJECT SCOPE</h4>
+          <h4 class="center">
+            PROJECT SCOPE
+          </h4>
           <p>
             The total duration of this project was 5 weeks. Over this period we
             engaged in the end to end design process and built a working
@@ -58,7 +62,9 @@
             the final poster show.
           </p>
 
-          <h4 class="center">CONCEPT VALIDATION</h4>
+          <h4 class="center">
+            CONCEPT VALIDATION
+          </h4>
           <p>
             We interviewed 6 people to determine if our concept was viable. The
             most common responses wer that people would feel uncomfortable
@@ -72,17 +78,24 @@
           </p>
         </div>
         <div class="pt-container-full">
-          <h4 class="center">STORY BOARDING</h4>
+          <h4 class="center">
+            STORY BOARDING
+          </h4>
           <p class="center">
             We used Storyboarding to define what a typical usage scenario for
             our application would be.
           </p>
           <div class="flex">
-            <img class="full-width max-1080 center" src="./img/storyboard.jpg" />
+            <img
+              class="full-width max-1080 center"
+              src="./img/storyboard.jpg"
+            />
           </div>
         </div>
         <div class="pt-container-middle">
-          <h4 class="center">SKETCHES AND PAPER PROTOTYPES</h4>
+          <h4 class="center">
+            SKETCHES AND PAPER PROTOTYPES
+          </h4>
           <p>
             We sketched out navigation flows, which later translated into paper
             prototypes.
@@ -91,7 +104,9 @@
             <img class="full-width max-700 center" src="./img/navigation.jpg" />
           </div>
 
-          <h4 class="center">USER TESTING</h4>
+          <h4 class="center">
+            USER TESTING
+          </h4>
           <br />
           <div class="flex">
             <div class="quote center middle">
@@ -107,7 +122,10 @@
             our final UI design.
           </p>
           <div class="flex">
-            <img class="full-width max-500 center" src="./img/usertesting.png" />
+            <img
+              class="full-width max-500 center"
+              src="./img/usertesting.png"
+            />
           </div>
           <br />
           <br />
@@ -121,7 +139,9 @@
         <br />
         <br />
         <div class="pt-container-full">
-          <h4 class="center">Initial UI WIREFRAMES</h4>
+          <h4 class="center">
+            Initial UI WIREFRAMES
+          </h4>
           <br />
           <br />
           <div class="steps3">
@@ -144,7 +164,9 @@
         <br />
         <br />
         <div class="pt-container-middle">
-          <h4 class="center">APPLICATION ARCHITECTURE</h4>
+          <h4 class="center">
+            APPLICATION ARCHITECTURE
+          </h4>
           <p>
             We sketched out the architecture of our application, to make sure it
             was technically viable and determined the essential components that
@@ -155,7 +177,9 @@
           </div>
           <br />
           <br />
-          <h4 class="center">PRIVACY AND SECURITY CONCERNS</h4>
+          <h4 class="center">
+            PRIVACY AND SECURITY CONCERNS
+          </h4>
           <p>
             We brainstormed various approaches to ensure that our application
             respected the privacy of it's users. We decided to add a feature
@@ -169,14 +193,18 @@
             all location information that was being sent to the server.
           </p>
 
-          <h4 class="center">BUSINESS MODEL</h4>
+          <h4 class="center">
+            BUSINESS MODEL
+          </h4>
           <p>
             We propose a Freemium model to generate profit from PresqueVu. Users
             would only be allowed to set a fixed number of reminders for free,
             and would need to buy upgrades to set more reminders.
           </p>
 
-          <h4 class="center">FINAL PROTOTYPE</h4>
+          <h4 class="center">
+            FINAL PROTOTYPE
+          </h4>
           <p>
             The final working prototype was a web application built using
             Express framework for Node.js that used Socket.io for client-server
@@ -262,12 +290,19 @@
         </div>
 
         <div class="pt-container-full bottom-border">
-          <h4 class="center">Check out other projects</h4>
+          <h4 class="center">
+            Check out other projects
+          </h4>
           <br />
           <div class="next-projects">
-            <div class="flex" onclick="parent.location='../chelada/index.html';">
+            <div
+              class="flex"
+              onclick="parent.location='../chelada/index.html';"
+            >
               <div>
-                <div class="project-name">Chelada</div>
+                <div class="project-name">
+                  Chelada
+                </div>
                 <div>
                   A system by which users, on mobile devices, are able to
                   subscribe to and interact with mobile notification based data
@@ -278,7 +313,9 @@
 
             <div class="flex" onclick="parent.location='../dynamo/index.html';">
               <div>
-                <div class="project-name">Dynamo</div>
+                <div class="project-name">
+                  Dynamo
+                </div>
                 <div>
                   A mobile information service that helps commuters choose the
                   optimal mode of transportation for their exercise goal.

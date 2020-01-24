@@ -153,14 +153,7 @@ footer#footer {
 
     .fading-border {
       margin-top: 36px;
-      display: block;
-      width: 100%;
-      height: 2px;
-      background: radial-gradient(
-        ellipse at center,
-        getColor(baseBackgroundHighlight),
-        transparent 70%
-      );
+      margin-bottom: 0px;
     }
 
     .footer-copyright {

@@ -20,7 +20,7 @@
         <br />
         <br />
 
-        <carousel :navigationEnabled="true" :perPage="1" class="width700">
+        <carousel :navigation-enabled="true" :per-page="1" class="width700">
           <slide>
             <img src="./img/topSlider/Slide01.png" />
           </slide>
@@ -114,7 +114,7 @@
           scenario.
         </p>
 
-        <carousel :navigationEnabled="true" :perPage="1" class="width700">
+        <carousel :navigation-enabled="true" :per-page="1" class="width700">
           <slide>
             <img src="./img/bottomSlider/Slide01.png" title="Funky roots" />
           </slide>
@@ -148,7 +148,7 @@
           based on the set priorities and the distance.
         </p>
 
-        <carousel :navigationEnabled="true" :perPage="1" class="width400">
+        <carousel :navigation-enabled="true" :per-page="1" class="width400">
           <slide>
             <img src="./img/initialDesign/1.jpg" />
           </slide>
@@ -192,7 +192,7 @@
           fitness goal. We restricted the application to providing
           recommendations between cycling and walking routes.
         </p>
-        <carousel :navigationEnabled="true" :perPage="1" class="width700">
+        <carousel :navigation-enabled="true" :per-page="1" class="width700">
           <slide>
             <img src="./img/finalDesign/1.jpg" />
           </slide>
@@ -233,7 +233,7 @@
           functionality of the application. We then determined how we could
           represent this data and designed a dashboard accordingly.
         </p>
-        <carousel :navigationEnabled="true" :perPage="1" class="width700">
+        <carousel :navigation-enabled="true" :per-page="1" class="width700">
           <slide>
             <img src="./img/dashboard/1.jpg" />
           </slide>
@@ -258,7 +258,9 @@
             onclick="parent.location='../presquevu/index.html';"
           >
             <div>
-              <div class="project-name">PresqueVu</div>
+              <div class="project-name">
+                PresqueVu
+              </div>
               <div>
                 Ever wished that you could remember what you needed to tell a
                 person when you met them? PresqueVu can help you with that.
@@ -268,7 +270,9 @@
 
           <div class="flex" onclick="parent.location='../slate/index.html';">
             <div>
-              <div class="project-name">Slate</div>
+              <div class="project-name">
+                Slate
+              </div>
               <div>
                 A personal learning companion that inspires curiosity and guides
                 students in their pursuit of learning.

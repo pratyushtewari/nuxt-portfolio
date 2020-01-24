@@ -30,7 +30,8 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/styles/main.scss'],
+  css: ['video.js/dist/video-js.css', '@/assets/styles/main.scss'],
+
   styleResources: {
     scss: ['@/assets/styles/variables.scss']
   },
@@ -38,9 +39,10 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    {src: '@/plugins/directives.js'},
-    {src: '@/plugins/vue-typed-js.js'},
-    {src: '@/plugins/vue-carousel.js', ssr: false }
+    { src: '@/plugins/directives.js' },
+    { src: '@/plugins/vue-typed-js.js' },
+    { src: '@/plugins/vue-carousel.js', ssr: false },
+    { src: '@/plugins/nuxt-video-player-plugin.js', ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules

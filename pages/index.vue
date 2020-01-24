@@ -1,6 +1,6 @@
 <template>
   <div class="main-content">
-    <ptIntro/>
+    <ptIntro />
     <div class="page-content">
       <ProjectIntro
         name="Eatlas"

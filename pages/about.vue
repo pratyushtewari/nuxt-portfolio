@@ -4,7 +4,10 @@
     <br />
     <grid col="3" col-s="1">
       <c class="center" span="1">
-        <img src="@/assets/img/pratyush_tewari_profile.png" style="width:150px; display: block;" />
+        <img
+          src="@/assets/img/pratyush_tewari_profile.png"
+          style="width:150px; display: block;"
+        />
         <h3>Pratyush Tewari</h3>
       </c>
       <c span="2">
@@ -12,18 +15,37 @@
           <strong>Hi there! I’m a Design Technologist based out of New York.</strong>
         </p>
         <br />
-        <p>I like analyzing and solving users' problems and tasks through design and development. I am a strong believer in users' empathy and always try to make the experiences natural, fun and easy.</p>
+        <p>
+          I like analyzing and solving users' problems and tasks through design
+          and development. I am a strong believer in users' empathy and always
+          try to make the experiences natural, fun and easy.
+        </p>
         <br />
         <p>
-          Over the past 10 years or so, I've worked in various industries like FinTech, Education, Unified Communications, and Design Systems, to name a few. I've worked as a UX Designer, Software Engineer, System Architect, and client liaison in these settings. Working in various disciplines is a major motivation for me as it helps me understand the users but also, keeps me in check of my solution's scope. I've led many teams with various levels of experience in Design and Engineering and I love working with both high levels of experience and young people as there is to learn and teach from both of them.
+          Over the past 10 years or so, I've worked in various industries like
+          FinTech, Education, Unified Communications, and Design Systems, to
+          name a few. I've worked as a UX Designer, Software Engineer, System
+          Architect, and client liaison in these settings. Working in various
+          disciplines is a major motivation for me as it helps me understand the
+          users but also, keeps me in check of my solution's scope. I've led
+          many teams with various levels of experience in Design and Engineering
+          and I love working with both high levels of experience and young
+          people as there is to learn and teach from both of them.
           <br />
         </p>
-        <br/>
-        <p>I am always looking for providing delightful experiences that enhance the user's life and make them more efficient and fun.</p>
+        <br />
+        <p>
+          I am always looking for providing delightful experiences that enhance
+          the user's life and make them more efficient and fun.
+        </p>
         <br />
         <p>Interested in learning more?</p>
         <div class="btngroup">
-          <a class="btn" target="_blank" href="downloads/Pratyush-Tewari-Resume.pdf">
+          <a
+            class="btn"
+            target="_blank"
+            href="downloads/Pratyush-Tewari-Resume.pdf"
+          >
             <span class="imagebtn pdf"></span>Resume
           </a>
 
@@ -39,11 +61,19 @@
             <span class="imagebtn twitter"></span>Twitter
           </a>
 
-          <a class="btn" target="_blank" href="https://linkedin.com/in/pratyushtewari">
+          <a
+            class="btn"
+            target="_blank"
+            href="https://linkedin.com/in/pratyushtewari"
+          >
             <span class="imagebtn linkedin"></span>Linkedin
           </a>
 
-          <a class="btn" target="_blank" href="https://github.com/pratyushtewari">
+          <a
+            class="btn"
+            target="_blank"
+            href="https://github.com/pratyushtewari"
+          >
             <span class="imagebtn github"></span>Github
           </a>
         </div>

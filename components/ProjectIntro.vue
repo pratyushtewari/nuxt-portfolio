@@ -1,28 +1,28 @@
 <template>
   <!-- <client-only placeholder="Loading..."> -->
-    <div class="projects">
-      <grid col="2" col-s="1">
-        <div class="c1">
-          <h1>
-            {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
-          </h1>
+  <div class="projects">
+    <grid col="2" col-s="1">
+      <div class="c1">
+        <h1>
+          {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
+        </h1>
+      </div>
+      <div class="c2">
+        <div :class="imgclass"></div>
+      </div>
+      <div class="c3">
+        {{ description }}
+      </div>
+      <div class="c4">
+        <div :class="buttonClass">
+          <nuxt-link :to="href">
+            View Project
+          </nuxt-link>
         </div>
-        <div class="c2">
-          <div :class="imgclass"></div>
-        </div>
-        <div class="c3">
-          {{ description }}
-        </div>
-        <div class="c4">
-          <div :class="buttonClass">
-            <nuxt-link :to="href">
-              View Project
-            </nuxt-link>
-          </div>
-        </div>
-      </grid>
-      <span class="fading-border"></span>
-    </div>
+      </div>
+    </grid>
+    <span class="fading-border"></span>
+  </div>
   <!-- </client-only> -->
 </template>
 
@@ -33,7 +33,7 @@ export default {
   data: function() {
     return {
       href: `/projects/${this.name.toLowerCase()}`,
-      buttonClass: `pt-project-view-button ${this.name.toLowerCase()}`,
+      buttonClass: `project-view-button ${this.name.toLowerCase()}`,
       imgclass: `pt-project-pic ${this.name.toLowerCase()}`
     };
   }
@@ -70,7 +70,7 @@ h1 {
   }
 }
 
-.pt-project-view-button {
+.project-view-button {
   &.chelada {
     border: 1px solid $chelada;
     a:hover {
@@ -110,44 +110,7 @@ h1 {
     padding: 8px 16px;
   }
 }
-.pt-project-pic {
-  width: auto;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
-  background-size: contain;
-  flex-grow: 1;
-  flex-shrink: 1;
-  align-self: flex-end;
-  min-width: 300px;
-  &.eatlas {
-    background-image: url('~@/assets/img/project_intros/eatlas_home.png');
-  }
-  // &.rover {
-  //     background-image: url("~@/assets/img/project_intros/rover_home.png");
-  // }
-  &.chelada {
-    background-image: url('~@/assets/img/project_intros/chelada_home.png');
-  }
-  &.presquevu {
-    background-image: url('~@/assets/img/project_intros/presquevu_home.png');
-  }
-  &.dynamo {
-    background-image: url('~@/assets/img/project_intros/dynamo_home.png');
-  }
-  &.slate {
-    background-image: url('~@/assets/img/project_intros/slate_home.svg');
-    background-position: top;
-    max-width: 300px;
-  }
-  // &.flock {
-  //     background-image: url("~@/assets/img/project_intros/eatlas_home.png");
-  // }
-  // &.luna {
-  //     background-image: url("~@/assets/img/project_intros/rover_home.png");
-  // }
-}
+
 @media only screen and (max-width: 768px) {
   h1 {
     margin-block-start: 24px;
