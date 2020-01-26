@@ -1,28 +1,34 @@
 <template>
   <div>
     <MainHeader ref="header" />
+    <VueScrollProgressBar height="2px"  zIndex="1050"/>
     <nuxt v-scroll="handleScroll" />
     <MainFooter />
+    <BackToTop />
   </div>
 </template>
 <script>
 import MainHeader from '~/components/MainHeader';
 import MainFooter from '~/components/MainFooter';
+import BackToTop from '~/components/BackToTop.vue';
+import VueScrollProgressBar from '~/components/VueScrollProgressBar.vue';
 
 export default {
   name: 'App',
   components: {
     MainHeader,
-    MainFooter
+    MainFooter,
+    VueScrollProgressBar,
+    BackToTop
   },
-  mounted: function() {
+  mounted() {
     this.$store.commit(
       'setIsDark',
       window.matchMedia('(prefers-color-scheme: dark)').matches
     );
   },
   methods: {
-    handleScroll: function() {
+    handleScroll() {
       if (window.scrollY > 2) {
         this.$refs.header.$el.setAttribute(
           'style',
