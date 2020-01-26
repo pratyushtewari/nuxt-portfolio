@@ -81,7 +81,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'ptewari.com/social/chelada.png'
+          content: 'https://i.imgur.com/n6mwn8x.png'
         },
         {
           property: 'og:description',
@@ -100,7 +100,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'ptewari.com/social/chelada.png'
+          content: 'https://i.imgur.com/n6mwn8x.png'
         }
       ]
     }

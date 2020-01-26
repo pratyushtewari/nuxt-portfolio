@@ -100,12 +100,12 @@ export default {
       meta: [
         {
           property: 'og:image',
-          content: 'ptewari.com/social/about.png'
+          content: 'https://i.imgur.com/gjZ2hk0.png'
         },
         { hid: 'og:url', property: 'og:url', content: 'ptewari.com/about' },
         {
           name: 'twitter:image',
-          content: 'ptewari.com/social/about.png'
+          content: 'https://i.imgur.com/gjZ2hk0.png'
         }
       ]
     }

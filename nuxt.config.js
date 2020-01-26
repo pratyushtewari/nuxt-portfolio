@@ -23,6 +23,9 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  generate: {
+      fallback: "404.shtml"
+  },
   /*
    ** Customize the progress-bar color
    */

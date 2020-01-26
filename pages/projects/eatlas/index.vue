@@ -458,7 +458,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'ptewari.com/social/eatlas.png'
+          content: 'https://i.imgur.com/CkiAt6c.png'
         },
         {
           property: 'og:description',
@@ -477,7 +477,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'ptewari.com/social/eatlas.png'
+          content: 'https://i.imgur.com/CkiAt6c.png'
         }
       ]
     }

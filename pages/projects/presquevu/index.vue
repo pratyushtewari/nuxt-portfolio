@@ -322,7 +322,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'ptewari.com/social/presquevu.png'
+          content: 'https://i.imgur.com/6lhtZiQ.png'
         },
         {
           property: 'og:description',
@@ -341,7 +341,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'ptewari.com/social/presquevu.png'
+          content: 'https://i.imgur.com/6lhtZiQ.png'
         }
       ]
     }

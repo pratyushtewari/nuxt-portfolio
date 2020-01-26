@@ -63,7 +63,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'ptewari.com/social/home.png'
+          content: 'https://i.imgur.com/R3wOu1F.png'
         },
         {
           hid: 'og:description',
@@ -92,7 +92,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'ptewari.com/social/main.png'
+          content: 'https://i.imgur.com/R3wOu1F.png'
         }
       ]
     };

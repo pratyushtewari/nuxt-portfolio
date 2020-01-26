@@ -350,7 +350,7 @@
               VINCENT
               <span class="last">ALEVEN</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>NAMED A TOP AUTHOR IN COMPUTER EDUCATION BY MICROSOFT</p>
               <br />
               <p class="inline-heading">
@@ -429,7 +429,7 @@
               SAMANTHA
               <span class="last">FINKELSTEIN</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>
                 PHD STUDENT AT CMU’S HUMAN-COMPUTER INTERACTION INSTITUTE
                 RESEARCHING THE EFFECT OF VIRTUAL PEERS IN LEARNING
@@ -523,7 +523,7 @@
               KEN
               <span class="last">KOEDINGER</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>
                 UNIVERSALLY RECOGNIZED IN INTELLIGENT TUTORING SYSTEMS WITH OVER
                 20 YEARS OF EXPERIENCE IN THE FIELD
@@ -598,7 +598,7 @@
               BRUCE
               <span class="last">MCLAREN</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>NAMED A TOP AUTHOR IN COMPUTERS AND EDUCATION BY MICROSOFT</p>
               <br />
               <p class="inline-heading">
@@ -669,7 +669,7 @@
               AMY
               <span class="last">OGAN</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>
                 RECENTLY APPOINTED ASSISTANT PROFESSOR WITH A RESEARCH FOCUS IN
                 EDUCATIONAL TECHNOLOGIES
@@ -735,7 +735,7 @@
               CAROLYN
               <span class="last">ROSÉ</span>
             </p>
-            <div class="intro">
+            <div class="expert-intro">
               <p>
                 ELECTED MEMBER OF THE BOARD OF DIRECTORS OF THE INTERNATIONAL
                 SOCIETY OF THE LEARNING SCIENCES
@@ -788,6 +788,51 @@
       </grid>
     </div>
     <span class="fading-border"></span>
+    <div class="todo">
+      <p><img style="width:100%;" src="./img/report_ag24.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag25.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag26.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag27.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag28.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag29.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag30.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag31.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag32.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag33.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag34.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag35.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag36.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag37.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag38.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag39.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag40.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag41.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag42.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag43.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag44.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag45.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag46.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag47.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag48.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag49.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag50.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag51.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag52.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag53.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag54.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag55.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag56.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag57.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag58.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag59.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag60.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag61.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag62.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag63.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag64.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag65.png" /></p>
+      <p><img style="width:100%;" src="./img/report_ag66.png" /></p>
+    </div>
   </div>
 </template>
 
@@ -796,8 +841,9 @@ import DefinitionBox from '~/components/DefinitionBox';
 export default {
   name: 'Slate',
   head() {
-    return {      
-      title: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.',
+    return {
+      title:
+        'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.',
       meta: [
         {
           name: 'description',
@@ -806,21 +852,27 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+          content:
+            'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
         },
         {
           property: 'og:image',
-          content: 'ptewari.com/social/slate.png'
+          content: 'https://i.imgur.com/UIMi3NA.png'
         },
         {
           property: 'og:description',
           content:
             'A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/slate' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'ptewari.com/projects/slate'
+        },
         {
           name: 'twitter:title',
-          content: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+          content:
+            'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
         },
         {
           name: 'twitter:description',
@@ -829,10 +881,10 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'ptewari.com/social/slate.png'
+          content: 'https://i.imgur.com/UIMi3NA.png'
         }
       ]
-    }
+    };
   },
   components: {
     DefinitionBox
@@ -867,10 +919,15 @@ grid {
     font-family: 'gotham_bold';
   }
 }
-.intro {
+.expert-intro {
   font-size: 1.2rem;
   & > * {
     font-size: 1.2rem;
+  }
+}
+.todo {
+  img {
+    background-color: #FFFFFF;
   }
 }
 </style>
