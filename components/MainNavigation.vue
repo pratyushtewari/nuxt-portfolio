@@ -12,14 +12,20 @@
           ABOUT
         </nuxt-link>
       </li>
-      <!-- <li><a href="contact.html">Contact</a></li> -->
+      <li>
+        <DropdownMenu/>
+      </li>
     </ul>
   </nav>
 </template>
 
 <script>
+import DropdownMenu from './DropdownMenu'
 export default {
   name: 'MainNavigation',
+  components: {
+    DropdownMenu
+  },
   data() {
     return {
       currentPage: 'home'

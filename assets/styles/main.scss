@@ -1,16 +1,10 @@
 @import '@/assets/styles/_reset.scss'; // Colors
 @import '@/assets/styles/grid.css';
 @import '@/assets/styles/variables.scss';
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1.6rem;
+:root {
+font-size: 62.5%;
 }
 
-body {
-  line-height: 1.6;
-}
 .main-logo {
   background: url("~assets/img/pratyush_logo_onlight.svg") center no-repeat;
   background-size: contain;
@@ -82,7 +76,8 @@ img {
   }
 
 body {
-  font-size: 62.5%;
+  font-size: 1.6rem;
+  line-height: 1.6;
   font-family: 'Source Sans Pro', 'Alegreya Sans', sans-serif;
   color: getColor(baseText);
   background-color: getColor(baseBackground);
