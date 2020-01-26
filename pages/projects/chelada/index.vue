@@ -111,14 +111,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'http://ptewari.com/social/chelada.png'
+          content: 'ptewari.com/social/chelada.png'
         },
         {
           property: 'og:description',
           content:
             'A system by which users, on mobile devices, are able to subscribe to and interact with mobile notification based data feeds provided by an individual or an institution.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/chelada' },
+        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/chelada' },
         {
           name: 'twitter:title',
           content: 'Chelada - A system by which users, on mobile devices, are able to subscribe to and interact with mobile notification based data feeds provided by an individual or an institution.'
@@ -130,7 +130,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'http://ptewari.com/social/chelada.png'
+          content: 'ptewari.com/social/chelada.png'
         }
       ]
     }

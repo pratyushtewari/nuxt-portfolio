@@ -1,5 +1,4 @@
 <template>
-  <!-- <client-only placeholder="Loading..."> -->
   <div class="projects">
     <grid col="2" col-s="1">
       <div class="c1">
@@ -23,7 +22,6 @@
     </grid>
     <span class="fading-border"></span>
   </div>
-  <!-- </client-only> -->
 </template>
 
 <script>

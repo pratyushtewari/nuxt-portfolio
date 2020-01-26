@@ -4,7 +4,7 @@
       <img class="project-name-logo" src="./img/dynamo_logo.svg" />
       Dynamo
     </h1>
-    <main class="pt-content">
+    <div class="pt-content">
       <div class="pt-container-middle">
         <div class="pt-project-intro">
           <div class="pt-project-description">
@@ -164,47 +164,11 @@
           <slide><img src="./img/dashboard/4.png" /></slide>
         </carousel>
       </div>
-
-      <div class="container-full bottom-border">
-        <h4>Check out other projects</h4>
-        <br />
-        <div class="next-projects">
-          <div
-            class="flex"
-            onclick="parent.location='../presquevu/index.html';"
-          >
-            <div>
-              <div class="project-name">
-                PresqueVu
-              </div>
-              <div>
-                Ever wished that you could remember what you needed to tell a
-                person when you met them? PresqueVu can help you with that.
-              </div>
-            </div>
-          </div>
-
-          <div class="flex" onclick="parent.location='../slate/index.html';">
-            <div>
-              <div class="project-name">
-                Slate
-              </div>
-              <div>
-                A personal learning companion that inspires curiosity and guides
-                students in their pursuit of learning.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer id="footer" class="white"></footer>
-    </main>
+    </div>
   </div>
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Dynamo',
   head() {
@@ -214,7 +178,7 @@ export default {
         {
           name: 'description',
           content:
-            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal'
         },
         {
           property: 'og:title',
@@ -222,14 +186,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'http://ptewari.com/social/dynamo.png'
+          content: 'ptewari.com/social/dynamo.png'
         },
         {
           property: 'og:description',
           content:
-            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/dynamo' },
+        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/dynamo' },
         {
           name: 'twitter:title',
           content: 'Dynamo - A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
@@ -237,18 +201,14 @@ export default {
         {
           name: 'twitter:description',
           content:
-            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal'
         },
         {
           name: 'twitter:image',
-          content: 'http://ptewari.com/social/dynamo.png'
+          content: 'ptewari.com/social/dynamo.png'
         }
       ]
     }
-  },
-  components: {
-    Carousel,
-    Slide
   }
 };
 </script>

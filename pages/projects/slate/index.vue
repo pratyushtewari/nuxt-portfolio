@@ -810,14 +810,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'http://ptewari.com/social/slate.png'
+          content: 'ptewari.com/social/slate.png'
         },
         {
           property: 'og:description',
           content:
             'A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/slate' },
+        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/slate' },
         {
           name: 'twitter:title',
           content: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
@@ -829,7 +829,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'http://ptewari.com/social/slate.png'
+          content: 'ptewari.com/social/slate.png'
         }
       ]
     }

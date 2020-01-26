@@ -57,7 +57,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'http://ptewari.com/social/home.png'
+          content: 'ptewari.com/social/home.png'
         },
         {
           hid: 'og:description',
@@ -65,7 +65,7 @@ export default {
           content:
             'Explore awe-inspiring, delightful experiences that bring humans and computers even more closer than before and the HCII &#129309; UX techniques behind them.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/' },
+        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/' },
         {
           hid: 'twitter:card',
           name: 'twitter:card',
@@ -86,7 +86,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'http://ptewari.com/social/main.png'
+          content: 'ptewari.com/social/main.png'
         }
       ]
     };

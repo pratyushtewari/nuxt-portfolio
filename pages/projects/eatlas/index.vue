@@ -440,7 +440,6 @@
 <script>
 import VideoPlayer from '~/components/VideoPlayer.vue';
 import TwentyTwenty from '~/components/TwentyTwenty.vue';
-import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Eatlas',
   head() {
@@ -458,14 +457,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'http://ptewari.com/social/eatlas.png'
+          content: 'ptewari.com/social/eatlas.png'
         },
         {
           property: 'og:description',
           content:
             'A system that helps you discover new food, cultures, and countries.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/eatlas' },
+        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/eatlas' },
         {
           name: 'twitter:title',
           content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'
@@ -477,16 +476,14 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'http://ptewari.com/social/eatlas.png'
+          content: 'ptewari.com/social/eatlas.png'
         }
       ]
     }
   },
   components: {
     VideoPlayer,
-    TwentyTwenty,
-    Carousel,
-    Slide
+    TwentyTwenty
   },
   data: function() {
     return {
