@@ -249,7 +249,7 @@
         </carousel>
       </div>
 
-      <div class="pt-container-full bottom-border">
+      <div class="container-full bottom-border">
         <h4>Check out other projects</h4>
         <br />
         <div class="next-projects">

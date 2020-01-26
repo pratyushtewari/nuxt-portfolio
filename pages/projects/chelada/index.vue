@@ -53,7 +53,7 @@
         <p><img style="width:100%" src="./img/CheladaDesignSpec32.png" /></p>
       </div>
 
-      <div class="pt-container-full bottom-border">
+      <div class="container-full bottom-border">
         <h3 class="center">
           Check out other projects
         </h3>

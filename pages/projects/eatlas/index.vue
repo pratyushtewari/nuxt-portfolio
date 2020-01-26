@@ -8,7 +8,8 @@
               <img
                 class="pt-project-logo"
                 src="@/assets/img/projects/eatlas/img/eatlas_logo.svg"
-              />Eatlas
+              />
+              Eatlas
             </h1>
           </c>
           <c class="c2" span="1">
@@ -33,6 +34,8 @@
           </c>
         </grid>
       </div>
+      <br />
+      <br />
       <div class="margin-auto">
         <p class="max-700">
           How many times have you found yourself thinking about food? We all
@@ -40,17 +43,12 @@
           Continue reading to know more about how Eatlas will give you joy while
           accomplishing these tasks.
         </p>
-        <div id="eatlas-intro-video" class="intro-video">
-          <video-player
-            ref="videoPlayer"
-            class="video-player-box"
-            :options="playerOptions"
-            :playsinline="true"
-          ></video-player>
+        <div class="phone-video-frame">
+          <video-player class="video-player-box" :options="playerOptions" />
         </div>
       </div>
     </div>
-    <div class="pt-container-full">
+    <div class="container-full">
       <h2 class="main center">
         Based on just 3 simple gestures
       </h2>
@@ -84,26 +82,241 @@
           </p>
         </c>
         <c>
-          <div id="eatlas-rotation-home-video" class="intro-video">
-            <video-player
-              ref="videoPlayer2"
-              class="video-player-box"
-              :options="playerOptions2"
-              :playsinline="true"
-            ></video-player>
+          <div id="eatlas-rotation-home-video" class="phone-video-frame">
+            <video-player class="video-player-box" :options="playerOptions2" />
           </div>
-          <!-- <video width="100%" height="auto" poster="img/eatlas-home.png" src="video/eatlas-rotation-home.mp4"></!-->
         </c>
       </grid>
+      <div class="max-700">
+        <h2>So, how it's made?</h2>
+        <p>Let's talk about that.</p>
+        <br />
+        <p>
+          Online food delivery industry is at its all-time high with billions of
+          dollars being invested in this
+          <a
+            target="_blank"
+            href="https://techcrunch.com/2015/07/11/the-billion-dollar-food-delivery-wars/"
+          >
+            [1]
+          </a>
+          . With more and more option to order food from, people spend more and
+          more time trying to figure out what they want to eat. Whether it is
+          for themselves, for a group of people, you will find people spending a
+          lot of effort trying to learn, understand and experience different
+          kinds of food, culture, and variety.
+        </p>
+        <br />
+        <div class="center">
+          <p>
+            <img
+              style="width:100%;"
+              src="@/assets/img/projects/eatlas/img/thinking_about_food.png"
+            />
+          </p>
+          <p>Thought process of my target audience when asked about food</p>
+          <br />
+          <p>Convenience is a big key player in the decision factor</p>
+          <p>
+            <img
+              class="center max-500"
+              style="width:100%;"
+              src="@/assets/img/projects/eatlas/img/flow-chart-food.png"
+            />
+          </p>
+          <div class="center small">
+            Image source:
+            <a
+              target="_blank"
+              href="https://techcrunch.com/2015/07/11/the-billion-dollar-food-delivery-wars"
+            >
+              the-billion-dollar-food-delivery-wars
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+    <div class="container-full">
+      <h2 class="center">Why the spin?</h2>
+      <br />
+      <p class="max-700">
+        During my market research, I found that there are three basic types of
+        food hunting solutions. Firstly, there are ones that give you a lot of
+        options any let you decide where to source your food from. Secondly, the
+        ones that help you learn and try out recipes and cook yourself and
+        thirdly, the ones that make the decision for you and relieve you from
+        all the tension.
+      </p>
+      <br />
+      <div class="steps3">
+        <span>
+          <img
+            class="phone"
+            src="@/assets/img/projects/eatlas/img/pickers.png"
+          />
+          <div class="finger one"></div>
+          <p>Pickers</p>
+        </span>
+        <span>
+          <img
+            class="phone"
+            src="@/assets/img/projects/eatlas/img/recipers.png"
+          />
+          <div class="finger two"></div>
+          <p>Recipers</p>
+        </span>
+        <span>
+          <img
+            class="phone"
+            src="@/assets/img/projects/eatlas/img/deciders.png"
+          />
+          <div class="finger three"></div>
+          <p>Deciders</p>
+        </span>
+      </div>
+      <br />
+      <p class="max-700">
+        In all of the above categories, I found that the users had some level
+        anxiety and work that they needed to do to achieve their goals. I found
+        that gamification of the selection process can ease this burden and
+        provide a fun and easy way of letting people figure out what they want.
+      </p>
+    </div>
+    <br />
+    <div class="max-700">
+      <p>
+        To organize all the data points that I collected during interviewing and
+        surveying my target audience, and draw good insights from it, I laid
+        them into an affinity diagram. It reveled five major insight and
+        directions for EATLAS.
+      </p>
+      <br />
+      <TwentyTwenty
+        :before="affiliny00"
+        :after="affiliny0"
+        beforeLabel="Before"
+        afterLabel="After"
+      />
+      <br />
+      <br />
+      <div class="small-video">
+        <p class="videoWrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/QgBhyYP2rrk?modestbranding=1&rel=0"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </p>
+      </div>
+    </div>
+    <div class="page-content">
+      <br />
+      <br />
+      <br />
+      <div class="pt-container-middle">
+        <h2 class="center">Insights</h2>
+        <br/>
+        <h3>Things people do about food at home</h3>
+        <p>
+          There was a lot of activities that users did
+          <strong>at home</strong>
+          while thinking about food. From researching about the next travel to
+          cooking different meals, to ordering food for a bunch of friends.
+          EATLAS should help the users in achieving all these activities.
+        </p>
+        <grid col="3" col-s="1">
+          <div class="quote">I like comfort food from home when I am tired.</div>
+          <div class="quote">Where do I buy good cheap ingredients for my ethnic cuisine?</div>
+          <div class="quote">I like to learn different traditional ways of cooking.</div>
+        </grid>
+        <br/>
+
+        <h3>Things people do to pick a restaurant faster</h3>
+        <p>
+          While there are many apps that help you pick and filter the
+          restaurants that you want to order from or dine-in, but there is a lot
+          of
+          <strong>time spend on deciding</strong>
+          which one to pick. EATLAS should help users pick restaurants they want
+          quickly.
+        </p>
+        <grid col="3" col-s="1">
+          <div class="quote">I go out with people of different countires all the time.</div>
+          <div class="quote">Decisions are very difficult to make, especially for a group of people.</div>
+          <div class="quote">I read reviews of the restaurants but they are getting a bit much.</div>
+          
+        </grid>
+
+        <br />
+        <h3>Things people do to educate themselves about food</h3>
+        <p>
+          Users were
+          <strong>curious</strong>
+          about different types of food and culture. EATLAS should tap into this
+          curiosity and help users enjoy learning and discovering new countries,
+          food, and culture.
+        </p>
+        <grid col="3" col-s="1">
+          <div class="quote">It is easy to read a food blog than to search information yourself.</div>
+          <div class="quote">I feel dumb when I go to french restaurants and have no idea what is on the menu.</div>
+          <div class="quote">I get distracted when I am browsing online.</div>
+        </grid>
+        <br />
+        <h3>Things people do to get more sustainable</h3>
+        <p>
+          A lot of users showed interests in being sustainable and
+          <strong>save environment</strong>
+          . EATLAS should help these users learn about different ways of
+          achieving this.
+        </p>
+        <grid col="3" col-s="1">
+          <div class="quote">I hate when restaurants pack plastic spoons when I order food at home.</div>
+          <div class="quote">I do not like food wrapped in plastic.</div>
+          <div class="quote">I would like to save money and share cooked food with friends.</div>
+        </grid>
+        <br />
+        <br />
+        <h3>Things people do when they were overwhelmend by the vast amount of information available</h3>
+        <p>
+          Last but not the least, users
+          <strong>did not know what they did not know</strong>
+          . Most of the users picked a few cuisines and countries and learned
+          about them. Most of the curiosity came from their conversations with
+          friends. EATLAS should help users discover countries beyond their
+          reach and make this experience enjoyable.
+        </p>
+        <grid col="3" col-s="1">
+          <div class="quote">I just follow my friends and let them pick a cuisine or the restaurant.</div>
+          <div class="quote">What are people eating in China these days?</div>
+          <div class="quote">When I travel I don't know what to eat.</div>
+        </grid>
+      </div>
+      <br />
+      <br />
     </div>
   </div>
 </template>
 
 <script>
+import VideoPlayer from '~/components/VideoPlayer.vue';
+import TwentyTwenty from '~/components/TwentyTwenty.vue';
 export default {
   name: 'Eatlas',
+  components: {
+    VideoPlayer,
+    TwentyTwenty
+  },
   data: function() {
     return {
+      affiliny00: require('@/assets/img/projects/eatlas/img/affiliny00.jpg'),
+      affiliny0: require('@/assets/img/projects/eatlas/img/affiliny0.jpg'),
       quotes: [
         '<strong>Hmm ...</strong> ^800 what shall I eat tonight?',
         '<strong>Hey!</strong> ^800 what do you-all want for lunch?',
@@ -156,25 +369,6 @@ export default {
         poster: require('@/assets/img/projects/eatlas/img/eatlas-home.png')
       }
     };
-  },
-  computed: {
-    player() {
-      return this.$refs.videoPlayer.player;
-    },
-    player2() {
-      return this.$refs.videoPlayer2.player;
-    }
-  },
-  beforeDestroy() {
-    if (this.player) {
-      this.player.dispose();
-    }
-    if (this.player2) {
-      this.player2.dispose();
-    }
-  },
-  mounted() {
-    console.log('this is current player instance object', this.player);
   }
 };
 </script>
@@ -211,9 +405,7 @@ h2.main.center:before {
     z-index: -1;
   }
 }
-.video-player-box {
-  margin: auto;
-}
+
 .intro {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 36px;

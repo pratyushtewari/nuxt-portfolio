@@ -77,7 +77,7 @@
             the design of our concept.
           </p>
         </div>
-        <div class="pt-container-full">
+        <div class="container-full">
           <h4 class="center">
             STORY BOARDING
           </h4>
@@ -138,7 +138,7 @@
         <br />
         <br />
         <br />
-        <div class="pt-container-full">
+        <div class="container-full">
           <h4 class="center">
             Initial UI WIREFRAMES
           </h4>
@@ -289,7 +289,7 @@
           <br />
         </div>
 
-        <div class="pt-container-full bottom-border">
+        <div class="container-full bottom-border">
           <h4 class="center">
             Check out other projects
           </h4>

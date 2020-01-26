@@ -311,6 +311,7 @@ p {
 
 .center {
   text-align: center;
+  margin: auto;
 }
 .small {
   font-size: smaller;
@@ -373,9 +374,9 @@ Modules - reusable parts of our design
     margin: 0 auto;
 }
 
-.pt-container-full {
+.container-full {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 48px;
     padding: 50px 0;
     background-color: getColor(baseBackgroundHighlight);
     
@@ -387,7 +388,7 @@ Modules - reusable parts of our design
     }
 }
 
-.pt-container-full::after,
+.container-full::after,
 .pt-container-middle::after {
     /* clearfix */
     content: '';
@@ -440,7 +441,7 @@ Main components
     }
 }
 
-.intro-video {
+.phone-video-frame {
     display: flex;
     position: relative;
     margin: auto;
@@ -460,7 +461,7 @@ Main components
 
 
 
-    &.isplaying::after {
+    .video-js.vjs-playing:hover:after {
         content: '';
         background: url("~assets/img/pause.svg") center no-repeat;
         background-size: contain;
@@ -475,7 +476,7 @@ Main components
         pointer-events: none;
     }
 
-    &.ispaused::after {
+    .video-js.vjs-paused:hover:after {
         content: '';
         background: url("~assets/img/play.svg") center no-repeat;
         background-size: contain;
@@ -568,7 +569,7 @@ img{
         z-index: -1;
     }
 
-    .intro-video {
+    .phone-video-frame {
         margin: 50px 0;
     }
 
