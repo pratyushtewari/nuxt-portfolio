@@ -15,8 +15,9 @@
           <p>
             May I suggest going to my
             <nuxt-link to="/">
-home page
-</nuxt-link>.
+              home page
+            </nuxt-link>
+            .
           </p>
         </div>
       </c>

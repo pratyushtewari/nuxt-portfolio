@@ -1,6 +1,9 @@
 <template>
   <div class="page-content">
-    <h1><img class="project-name-logo" src="./img/slate_logo.svg" />Slate</h1>
+    <h1>
+      <img class="project-name-logo" src="./img/slate_logo.svg" />
+      Slate
+    </h1>
     <div class="page" data="page1">
       <h2>EXECUTIVE SUMMARY</h2>
       <h3>
@@ -48,10 +51,11 @@
             more manageable, we needed to specify a scope within this larger,
             more ambitious vision. After considering student needs in areas such
             as scheduling and organization, we decided to focus on
-            <span class="inline-heading">METACOGNITION</span> and
-            <span class="inline-heading">SELF-REGULATED LEARNING</span>. While
-            there has been extensive research in other areas of learning and
-            education, it became apparent through our literature review and
+            <span class="inline-heading">METACOGNITION</span>
+            and
+            <span class="inline-heading">SELF-REGULATED LEARNING</span>
+            . While there has been extensive research in other areas of learning
+            and education, it became apparent through our literature review and
             expert interviews that metacognition is a relatively unexplored area
             with a high potential for impact. Please refer to pages 4 through 5
             for more detail regarding our area of focus.
@@ -130,7 +134,8 @@
             <img
               class="profile"
               src="@/assets/img/projects/slate/katzman.jpg"
-            />Our client for this project is Vapor, LLC. This company is run by
+            />
+            Our client for this project is Vapor, LLC. This company is run by
             Richard Katzman, a successful businessman who led the Katzman family
             business for several decades, bringing its yearly revenue from 4 to
             500 million US dollars in that time. He has served on Princeton
@@ -207,12 +212,12 @@
           <br />
           <p>
             Topics we covered in this phase of research include motivation,
-            <span class="inline-heading">METACOGNITION</span>, scheduling,
-            teens, rapport, and learning technologies. Although there appeared
-            to be a need in the space of scheduling and organization, we quickly
-            discovered through our competitive analysis and guerrilla interviews
-            that the market is actually flooded with various organizational
-            tools students have no interest in using.
+            <span class="inline-heading">METACOGNITION</span>
+            , scheduling, teens, rapport, and learning technologies. Although
+            there appeared to be a need in the space of scheduling and
+            organization, we quickly discovered through our competitive analysis
+            and guerrilla interviews that the market is actually flooded with
+            various organizational tools students have no interest in using.
           </p>
         </c>
       </grid>
@@ -228,14 +233,16 @@
           <br />
           <p>
             We learned from our literature review and expert interviews that
-            <span class="inline-heading">METACOGNITION</span>, on the other
-            hand, is a relatively unexplored area. It can be further divided
-            into the areas of
-            <span class="inline-heading">METACOGNITIVE KNOWLEDGE</span> and
-            <span class="inline-heading">METACOGNITIVE REGULATION</span>, and
-            the little research that exists suggests a promising opportunity for
-            design and a high potential for impact in the latter. It was while
-            exploring this idea that we came across a list of 10
+            <span class="inline-heading">METACOGNITION</span>
+            , on the other hand, is a relatively unexplored area. It can be
+            further divided into the areas of
+            <span class="inline-heading">METACOGNITIVE KNOWLEDGE</span>
+            and
+            <span class="inline-heading">METACOGNITIVE REGULATION</span>
+            , and the little research that exists suggests a promising
+            opportunity for design and a high potential for impact in the
+            latter. It was while exploring this idea that we came across a list
+            of 10
             <span class="inline-heading">SELF-REGULATED LEARNING</span>
             strategies in a paper by Nandagopal and Ericsson. Adapted from a
             list by Zimmerman and Martinez-Pons in a 1986 paper, these
@@ -339,7 +346,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/VINCENT_ALEVEN.png"
             />
-            <p class="name">VINCENT <span class="last">ALEVEN</span></p>
+            <p class="name">
+              VINCENT
+              <span class="last">ALEVEN</span>
+            </p>
             <div class="intro">
               <p>NAMED A TOP AUTHOR IN COMPUTER EDUCATION BY MICROSOFT</p>
               <br />
@@ -415,7 +425,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/SAMANTHA_FINKELSTEIN.png"
             />
-            <p class="name">SAMANTHA <span class="last">FINKELSTEIN</span></p>
+            <p class="name">
+              SAMANTHA
+              <span class="last">FINKELSTEIN</span>
+            </p>
             <div class="intro">
               <p>
                 PHD STUDENT AT CMU’S HUMAN-COMPUTER INTERACTION INSTITUTE
@@ -476,7 +489,8 @@
             immersion. While we should be cautious and sensitive in our use of
             these ideas, simulating playfulness may increase student engagement.
           </p>
-          <br /><br />
+          <br />
+          <br />
           <DefinitionBox
             class="sticky-top"
             :data="[
@@ -505,7 +519,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/KEN_KOEDINGER.png"
             />
-            <p class="name">KEN <span class="last">KOEDINGER</span></p>
+            <p class="name">
+              KEN
+              <span class="last">KOEDINGER</span>
+            </p>
             <div class="intro">
               <p>
                 UNIVERSALLY RECOGNIZED IN INTELLIGENT TUTORING SYSTEMS WITH OVER
@@ -577,7 +594,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/BRUCE_MCLAREN.png"
             />
-            <p class="name">BRUCE <span class="last">MCLAREN</span></p>
+            <p class="name">
+              BRUCE
+              <span class="last">MCLAREN</span>
+            </p>
             <div class="intro">
               <p>NAMED A TOP AUTHOR IN COMPUTERS AND EDUCATION BY MICROSOFT</p>
               <br />
@@ -645,7 +665,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/AMY_OGAN.png"
             />
-            <p class="name">AMY <span class="last">OGAN</span></p>
+            <p class="name">
+              AMY
+              <span class="last">OGAN</span>
+            </p>
             <div class="intro">
               <p>
                 RECENTLY APPOINTED ASSISTANT PROFESSOR WITH A RESEARCH FOCUS IN
@@ -708,7 +731,10 @@
               style="width:134px"
               src="@/assets/img/projects/slate/faculty/CAROLYN_ROSÉ.png"
             />
-            <p class="name">CAROLYN <span class="last">ROSÉ</span></p>
+            <p class="name">
+              CAROLYN
+              <span class="last">ROSÉ</span>
+            </p>
             <div class="intro">
               <p>
                 ELECTED MEMBER OF THE BOARD OF DIRECTORS OF THE INTERNATIONAL

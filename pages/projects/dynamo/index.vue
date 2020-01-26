@@ -21,57 +21,23 @@
         <br />
 
         <carousel :navigation-enabled="true" :per-page="1" class="width700">
-          <slide>
-            <img src="./img/topSlider/Slide01.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide02.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide03.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide04.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide05.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide06.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide07.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide08.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide09.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide10.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide11.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide12.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide13.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide14.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide15.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/4.png" />
-          </slide>
-          <slide>
-            <img src="./img/topSlider/Slide16.png" />
-          </slide>
+          <slide><img src="./img/topSlider/Slide01.png" /></slide>
+          <slide><img src="./img/topSlider/Slide02.png" /></slide>
+          <slide><img src="./img/topSlider/Slide03.png" /></slide>
+          <slide><img src="./img/topSlider/Slide04.png" /></slide>
+          <slide><img src="./img/topSlider/Slide05.png" /></slide>
+          <slide><img src="./img/topSlider/Slide06.png" /></slide>
+          <slide><img src="./img/topSlider/Slide07.png" /></slide>
+          <slide><img src="./img/topSlider/Slide08.png" /></slide>
+          <slide><img src="./img/topSlider/Slide09.png" /></slide>
+          <slide><img src="./img/topSlider/Slide10.png" /></slide>
+          <slide><img src="./img/topSlider/Slide11.png" /></slide>
+          <slide><img src="./img/topSlider/Slide12.png" /></slide>
+          <slide><img src="./img/topSlider/Slide13.png" /></slide>
+          <slide><img src="./img/topSlider/Slide14.png" /></slide>
+          <slide><img src="./img/topSlider/Slide15.png" /></slide>
+          <slide><img src="./img/topSlider/4.png" /></slide>
+          <slide><img src="./img/topSlider/Slide16.png" /></slide>
         </carousel>
 
         <h4>CONCEPT</h4>
@@ -149,39 +115,17 @@
         </p>
 
         <carousel :navigation-enabled="true" :per-page="1" class="width400">
-          <slide>
-            <img src="./img/initialDesign/1.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/2.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/3.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/4.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/5.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/7.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/8.png" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/9.png" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/10.png" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/11.png" />
-          </slide>
-          <slide>
-            <img src="./img/initialDesign/12.png" />
-          </slide>
+          <slide><img src="./img/initialDesign/1.jpg" /></slide>
+          <slide><img src="./img/initialDesign/2.jpg" /></slide>
+          <slide><img src="./img/initialDesign/3.jpg" /></slide>
+          <slide><img src="./img/initialDesign/4.jpg" /></slide>
+          <slide><img src="./img/initialDesign/5.jpg" /></slide>
+          <slide><img src="./img/initialDesign/7.jpg" /></slide>
+          <slide><img src="./img/initialDesign/8.png" /></slide>
+          <slide><img src="./img/initialDesign/9.png" /></slide>
+          <slide><img src="./img/initialDesign/10.png" /></slide>
+          <slide><img src="./img/initialDesign/11.png" /></slide>
+          <slide><img src="./img/initialDesign/12.png" /></slide>
         </carousel>
         <br />
         <br />
@@ -193,36 +137,16 @@
           recommendations between cycling and walking routes.
         </p>
         <carousel :navigation-enabled="true" :per-page="1" class="width700">
-          <slide>
-            <img src="./img/finalDesign/1.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/2.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/3.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/4.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/5.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/7.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/8.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/9.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/10.png" />
-          </slide>
-          <slide>
-            <img src="./img/finalDesign/11.png" />
-          </slide>
+          <slide><img src="./img/finalDesign/1.jpg" /></slide>
+          <slide><img src="./img/finalDesign/2.png" /></slide>
+          <slide><img src="./img/finalDesign/3.png" /></slide>
+          <slide><img src="./img/finalDesign/4.png" /></slide>
+          <slide><img src="./img/finalDesign/5.png" /></slide>
+          <slide><img src="./img/finalDesign/7.png" /></slide>
+          <slide><img src="./img/finalDesign/8.png" /></slide>
+          <slide><img src="./img/finalDesign/9.png" /></slide>
+          <slide><img src="./img/finalDesign/10.png" /></slide>
+          <slide><img src="./img/finalDesign/11.png" /></slide>
         </carousel>
         <br />
         <br />
@@ -234,18 +158,10 @@
           represent this data and designed a dashboard accordingly.
         </p>
         <carousel :navigation-enabled="true" :per-page="1" class="width700">
-          <slide>
-            <img src="./img/dashboard/1.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/dashboard/2.png" />
-          </slide>
-          <slide>
-            <img src="./img/dashboard/3.jpg" />
-          </slide>
-          <slide>
-            <img src="./img/dashboard/4.png" />
-          </slide>
+          <slide><img src="./img/dashboard/1.jpg" /></slide>
+          <slide><img src="./img/dashboard/2.png" /></slide>
+          <slide><img src="./img/dashboard/3.jpg" /></slide>
+          <slide><img src="./img/dashboard/4.png" /></slide>
         </carousel>
       </div>
 
@@ -288,8 +204,12 @@
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Dynamo',
-  components: {}
+  components: {
+    Carousel,
+    Slide
+  }
 };
 </script>

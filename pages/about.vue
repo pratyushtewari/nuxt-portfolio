@@ -12,7 +12,9 @@
       </c>
       <c span="2">
         <p>
-          <strong>Hi there! I’m a Design Technologist based out of New York.</strong>
+          <strong>
+            Hi there! I’m a Design Technologist based out of New York.
+          </strong>
         </p>
         <br />
         <p>
@@ -46,19 +48,23 @@
             target="_blank"
             href="downloads/Pratyush-Tewari-Resume.pdf"
           >
-            <span class="imagebtn pdf"></span>Resume
+            <span class="imagebtn pdf"></span>
+            Resume
           </a>
 
           <a class="btn" target="_blank" href="downloads/Pratyush_Tewari.vcf">
-            <span class="imagebtn contact"></span>Contact
+            <span class="imagebtn contact"></span>
+            Contact
           </a>
 
           <a class="btn" title="hi@ptewari.com" href="mailto:hi@ptewari.com">
-            <span class="imagebtn email"></span>Email
+            <span class="imagebtn email"></span>
+            Email
           </a>
 
           <a class="btn" target="_blank" href="https://twitter.com/uxsual">
-            <span class="imagebtn twitter"></span>Twitter
+            <span class="imagebtn twitter"></span>
+            Twitter
           </a>
 
           <a
@@ -66,7 +72,8 @@
             target="_blank"
             href="https://linkedin.com/in/pratyushtewari"
           >
-            <span class="imagebtn linkedin"></span>Linkedin
+            <span class="imagebtn linkedin"></span>
+            Linkedin
           </a>
 
           <a
@@ -74,7 +81,8 @@
             target="_blank"
             href="https://github.com/pratyushtewari"
           >
-            <span class="imagebtn github"></span>Github
+            <span class="imagebtn github"></span>
+            Github
           </a>
         </div>
 

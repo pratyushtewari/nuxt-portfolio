@@ -41,7 +41,6 @@ export default {
   plugins: [
     { src: '@/plugins/directives.js' },
     { src: '@/plugins/vue-typed-js.js' },
-    { src: '@/plugins/vue-carousel.js', ssr: false },
   ],
   /*
    ** Nuxt.js dev-modules

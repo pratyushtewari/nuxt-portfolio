@@ -18,8 +18,9 @@
                 <p>
                   How many times have to though you remembered something but
                   cannot recall it. PresqueVu is the
-                  <i>tip of the tongue</i> phenomenon, in which you know that
-                  you know something, but can't quite recall it.
+                  <i>tip of the tongue</i>
+                  phenomenon, in which you know that you know something, but
+                  can't quite recall it.
                 </p>
               </div>
             </div>

@@ -476,7 +476,7 @@ Main components
         pointer-events: none;
     }
 
-    .video-js.vjs-paused:hover:after {
+    .video-js.vjs-paused:after {
         content: '';
         background: url("~assets/img/play.svg") center no-repeat;
         background-size: contain;
