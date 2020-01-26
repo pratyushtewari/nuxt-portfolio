@@ -1,33 +1,43 @@
 <template>
   <div class="page-content">
-    <h1>
-      <img class="project-name-logo" src="./img/presquevu_logo.svg" />
-      PresqueVu
-    </h1>
-    <content>
-      <main class="pt-content">
+
+    <div class="intro">
+      <grid class col="2" col-s="1">
+        <c class="c1" span="1">
+          <h1>
+            <img
+              class="pt-project-logo"
+              src="./img/presquevu_logo.svg"
+            />
+            PresqueVu
+          </h1>
+        </c>
+        <c class="c2" span="1">
+          <div class="pt-project-pic presquevu"></div>
+        </c>
+        <c class="c3" span="1">
+          <p>
+            PresqueVu is A context aware reminder application that
+            triggers reminders based on your proximity to a designated
+            person.
+          </p>
+          <p>
+            How many times have to though you remembered something but
+            cannot recall it. PresqueVu is the
+            <i>tip of the tongue</i>
+            phenomenon, in which you know that you know something, but
+            can't quite recall it.
+          </p>
+          <br />
+        </c>
+      </grid>
+    </div>
+
+
+
+      <div class="pt-content">
         <div class="pt-container-middle">
-          <div class="pt-project-intro">
-            <div class="pt-project-description">
-              <div class="pt-project-summary">
-                <p>
-                  PresqueVu is A context aware reminder application that
-                  triggers reminders based on your proximity to a designated
-                  person.
-                </p>
-                <p>
-                  How many times have to though you remembered something but
-                  cannot recall it. PresqueVu is the
-                  <i>tip of the tongue</i>
-                  phenomenon, in which you know that you know something, but
-                  can't quite recall it.
-                </p>
-              </div>
-            </div>
-            <div class="pt-project-pic presquevu"></div>
-          </div>
-          <br />
-          <br />
+          
           <div class="flex">
             <img class="full-width max-1000 center" src="./img/poster.png" />
           </div>
@@ -289,47 +299,8 @@
           <br />
           <br />
         </div>
+      </div>
 
-        <div class="container-full bottom-border">
-          <h4 class="center">
-            Check out other projects
-          </h4>
-          <br />
-          <div class="next-projects">
-            <div
-              class="flex"
-              onclick="parent.location='../chelada/index.html';"
-            >
-              <div>
-                <div class="project-name">
-                  Chelada
-                </div>
-                <div>
-                  A system by which users, on mobile devices, are able to
-                  subscribe to and interact with mobile notification based data
-                  feeds provided by an individual or an institution.
-                </div>
-              </div>
-            </div>
-
-            <div class="flex" onclick="parent.location='../dynamo/index.html';">
-              <div>
-                <div class="project-name">
-                  Dynamo
-                </div>
-                <div>
-                  A mobile information service that helps commuters choose the
-                  optimal mode of transportation for their exercise goal.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <footer id="footer" class="white"></footer>
-      </main>
-      <!-- pt-content -->
-    </content>
   </div>
 </template>
 

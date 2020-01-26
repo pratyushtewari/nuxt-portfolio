@@ -31,6 +31,7 @@
               Wondering what to eat? Where does a dish come from? What to eat
               when traveling? Check out Eatlas for all your questions.
             </p>
+            <br />
           </c>
         </grid>
       </div>
@@ -582,49 +583,9 @@ h2.main.center:before {
   }
 }
 
-.intro {
-  border-bottom: 1px solid #eeeeee;
-  margin-bottom: 36px;
-}
-.pt-project-logo {
-  width: 70px;
-  margin-right: 20px;
-}
 .pt-project-pic {
   &.eatlas {
     margin-top: 0px;
-  }
-}
-.align-center {
-  align-self: center;
-}
-.c1 {
-  grid-row: 1;
-}
-.c2 {
-  grid-row: 1 / 3;
-  align-self: end;
-}
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .c1 {
-    grid-column: 1 / span 2;
-  }
-  .c2 {
-    grid-column: 2;
-  }
-  .c3 {
-    grid-column: 1;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .c1 {
-    grid-row: 1;
-  }
-  .c2 {
-    grid-row: 2;
-  }
-  .c3 {
-    grid-row: 3;
   }
 }
 </style>

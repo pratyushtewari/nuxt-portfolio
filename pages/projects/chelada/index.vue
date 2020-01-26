@@ -1,24 +1,31 @@
 <template>
   <div class="page-content">
-    <h1>
-      <img class="project-name-logo" src="./img/chelada_logo.png" />
-      Chelada
-    </h1>
-    <main class="pt-content">
-      <div class="pt-container-middle">
-        <div class="pt-project-intro">
-          <div class="pt-project-description">
-            <div class="pt-project-summary">
-              <p>
-                A system by which users, on mobile devices, are able to
-                subscribe to and interact with mobile notification based data
-                feeds provided by an individual or an institution.
-              </p>
-            </div>
-          </div>
-          <div class="pt-project-pic chelada"></div>
-        </div>
 
+    <div class="intro">
+      <grid class col="2" col-s="1">
+        <c class="c1" span="1">
+          <h1>
+            <img
+              class="pt-project-logo project-name-logo"
+              src="./img/chelada_logo.png"
+            />
+            Chelada
+          </h1>
+        </c>
+        <c class="c2" span="1">
+          <div class="pt-project-pic chelada"></div>
+        </c>
+        <c class="c3" span="1">
+          <p>A system by which users, on mobile devices, are able to
+          subscribe to and interact with mobile notification based data
+          feeds provided by an individual or an institution.</p>
+          <br />
+        </c>
+      </grid>
+    </div>
+
+    <div class="pt-content">
+      <div class="pt-container-middle">
         <p>
           <img
             style="width:100%; display:block;"
@@ -52,44 +59,7 @@
         <p><img style="width:100%" src="./img/CheladaDesignSpec31.png" /></p>
         <p><img style="width:100%" src="./img/CheladaDesignSpec32.png" /></p>
       </div>
-
-      <div class="container-full bottom-border">
-        <h3 class="center">
-          Check out other projects
-        </h3>
-        <br />
-        <div class="next-projects">
-          <div class="flex" onClick="parent.location='../eatlas/index.html';">
-            <div>
-              <div class="project-name">
-                Eatlas
-              </div>
-              <div>
-                Wondering what to eat? Where does a dish come from? What to eat
-                when traveling? Check out Eatlas for all your questions.
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="flex"
-            onClick="parent.location='../presquevu/index.html';"
-          >
-            <div>
-              <div class="project-name">
-                PresqueVu
-              </div>
-              <div>
-                Ever wished that you could remember what you needed to tell a
-                person when you met them? PresqueVu can help you with that.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer id="footer" class="white"></footer>
-    </main>
+    </div>
   </div>
 </template>
 

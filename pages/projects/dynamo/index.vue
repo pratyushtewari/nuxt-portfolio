@@ -1,24 +1,30 @@
 <template>
   <div class="page-content">
-    <h1>
-      <img class="project-name-logo" src="./img/dynamo_logo.svg" />
-      Dynamo
-    </h1>
+
+    <div class="intro">
+      <grid class col="2" col-s="1">
+        <c class="c1" span="1">
+          <h1>
+            <img
+              class="pt-project-logo"
+              src="./img/dynamo_logo.svg"
+            />
+            Dynamo
+          </h1>
+        </c>
+        <c class="c2" span="1">
+          <div class="pt-project-pic dynamo"></div>
+        </c>
+        <c class="c3" span="1">
+          <p>A mobile information service that helps commuters choose the
+          optimal mode of transportation for their exercise goal.</p>
+          <br />
+        </c>
+      </grid>
+    </div>
+
     <div class="pt-content">
       <div class="pt-container-middle">
-        <div class="pt-project-intro">
-          <div class="pt-project-description">
-            <div class="pt-project-summary">
-              <p>
-                A mobile information service that helps commuters choose the
-                optimal mode of transportation for their exercise goal.
-              </p>
-            </div>
-          </div>
-          <div class="pt-project-pic dynamo"></div>
-        </div>
-        <br />
-        <br />
 
         <carousel :navigation-enabled="true" :per-page="1" class="width700">
           <slide><img src="./img/topSlider/Slide01.png" /></slide>
