@@ -41,6 +41,7 @@ export default {
   plugins: [
     { src: '@/plugins/directives.js' },
     { src: '@/plugins/vue-typed-js.js' },
+    { src: '@/plugins/ga.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules

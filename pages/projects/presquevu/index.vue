@@ -11,7 +11,7 @@
             <div class="pt-project-description">
               <div class="pt-project-summary">
                 <p>
-                  PresqueVu is a context aware reminder application that
+                  PresqueVu is A context aware reminder application that
                   triggers reminders based on your proximity to a designated
                   person.
                 </p>
@@ -336,6 +336,45 @@
 <script>
 export default {
   name: 'PresqueVu',
+  head() {
+    return {      
+      title: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+        },
+        {
+          property: 'og:title',
+          content: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+        },
+        {
+          property: 'og:image',
+          content: 'http://ptewari.com/social/presquevu.png'
+        },
+        {
+          property: 'og:description',
+          content:
+            'A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/presquevu' },
+        {
+          name: 'twitter:title',
+          content: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+        },
+        {
+          name: 'twitter:description',
+          content:
+            'A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+        },
+        {
+          name: 'twitter:image',
+          content: 'http://ptewari.com/social/presquevu.png'
+        }
+      ]
+    }
+  },
   components: {}
 };
 </script>

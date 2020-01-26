@@ -795,6 +795,45 @@
 import DefinitionBox from '~/components/DefinitionBox';
 export default {
   name: 'Slate',
+  head() {
+    return {      
+      title: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+        },
+        {
+          property: 'og:title',
+          content: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+        },
+        {
+          property: 'og:image',
+          content: 'http://ptewari.com/social/slate.png'
+        },
+        {
+          property: 'og:description',
+          content:
+            'A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/slate' },
+        {
+          name: 'twitter:title',
+          content: 'Slate - A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+        },
+        {
+          name: 'twitter:description',
+          content:
+            'A personal learning companion that inspires curiosity and guides students in their pursuit of learning.'
+        },
+        {
+          name: 'twitter:image',
+          content: 'http://ptewari.com/social/slate.png'
+        }
+      ]
+    }
+  },
   components: {
     DefinitionBox
   }

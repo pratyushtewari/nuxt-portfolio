@@ -207,6 +207,45 @@
 import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Dynamo',
+  head() {
+    return {      
+      title: 'Dynamo - A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+        },
+        {
+          property: 'og:title',
+          content: 'Dynamo - A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+        },
+        {
+          property: 'og:image',
+          content: 'http://ptewari.com/social/dynamo.png'
+        },
+        {
+          property: 'og:description',
+          content:
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/dynamo' },
+        {
+          name: 'twitter:title',
+          content: 'Dynamo - A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+        },
+        {
+          name: 'twitter:description',
+          content:
+            'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'
+        },
+        {
+          name: 'twitter:image',
+          content: 'http://ptewari.com/social/dynamo.png'
+        }
+      ]
+    }
+  },
   components: {
     Carousel,
     Slide

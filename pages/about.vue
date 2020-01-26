@@ -3,7 +3,7 @@
     <h2>About Me</h2>
     <br />
     <grid col="3" col-s="1">
-      <c class="center" span="1">
+      <c class="middle" span="1">
         <img
           src="@/assets/img/pratyush_tewari_profile.png"
           style="width:150px; display: block;"
@@ -94,12 +94,28 @@
 </template>
 <script>
 export default {
-  name: 'About'
+  name: 'About',
+  head() {
+    return {
+      meta: [
+        {
+          property: 'og:image',
+          content: 'http://ptewari.com/social/about.png'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/about' },
+        {
+          name: 'twitter:image',
+          content: 'http://ptewari.com/social/about.png'
+        }
+      ]
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>
-.center {
+.middle {
   justify-self: center;
+  align-self: start;
 }
 .btngroup {
   margin-top: 8px;

@@ -443,6 +443,45 @@ import TwentyTwenty from '~/components/TwentyTwenty.vue';
 import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Eatlas',
+  head() {
+    return {      
+      title: 'Eatlas - A system that helps you discover new food, cultures, and countries.',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'A system that helps you discover new food, cultures, and countries.'
+        },
+        {
+          property: 'og:title',
+          content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'
+        },
+        {
+          property: 'og:image',
+          content: 'http://ptewari.com/social/eatlas.png'
+        },
+        {
+          property: 'og:description',
+          content:
+            'A system that helps you discover new food, cultures, and countries.'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/eatlas' },
+        {
+          name: 'twitter:title',
+          content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'
+        },
+        {
+          name: 'twitter:description',
+          content:
+            'A system that helps you discover new food, cultures, and countries.'
+        },
+        {
+          name: 'twitter:image',
+          content: 'http://ptewari.com/social/eatlas.png'
+        }
+      ]
+    }
+  },
   components: {
     VideoPlayer,
     TwentyTwenty,

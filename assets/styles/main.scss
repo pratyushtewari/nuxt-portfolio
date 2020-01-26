@@ -117,26 +117,26 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.5;
-  &:after {
-    content: 'h2'
-  }
+  // &:after {
+  //   content: 'h2'
+  // }
 }
 h3 {
   font-size: 1.6rem;
   line-height: 1.5;
   color: getColor(h3Textcolor);
-  &:after {
-    content: 'h3'
-  }
+  // &:after {
+  //   content: 'h3'
+  // }
 }
 h4 {
   font-family: 'gotham_bold';
   font-size: 1.2rem;
   line-height: 1.5;
   color: getColor(h4Textcolor);
-  &:after {
-    content: 'h4'
-  }
+  // &:after {
+  //   content: 'h4'
+  // }
 }
 
 p {
