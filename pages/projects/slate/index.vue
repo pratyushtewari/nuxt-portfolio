@@ -867,7 +867,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: 'ptewari.com/projects/slate'
+          content: 'http://ptewari.com/projects/slate'
         },
         {
           name: 'twitter:title',

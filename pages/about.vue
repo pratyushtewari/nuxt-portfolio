@@ -18,27 +18,12 @@
         </p>
         <br />
         <p>
-          I like analyzing and solving users' problems and tasks through design
-          and development. I am a strong believer in users' empathy and always
-          try to make the experiences natural, fun and easy.
+          I love building things, both physical and digital. I am a Design Technologist: a software engineer turned interaction designer. I enjoy combining my obsession with technology and human centered design to make people’s lives easier and fun. I can translate design to coders and code to designers, and enjoy partnering with both to build beautiful things. Over the last 10 years, I have helped startups and large corporations build products that delight customers and systems that help good design permeate organizations.
         </p>
         <br />
         <p>
-          Over the past 10 years or so, I've worked in various industries like
-          FinTech, Education, Unified Communications, and Design Systems, to
-          name a few. I've worked as a UX Designer, Software Engineer, System
-          Architect, and client liaison in these settings. Working in various
-          disciplines is a major motivation for me as it helps me understand the
-          users but also, keeps me in check of my solution's scope. I've led
-          many teams with various levels of experience in Design and Engineering
-          and I love working with both high levels of experience and young
-          people as there is to learn and teach from both of them.
+          Currently, I lead the UX design and development of a new design system at JP Morgan and Chase. I am responsible for creating services, tools and processes that fuel speed and accuracy of both design and engineering for delivering new patterns and components.
           <br />
-        </p>
-        <br />
-        <p>
-          I am always looking for providing delightful experiences that enhance
-          the user's life and make them more efficient and fun.
         </p>
         <br />
         <p>Interested in learning more?</p>
@@ -102,7 +87,7 @@ export default {
           property: 'og:image',
           content: 'https://i.imgur.com/gjZ2hk0.png'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/about' },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/about' },
         {
           name: 'twitter:image',
           content: 'https://i.imgur.com/gjZ2hk0.png'

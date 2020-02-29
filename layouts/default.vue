@@ -71,7 +71,7 @@ export default {
           content:
             'Explore awe-inspiring, delightful experiences that bring humans and computers even more closer than before and the HCII &#129309; UX techniques behind them.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/' },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/' },
         {
           hid: 'twitter:card',
           name: 'twitter:card',

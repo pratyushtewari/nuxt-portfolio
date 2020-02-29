@@ -465,7 +465,7 @@ export default {
           content:
             'A system that helps you discover new food, cultures, and countries.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/eatlas' },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/eatlas' },
         {
           name: 'twitter:title',
           content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'

@@ -199,7 +199,7 @@ export default {
           content:
             'A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/dynamo' },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/dynamo' },
         {
           name: 'twitter:title',
           content: 'Dynamo - A mobile information service that helps commuters choose the optimal mode of transportation for their exercise goal.'

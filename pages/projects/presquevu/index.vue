@@ -329,7 +329,7 @@ export default {
           content:
             'A context aware reminder application that triggers reminders based on your proximity to a designated person.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'ptewari.com/projects/presquevu' },
+        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/presquevu' },
         {
           name: 'twitter:title',
           content: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
