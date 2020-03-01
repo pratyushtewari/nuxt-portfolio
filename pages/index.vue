@@ -7,6 +7,10 @@
         description="Wondering what to eat? Where does a dish come from? What to eat when traveling? Check out Eatlas for all your questions."
       />
       <ProjectIntro
+        name="Vidyo Connect™️"
+        description="An Enterprise Meeting Solution for Team Collaboration"
+      />
+      <ProjectIntro
         name="Chelada"
         description="A system by which users, on mobile devices, are able to subscribe to and interact with mobile notification based data feeds provided by an individual or an institution."
       />

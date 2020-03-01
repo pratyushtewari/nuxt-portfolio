@@ -3,7 +3,7 @@
     <grid col="2" col-s="1">
       <div class="c1">
         <h1>
-          {{ name.charAt(0).toUpperCase() + name.substring(1).toLowerCase() }}
+          {{ name }}
         </h1>
       </div>
       <div class="c2">
@@ -30,9 +30,9 @@ export default {
   props: ['name', 'description', 'color'],
   data: function() {
     return {
-      href: `/projects/${this.name.toLowerCase()}`,
-      buttonClass: `project-view-button ${this.name.toLowerCase()}`,
-      imgclass: `pt-project-pic ${this.name.toLowerCase()}`
+      href: `/projects/${this.name.toLowerCase().replace(/\W+/g, "")}`,
+      buttonClass: `project-view-button ${this.name.toLowerCase().replace(/\W+/g, "")}`,
+      imgclass: `pt-project-pic ${this.name.toLowerCase().replace(/\W+/g, "")}`
     };
   }
 };
@@ -86,6 +86,13 @@ h1 {
     border: 1px solid $eatlas;
     a:hover {
       background-color: $eatlas;
+      color: $baseWhite;
+    }
+  }
+  &.vidyoconnect {
+    border: 1px solid $vidyoconnect;
+    a:hover {
+      background-color: $vidyoconnect;
       color: $baseWhite;
     }
   }

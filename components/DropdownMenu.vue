@@ -12,6 +12,11 @@
           </nuxt-link>
         </li>
         <li @click="togglemenu">
+          <nuxt-link to="/projects/vidyoconnect">
+            Vidyo Connect
+          </nuxt-link>
+        </li>
+        <li @click="togglemenu">
           <nuxt-link to="/projects/chelada">
             Chelada
           </nuxt-link>

@@ -248,6 +248,10 @@ p {
   align-self: flex-end;
   min-width: 300px;
 
+  &.vidyoconnect {
+    background-image: url("~assets/img/project_intros/vidyoconnect_home.png");
+  }
+
   &.eatlas {
     background-image: url("~assets/img/project_intros/eatlas_home.png");
   }
