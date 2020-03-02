@@ -4,7 +4,7 @@
       <div class="intro">
         <grid class col="2" col-s="1">
           <c class="c1" span="1">
-            <h1 style="white-space: nowrap;">
+            <h1>
               <img
                 class="pt-project-logo"
                 src="@/assets/img/projects/vidyoconnect/vidyoconnect_logo.svg"

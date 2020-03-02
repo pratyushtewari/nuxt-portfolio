@@ -8,7 +8,7 @@
           src="@/assets/img/pratyush_tewari_profile.png"
           style="width:150px; display: block;"
         />
-        <h3>Pratyush Tewari</h3>
+        <h3 style="text-align: center">Pratyush Tewari</h3>
       </c>
       <c span="2">
         <p>

@@ -1,18 +1,19 @@
 <template>
-  <nav class="pt-main-nav" @click="toggleNavMenu">
+  <nav class="pt-main-nav">
+    <div class="pt-main-nav-button" @click="toggleNavMenu"></div>
     <ul ref="links">
       <!-- inser more links here -->
-      <li>
-        <nuxt-link to="/" @click="closeNavMenu">
+        <nuxt-link to="/" >
+      <li @click="closeNavMenu">
           HOME
-        </nuxt-link>
       </li>
-      <li>
-        <nuxt-link to="/about" @click="closeNavMenu">
+        </nuxt-link>
+        <nuxt-link to="/about">
+      <li @click="closeNavMenu">
           ABOUT
-        </nuxt-link>
       </li>
-      <li>
+        </nuxt-link>
+      <li @click="closeNavMenu">
         <DropdownMenu/>
       </li>
     </ul>
@@ -33,15 +34,10 @@ export default {
   },
   methods: {
     toggleNavMenu: function(event) {
-      event.stopPropagation();
       $(this.$refs.links).toggleClass('is-visible');
-      // console.log('!!!!' + $nuxt._route.path);
     },
     closeNavMenu: function(event) {
       $(this.$refs.links).removeClass('is-visible');
-
-      // console.log('>>>' + $nuxt._route.path);
-      event.stopPropagation();
     }
   }
 };
@@ -49,11 +45,14 @@ export default {
 
 <style lang="scss" scoped>
 .pt-main-nav {
-  width: 44px;
   height: 100%;
-  background: url('~@/assets/img/pt-icon-menu_onlight.svg') center no-repeat;
-  background-size: 44px 44px;
-  cursor: pointer;
+  .pt-main-nav-button {
+    width: 44px;
+    height: 44px;
+    background: url('~@/assets/img/pt-icon-menu_onlight.svg') center no-repeat;
+    background-size: 44px 44px;
+    cursor: pointer;
+  }
 
   ul {
     position: absolute;
@@ -92,17 +91,21 @@ export default {
 }
 @media (prefers-color-scheme: dark) {
   .pt-main-nav {
-    background: url('~assets/img/pt-icon-menu_ondark.svg') center no-repeat;
+    .pt-main-nav-button {
+      background: url('~assets/img/pt-icon-menu_ondark.svg') center no-repeat;
+    }
   }
 }
 @media only screen and (min-width: 768px) {
   .pt-main-nav {
     width: auto;
-    height: auto;
-    background: none;
+    height: auto;   
     cursor: auto;
     margin: 0 5% 0 0;
     display: flex;
+    .pt-main-nav-button {
+      background: none;
+    }
 
     ul {
       display: flex;
