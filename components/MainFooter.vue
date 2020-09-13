@@ -134,7 +134,7 @@ footer#footer {
     .footer-summary {
       max-width: 360px;
       .footer-logo {
-        background-image: url('~@/assets/img/PratyushMonogramLogo.svg');
+        background-image: url('~@/assets/img/PratyushMonogramLogo.png');
         width: 100px;
         height: 100px;
         margin: 0 10px 0 0;

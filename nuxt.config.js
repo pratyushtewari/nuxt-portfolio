@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 export default {
-  server: {     
+  server: {
     port: 8000, // default: 3000     
     host: '0.0.0.0', // default: localhost   
   },   // other configs 
@@ -23,12 +23,17 @@ export default {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
-      }
+      },
+      { name: 'msapplication-TileColor', content: '#1b2632' },
+      { name: 'theme-color', content: '#ffffff' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' },
+    { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   generate: {
-      fallback: "404.shtml"
+    fallback: "404.shtml"
   },
   /*
    ** Customize the progress-bar color
@@ -47,7 +52,7 @@ export default {
    */
   plugins: [
     { src: '@/plugins/directives.js' },
-    { src: '@/plugins/vue-typed-js.js'},
+    { src: '@/plugins/vue-typed-js.js' },
     { src: '@/plugins/vue-carousel.js', ssr: false },
     { src: '@/plugins/ga.js', mode: 'client' }
   ],
