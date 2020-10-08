@@ -31,6 +31,52 @@
       </div>
       <br />
       <br />
+      <grid class col="4" col-s="1">
+        <c span="1">
+          <DefinitionBox
+            :data="[
+              {
+                title: 'WHO:',
+                definition:
+                  'Vidyo, a video-conferencing company, delivers the highest quality <strong>cloud video conferencing service</strong>, on-premises solutions and platform-as-a-service for market leaders and innovative upstarts.'
+              }
+            ]"
+          />
+        </c>
+        <c span="1">
+          <DefinitionBox
+            :data="[
+              {
+                title: 'WHAT:',
+                definition:
+                  'Create a <strong>brand new unified-communication platform</strong> that can be customized, and released on all platforms very quickly and uses the latest video conferencing api from Vidyo.'
+              }
+            ]"
+          />
+        </c>
+        <c span="1">
+          <DefinitionBox
+            :data="[
+              {
+                title: 'WHY:',
+                definition:
+                  'Vidyo’s cutting edge service is to deliver the best quality audio-video conferencing with <strong>deeply customizable and white-labeled application.<strong>'
+              }
+            ]"
+          />
+        </c>
+        <c span="1">
+          <DefinitionBox
+            :data="[
+              {
+                title: 'HOW:',
+                definition:
+                  'Kickstarted UX at Vidyo, created a new mobile and desktop experience and developed a UI framework called MV2C to release the project'
+              }
+            ]"
+          />
+        </c>
+      </grid>
       <div class="max-700">
         <div style="padding:56.25% 0 0 0;position:relative;">
           <iframe
@@ -61,7 +107,7 @@
 <script>
 import DefinitionBox from '~/components/DefinitionBox';
 export default {
-  name: 'VidyoConnectCaseStudy',
+  name: 'VidyoConnect',
   head() {
     return {
       title:

@@ -2,7 +2,7 @@
   <div class="denifitionBox">
     <div v-for="x in data" :key="x.title" class="definition">
       <span class="inline-heading">{{ x.title }}</span>
-      &nbsp;{{ x.definition }}
+      &nbsp;<span v-html="x.definition"></span>
     </div>
   </div>
 </template>
