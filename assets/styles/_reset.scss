@@ -38,6 +38,9 @@ body {
 }
 ol, ul {
 	list-style: none;
+	&.bullet {
+		list-style: unset;
+	}
 }
 blockquote, q {
 	quotes: none;
