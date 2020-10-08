@@ -458,7 +458,14 @@
       </div>
 </c>
 </grid>
+<br>
+<h4>Update on Nexi</h4>
+<br>
 
+I was pleased to recieve an update on the Nexi platform from Jeff Fairbanks.
+<br>
+<br>
+<img class="max-400" src="./img/jb2.png" />
 <br>
 <br>
 <br>
