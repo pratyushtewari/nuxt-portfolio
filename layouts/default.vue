@@ -77,7 +77,7 @@ export default {
           name: 'twitter:card',
           content: 'summary_large_image'
         },
-        { hid: 'twitter:creator', name: 'twitter:creator', content: '@uxsual' },
+        { hid: 'twitter:creator', name: 'twitter:creator', content: '@uxanddesign' },
         {
           hid: 'twitter:title',
           name: 'twitter:title',

@@ -47,7 +47,7 @@
             Email
           </a>
 
-          <a class="btn" target="_blank" href="https://twitter.com/uxsual">
+          <a class="btn" target="_blank" href="https://twitter.com/uxanddesign">
             <span class="imagebtn twitter"></span>
             Twitter
           </a>

@@ -62,7 +62,7 @@
             <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>
           </li>
           <li>
-            <a target="_blank" href="https://twitter.com/uxsual">Twitter</a>
+            <a target="_blank" href="https://twitter.com/uxanddesign">Twitter</a>
           </li>
           <li>
             <a target="_blank" href="https://linkedin.com/in/pratyushtewari">
