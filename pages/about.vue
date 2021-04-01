@@ -31,13 +31,13 @@
           <a
             class="btn"
             target="_blank"
-            href="downloads/Pratyush-Tewari-Resume.pdf"
+            href="/downloads/Pratyush-Tewari-Resume.pdf"
           >
             <span class="imagebtn pdf"></span>
             Resume
           </a>
 
-          <a class="btn" target="_blank" href="downloads/Pratyush_Tewari.vcf">
+          <a class="btn" target="_blank" href="/downloads/Pratyush_Tewari.vcf">
             <span class="imagebtn contact"></span>
             Contact
           </a>
