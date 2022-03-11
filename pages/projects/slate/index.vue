@@ -20,12 +20,12 @@
               {
                 title: 'METACOGNITION',
                 definition:
-                  ' is the cognizance and knowledge of one’s own thinking and thinking processes.'
+                  'is the cognizance and knowledge of one’s own thinking and thinking processes.'
               },
               {
                 title: 'SELF-REGULATED LEARNING',
                 definition:
-                  ' is a goal-oriented learning process driven by motivation and metacognitive processes.'
+                  'is a goal-oriented learning process driven by motivation and metacognitive processes.'
               }
             ]"
           />
@@ -257,12 +257,12 @@
               {
                 title: 'METACOGNITIVE KNOWLEDGE',
                 definition:
-                  ' is knowledge about one’s learning abilities and the factors that affect one’s efficiency when learning.'
+                  'is knowledge about one’s learning abilities and the factors that affect one’s efficiency when learning.'
               },
               {
                 title: 'METACOGNITIVE REGULATION',
                 definition:
-                  ' refers to a set of skills that helps a student engage in metacognitive processes.'
+                  'refers to a set of skills that helps a student engage in metacognitive processes.'
               }
             ]"
           />
@@ -911,18 +911,18 @@ grid {
   margin-bottom: 48px;
 }
 .name {
-  font-size: 2rem;
+  font-size: 16px;
   font-family: 'gotham_book';
   .last {
-    font-size: 2rem;
+    font-size: 16px;
     font-weight: bold;
     font-family: 'gotham_bold';
   }
 }
 .expert-intro {
-  font-size: 1.2rem;
+  font-size: 12px;
   & > * {
-    font-size: 1.2rem;
+    font-size: 12px;
   }
 }
 .todo {

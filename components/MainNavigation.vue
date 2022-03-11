@@ -143,7 +143,7 @@ export default {
       &.nuxt-link-exact-active {
         background: url('~@/assets/img/underline.svg') no-repeat center bottom;
         background-size: 50px;
-        background-position-y: 35px;
+        background-position-y: 44px;
       }
     }
   }

@@ -15,7 +15,7 @@
       <div class="c4">
         <div :class="buttonClass">
           <nuxt-link :to="href">
-            View Project
+            Learn more >
           </nuxt-link>
         </div>
       </div>
@@ -71,48 +71,51 @@ h1 {
 .project-view-button {
   &.chelada {
     border: 1px solid $chelada;
-    a:hover {
+    &:hover {
       background-color: $chelada;
-      color: $baseWhite;
+      & * {
+        color: $baseWhite;
+      }
     }
   }
   &.dynamo {
     border: 1px solid $dynamo;
-    a:hover {
+    &:hover {
       background-color: $dynamo;
     }
   }
   &.eatlas {
     border: 1px solid $eatlas;
-    a:hover {
+    &:hover {
       background-color: $eatlas;
-      color: $baseWhite;
+      & * {
+        color: $baseWhite;
+      }
     }
   }
   &.vidyoconnect {
     border: 1px solid $vidyoconnect;
-    a:hover {
+    &:hover {
       background-color: $vidyoconnect;
-      color: $baseWhite;
+      & * {
+        color: $baseWhite;
+      }
     }
   }
   &.presquevu {
     border: 1px solid $presquevu;
-    a:hover {
+    &:hover {
       background-color: $presquevu;
-      color: $baseWhite;
+      & * {
+        color: $baseWhite;
+      }
     }
   }
   &.slate {
     border: 1px solid $slate;
-    a:hover {
+    &:hover {
       background-color: $slate;
     }
-  }
-  a {
-    color: $baseTextBlueBlack;
-    display: block;
-    padding: 8px 16px;
   }
 }
 

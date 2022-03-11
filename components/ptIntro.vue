@@ -104,32 +104,14 @@ export default {
   }
 
   h1 {
-    font-size: 2.4rem;
-    line-height: 1;
     color: $baseTextBlueBlack;
   }
 
   h2 {
-    font-size: 1.6rem;
-    line-height: 1;
     color: $baseTextBlueBlack;
   }
 }
-@media only screen and (min-width: 768px) {
-  #pt-intro {
-    height: 300px;
 
-    h1 {
-      font-size: 3.2rem;
-      line-height: 1;
-    }
-
-    h2 {
-      font-size: 2.8rem;
-      line-height: 1;
-    }
-  }
-}
 @media only screen and (min-width: 1170px) {
   #pt-intro {
     left: 0;
@@ -145,16 +127,6 @@ export default {
       transform-origin: 50% 100%;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
-    }
-
-    h1 {
-      font-size: 4rem;
-      line-height: 1;
-    }
-
-    h2 {
-      font-size: 3.2rem;
-      line-height: 1;
     }
   }
 }
