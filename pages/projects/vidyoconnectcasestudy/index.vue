@@ -1,5 +1,7 @@
 <template>
   <div>
+    <MainHeader ref="header" />
+
     <div class="page-content">
       <div class="intro">
         <grid class col="2" col-s="1">
@@ -416,8 +418,10 @@
       <h3>Q2 2017 New features</h3>
       <br />
 
-                <div class="center"><img src="./img/fcc.png" />
-          Remote Camera control</div>
+      <div class="center">
+        <img src="./img/fcc.png" />
+        Remote Camera control
+      </div>
 
       <grid class="center" col="3" col-s="1">
         <c style="grid-row: 1/3" span="1">
@@ -425,7 +429,7 @@
           Calendar integration
         </c>
         <c span="2">
- <img src="./img/layoutdrag.gif" />
+          <img src="./img/layoutdrag.gif" />
           Prototyping with layout
         </c>
 
@@ -437,39 +441,42 @@
 
       <h3>Q3 2017 – 17.3, Nexi 2.0</h3>
 
-<br>
+      <br />
       Bloomberg Nexi upgrade from Vidyo Desktop, upgrade to an existing
       deployment received 3.6 million calls minutes (140% increase) across
       42,000 meetings (180% increase) with 92,500 (280% increase) calls in first
       6 days.
-<br>
-<br>
-<grid  col="2" col-s="1">
-  <c> <img src="./img/jb.png" /></c>
-  <c>
-      <div class="quote">
-        Every market in the world uses Bloomberg for their platform to trade financial products, and because you've made us betterm you've made them better.
-<br>
-<br>
-        [Churchil] Never has so much been done for so many by so few.
-<br>
-<br>
-        <p style="float: right">- Jeff Fairbanks, Bloomberg</p>
-      </div>
-</c>
-</grid>
-<br>
-<h4>Update on Nexi</h4>
-<br>
+      <br />
+      <br />
+      <grid col="2" col-s="1">
+        <c><img src="./img/jb.png" /></c>
+        <c>
+          <div class="quote">
+            Every market in the world uses Bloomberg for their platform to trade
+            financial products, and because you've made us betterm you've made
+            them better.
+            <br />
+            <br />
+            [Churchil] Never has so much been done for so many by so few.
+            <br />
+            <br />
+            <p style="float: right">- Jeff Fairbanks, Bloomberg</p>
+          </div>
+        </c>
+      </grid>
+      <br />
+      <h4>Update on Nexi</h4>
+      <br />
 
-I was pleased to recieve an update on the Nexi platform from Jeff Fairbanks.
-<br>
-<br>
-<img class="max-400" src="./img/jb2.png" />
-<br>
-<br>
-<br>
-<hr>
+      I was pleased to recieve an update on the Nexi platform from Jeff
+      Fairbanks.
+      <br />
+      <br />
+      <img class="max-400" src="./img/jb2.png" />
+      <br />
+      <br />
+      <br />
+      <hr />
       <div style="margin-top: 24px" class="max-700">
         <div style="padding: 56.25% 0 0 0; position: relative">
           <iframe
@@ -496,6 +503,7 @@ I was pleased to recieve an update on the Nexi platform from Jeff Fairbanks.
 <script>
 import DefinitionBox from '~/components/DefinitionBox';
 import VideoPlayer from '~/components/VideoPlayer.vue';
+import MainHeader from '~/components/MainHeader';
 
 export default {
   name: 'VidyoConnect',
@@ -607,7 +615,8 @@ export default {
   },
   components: {
     DefinitionBox,
-    VideoPlayer
+    VideoPlayer,
+    MainHeader
   }
 };
 </script>

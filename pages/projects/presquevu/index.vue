@@ -1,52 +1,45 @@
 <template>
-  <div class="page-content">
+  <div>
+    <MainHeader ref="header" />
 
-    <div class="intro">
-      <grid class col="2" col-s="1">
-        <c class="c1" span="1">
-          <h1>
-            <img
-              class="pt-project-logo"
-              src="./img/presquevu_logo.svg"
-            />
-            PresqueVu
-          </h1>
-        </c>
-        <c class="c2" span="1">
-          <div class="pt-project-pic presquevu"></div>
-        </c>
-        <c class="c3" span="1">
-          <p>
-            PresqueVu is A context aware reminder application that
-            triggers reminders based on your proximity to a designated
-            person.
-          </p>
-          <p>
-            How many times have to though you remembered something but
-            cannot recall it. PresqueVu is the
-            <i>tip of the tongue</i>
-            phenomenon, in which you know that you know something, but
-            can't quite recall it.
-          </p>
-          <br />
-        </c>
-      </grid>
-    </div>
-
-
+    <div class="page-content">
+      <div class="intro">
+        <grid class col="2" col-s="1">
+          <c class="c1" span="1">
+            <h1>
+              <img class="pt-project-logo" src="./img/presquevu_logo.svg" />
+              PresqueVu
+            </h1>
+          </c>
+          <c class="c2" span="1">
+            <div class="pt-project-pic presquevu"></div>
+          </c>
+          <c class="c3" span="1">
+            <p>
+              PresqueVu is A context aware reminder application that triggers
+              reminders based on your proximity to a designated person.
+            </p>
+            <p>
+              How many times have to though you remembered something but cannot
+              recall it. PresqueVu is the
+              <i>tip of the tongue</i>
+              phenomenon, in which you know that you know something, but can't
+              quite recall it.
+            </p>
+            <br />
+          </c>
+        </grid>
+      </div>
 
       <div class="pt-content">
         <div class="pt-container-middle">
-          
           <div class="flex">
             <img class="full-width max-1000 center" src="./img/poster.png" />
           </div>
           <br />
           <br />
 
-          <h4 class="center">
-            PROBLEM SPACE
-          </h4>
+          <h4 class="center">PROBLEM SPACE</h4>
           <p>
             The market is saturated with time-based reminder application.
             Recently, with applications like Google Now, people can now set
@@ -58,9 +51,7 @@
             triggered when the designated person is in proximity.
           </p>
 
-          <h4 class="center">
-            PROJECT SCOPE
-          </h4>
+          <h4 class="center">PROJECT SCOPE</h4>
           <p>
             The total duration of this project was 5 weeks. Over this period we
             engaged in the end to end design process and built a working
@@ -73,9 +64,7 @@
             the final poster show.
           </p>
 
-          <h4 class="center">
-            CONCEPT VALIDATION
-          </h4>
+          <h4 class="center">CONCEPT VALIDATION</h4>
           <p>
             We interviewed 6 people to determine if our concept was viable. The
             most common responses wer that people would feel uncomfortable
@@ -89,9 +78,7 @@
           </p>
         </div>
         <div class="container-full">
-          <h4 class="center">
-            STORY BOARDING
-          </h4>
+          <h4 class="center">STORY BOARDING</h4>
           <p class="center">
             We used Storyboarding to define what a typical usage scenario for
             our application would be.
@@ -104,9 +91,7 @@
           </div>
         </div>
         <div class="pt-container-middle">
-          <h4 class="center">
-            SKETCHES AND PAPER PROTOTYPES
-          </h4>
+          <h4 class="center">SKETCHES AND PAPER PROTOTYPES</h4>
           <p>
             We sketched out navigation flows, which later translated into paper
             prototypes.
@@ -115,9 +100,7 @@
             <img class="full-width max-700 center" src="./img/navigation.jpg" />
           </div>
 
-          <h4 class="center">
-            USER TESTING
-          </h4>
+          <h4 class="center">USER TESTING</h4>
           <br />
           <div class="flex">
             <div class="quote center middle">
@@ -150,9 +133,7 @@
         <br />
         <br />
         <div class="container-full">
-          <h4 class="center">
-            Initial UI WIREFRAMES
-          </h4>
+          <h4 class="center">Initial UI WIREFRAMES</h4>
           <br />
           <br />
           <div class="steps3">
@@ -175,9 +156,7 @@
         <br />
         <br />
         <div class="pt-container-middle">
-          <h4 class="center">
-            APPLICATION ARCHITECTURE
-          </h4>
+          <h4 class="center">APPLICATION ARCHITECTURE</h4>
           <p>
             We sketched out the architecture of our application, to make sure it
             was technically viable and determined the essential components that
@@ -188,9 +167,7 @@
           </div>
           <br />
           <br />
-          <h4 class="center">
-            PRIVACY AND SECURITY CONCERNS
-          </h4>
+          <h4 class="center">PRIVACY AND SECURITY CONCERNS</h4>
           <p>
             We brainstormed various approaches to ensure that our application
             respected the privacy of it's users. We decided to add a feature
@@ -204,18 +181,14 @@
             all location information that was being sent to the server.
           </p>
 
-          <h4 class="center">
-            BUSINESS MODEL
-          </h4>
+          <h4 class="center">BUSINESS MODEL</h4>
           <p>
             We propose a Freemium model to generate profit from PresqueVu. Users
             would only be allowed to set a fixed number of reminders for free,
             and would need to buy upgrades to set more reminders.
           </p>
 
-          <h4 class="center">
-            FINAL PROTOTYPE
-          </h4>
+          <h4 class="center">FINAL PROTOTYPE</h4>
           <p>
             The final working prototype was a web application built using
             Express framework for Node.js that used Socket.io for client-server
@@ -300,16 +273,19 @@
           <br />
         </div>
       </div>
-
+    </div>
   </div>
 </template>
 
 <script>
+import MainHeader from '~/components/MainHeader';
+
 export default {
   name: 'PresqueVu',
   head() {
-    return {      
-      title: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.',
+    return {
+      title:
+        'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.',
       meta: [
         {
           name: 'description',
@@ -318,7 +294,8 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+          content:
+            'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
         },
         {
           property: 'og:image',
@@ -329,10 +306,15 @@ export default {
           content:
             'A context aware reminder application that triggers reminders based on your proximity to a designated person.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/presquevu' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'http://ptewari.com/projects/presquevu'
+        },
         {
           name: 'twitter:title',
-          content: 'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
+          content:
+            'PresqueVu - A context aware reminder application that triggers reminders based on your proximity to a designated person.'
         },
         {
           name: 'twitter:description',
@@ -344,8 +326,10 @@ export default {
           content: 'https://i.imgur.com/6lhtZiQ.png'
         }
       ]
-    }
+    };
   },
-  components: {}
+  components: {
+    MainHeader
+  }
 };
 </script>

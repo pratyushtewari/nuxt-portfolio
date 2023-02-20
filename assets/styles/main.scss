@@ -34,6 +34,11 @@ img {
   bottom: 0px;
 }
 
+.align-top {
+  display: flex;
+  align-items: start;
+}
+
 @font-face {
   font-family: 'ptfont';
   src: url('~assets/fonts/ptfont.eot');
@@ -62,8 +67,8 @@ img {
   font-display: swap;
   src: local('IBM Plex Sans'),
     url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,200&display=swap);
-    // url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2)
-    //   format('woff2');
+  // url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2)
+  //   format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
@@ -91,8 +96,8 @@ body {
 }
 
 a {
-  color: $baseRed;
-  text-decoration: none;
+  color: $logoblue;
+  text-decoration: underline;
 }
 h1,
 h2,
@@ -103,6 +108,7 @@ h6 {
   /*reset for mobile browsers */
   font-weight: normal;
   margin: 1.6rem 0 0 0;
+  text-decoration: none;
 }
 
 h1 {
@@ -139,14 +145,22 @@ h4 {
 
 p {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 400;
+}
+.subdued {
+  color: getColor(subdued);
+}
+
+.base-text {
+  color: getColor(baseText);
+  text-decoration: none;
 }
 // for screens larger than mobile
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 60px;
-    
+
     line-height: 1.25;
   }
   h2 {
@@ -162,6 +176,9 @@ p {
   text-transform: uppercase;
 }
 
+.no-margin {
+  margin: initial;
+}
 .fading-border {
   margin-bottom: 48px;
   display: block;
@@ -519,8 +536,17 @@ img {
     background: url('~assets/img/fingers/three_onlight.svg') center no-repeat;
   }
 }
+.link-img {
+  background: url('~assets/img/link-arrow_onlight.svg') center no-repeat;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
 
 @media (prefers-color-scheme: dark) {
+  .link-img {
+    background: url('~assets/img/link-arrow_ondark.svg') center no-repeat;
+  }
   .finger {
     &.one {
       background: url('~assets/img/fingers/one_ondark.svg') center no-repeat;

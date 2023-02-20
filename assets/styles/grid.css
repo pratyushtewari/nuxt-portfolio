@@ -31,7 +31,7 @@ grid > c[span^="7"] { --grid-cs: 7 }
 grid > c[span^="8"] { --grid-cs: 8 }
 
 grid > c[start] {align-self: start}
-grid > c[middle] {align-self: middle}
+grid > c[middle] {align-self: center}
 grid > c[end] {align-self: end}
 
 grid > c[left] {justify-self: left}
