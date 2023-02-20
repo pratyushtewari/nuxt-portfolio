@@ -1,8 +1,8 @@
 <template>
   <div
-    class="page-content pt-container-middle"
-    style="max-width: 540px; padding-top: 40px"
-  >
+    class="home" 
+    
+  ><div class="page-content pt-container-middle" style="max-width: 540px; padding-top: 40px">
     <br />
     <grid
       style="grid-template-columns: min-content auto; padding-bottom: 20px"
@@ -431,6 +431,7 @@
     </grid>
 
     <br />
+  </div>
   </div>
 </template>
 <script>

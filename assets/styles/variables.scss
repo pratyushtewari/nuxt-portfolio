@@ -20,25 +20,29 @@ $slantBackground: rgba(0, 188, 212, 0.4);
 
 //light theme
 $colors: (
-  baseBackground: #FFFFFF,
-  baseText: hsl(211, 30%, 25%),
-  baseBackgroundHighlight: #f2f5f8,
-  baseBackgroundSubdude: #f2f5f8,
+  baseBackground:#f4f8ff,
+  baseText: #191a1a,
+  baseBackgroundHighlight: #FFF,
+  baseBackgroundSubdude: #e9eef3,
   baseBackgrounddarker: #cdd9e4,
-  h3Textcolor: hsl(211, 30%, 25%),
+  h3Textcolor: #191a1a,
   h4Textcolor: $logoblue,
-  subdued: #72777E,
+  subdued: #707474,
+  g1: #dfe9f3,
+  g2: #FFF,
 );
 //dark theme
 $colors-dark: (
-  baseBackground: hsl(211, 30%, 25%),
-  baseText: #FFFFFF,
-  baseBackgroundHighlight: hsl(211, 30%, 35%),
+  baseBackground: #29323c,
+  baseText: #FAFAFA,
+  baseBackgroundHighlight: #29323c,
   baseBackgroundSubdude: hsl(211, 30%, 15%),
   baseBackgrounddarker: hsl(211, 30%, 15%),
-  h3Textcolor:  #FFFFFF,
+  h3Textcolor: #FAFAFA,
   h4Textcolor: $slate,
   subdued: #BBBFC4,
+  g1: #29323c,
+  g2: #485563,
 );
 //converting scss variable into css variable
 :root {

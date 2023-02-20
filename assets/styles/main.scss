@@ -88,12 +88,9 @@ body {
   font-weight: 400;
   font-family: 'IBM Plex Sans', 'Alegreya Sans', sans-serif;
   color: getColor(baseText);
-  background-color: getColor(baseBackground);
-  // &::after{
-  //   content: var(--theme);
-  //   display: none;
-  // }
+  background-image: linear-gradient(to top,  getColor(g1) 0%, getColor(g2) 100%);
 }
+
 
 a {
   color: $logoblue;

@@ -23,7 +23,7 @@
             <nuxt-link to="/projects/eatlas">Eatlas</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/vidyoconnect">Vidyo Connect</nuxt-link>
+            <nuxt-link to="/projects/vidyoconnectcasestudy">Vidyo Connect</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/projects/chelada">Chelada</nuxt-link>
@@ -90,9 +90,9 @@ export default {
 
 <style lang="scss" scoped>
 footer#footer {
-  margin: 50px 0px 0px 0px;
-  background: getColor(baseBackgroundSubdude);
-  color: #939393;
+  // margin: 50px 0px 0px 0px;
+  background: getColor(baseBackgrounddarker);
+  color: getColor(subdued);
 
   c {
     padding-top: 36px;

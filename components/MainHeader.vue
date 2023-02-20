@@ -36,7 +36,7 @@ export default {
   left: 0;
   width: 100%;
   height: 40px;
-  background: getColor(baseBackground);
+  background: getColor(g2);
   color: getColor(baseText);
   transition: 300ms;
   // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); - added upon scrolling in App.vue
