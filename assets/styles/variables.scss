@@ -25,8 +25,9 @@ $colors: (
   baseBackgroundHighlight: #f2f5f8,
   baseBackgroundSubdude: #f2f5f8,
   baseBackgrounddarker: #cdd9e4,
-  h3Textcolor: $baseRed,
+  h3Textcolor: hsl(211, 30%, 25%),
   h4Textcolor: $logoblue,
+  subdued: #72777E,
 );
 //dark theme
 $colors-dark: (
@@ -35,8 +36,9 @@ $colors-dark: (
   baseBackgroundHighlight: hsl(211, 30%, 35%),
   baseBackgroundSubdude: hsl(211, 30%, 15%),
   baseBackgrounddarker: hsl(211, 30%, 15%),
-  h3Textcolor: $baseYellow,
+  h3Textcolor:  #FFFFFF,
   h4Textcolor: $slate,
+  subdued: #BBBFC4,
 );
 //converting scss variable into css variable
 :root {

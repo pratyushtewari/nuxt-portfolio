@@ -3,25 +3,23 @@
     <div class="pt-main-nav-button" @click="toggleNavMenu"></div>
     <ul ref="links">
       <!-- inser more links here -->
-        <nuxt-link to="/" >
-      <li @click="closeNavMenu">
-          HOME
-      </li>
-        </nuxt-link>
-        <nuxt-link to="/about">
+      <nuxt-link to="/">
+        <li @click="closeNavMenu">HOME</li>
+      </nuxt-link>
+      <!-- <nuxt-link to="/about">
       <li @click="closeNavMenu">
           ABOUT
       </li>
-        </nuxt-link>
+        </nuxt-link> -->
       <li @click="closeNavMenu">
-        <DropdownMenu/>
+        <DropdownMenu />
       </li>
     </ul>
   </nav>
 </template>
 
 <script>
-import DropdownMenu from './DropdownMenu'
+import DropdownMenu from './DropdownMenu';
 export default {
   name: 'MainNavigation',
   components: {
@@ -33,10 +31,10 @@ export default {
     };
   },
   methods: {
-    toggleNavMenu: function(event) {
+    toggleNavMenu: function (event) {
       $(this.$refs.links).toggleClass('is-visible');
     },
-    closeNavMenu: function(event) {
+    closeNavMenu: function (event) {
       $(this.$refs.links).removeClass('is-visible');
     }
   }
@@ -99,7 +97,7 @@ export default {
 @media only screen and (min-width: 768px) {
   .pt-main-nav {
     width: auto;
-    height: auto;   
+    height: auto;
     cursor: auto;
     margin: 0 5% 0 0;
     display: flex;

@@ -12,57 +12,48 @@
         </div>
       </c>
       <c span="1">
-        <h4 class="footer-links-title inline-heading">
-          Work
+        <h4
+          class="footer-links-title inline-heading no-margin"
+          style="margin-bottom: 10px"
+        >
+          Side Projects
         </h4>
         <ul id="project-links" class="footer-links-list">
           <li>
-            <nuxt-link to="/projects/eatlas">
-              Eatlas
-            </nuxt-link>
+            <nuxt-link to="/projects/eatlas">Eatlas</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/vidyoconnect">
-              Vidyo Connect
-            </nuxt-link>
+            <nuxt-link to="/projects/vidyoconnect">Vidyo Connect</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/chelada">
-              Chelada
-            </nuxt-link>
+            <nuxt-link to="/projects/chelada">Chelada</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/presquevu">
-              PresqueVu
-            </nuxt-link>
+            <nuxt-link to="/projects/presquevu">PresqueVu</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/dynamo">
-              Dynamo
-            </nuxt-link>
+            <nuxt-link to="/projects/dynamo">Dynamo</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects/slate">
-              Slate
-            </nuxt-link>
+            <nuxt-link to="/projects/slate">Slate</nuxt-link>
           </li>
         </ul>
       </c>
       <c span="1">
-        <h4 class="footer-links-title inline-heading">
+        <h4
+          class="footer-links-title inline-heading no-margin"
+          style="margin-bottom: 10px"
+        >
           Connect
         </h4>
         <ul class="footer-links-list">
           <li>
-            <nuxt-link to="/about">
-              About
-            </nuxt-link>
-          </li>
-          <li>
             <a title="hi@ptewari.com" href="mailto:hi@ptewari.com">Email</a>
           </li>
           <li>
-            <a target="_blank" href="https://twitter.com/uxanddesign">Twitter</a>
+            <a target="_blank" href="https://twitter.com/uxanddesign">
+              Twitter
+            </a>
           </li>
           <li>
             <a target="_blank" href="https://linkedin.com/in/pratyushtewari">
@@ -84,7 +75,7 @@
           target="_blank"
           href="https://www.youtube.com/playlist?list=PL9gYFjMb3V297umW9XKuBvnUWYVQExeK-"
         >
-          <span>©2019 Pratyush Tewari - made with ❤️on 🌏</span>
+          <span>©2023 Pratyush Tewari - made with ❤️on 🌏</span>
         </a>
       </div>
     </div>

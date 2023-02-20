@@ -1,5 +1,7 @@
 <template>
   <div>
+    <MainHeader ref="header" />
+
     <div class="page-content">
       <div class="intro">
         <grid class col="2" col-s="1">
@@ -32,10 +34,16 @@
       <br />
       <br />
       <div class="max-700">
-        <div style="padding:56.25% 0 0 0;position:relative;">
+        <div style="padding: 56.25% 0 0 0; position: relative">
           <iframe
             src="https://player.vimeo.com/video/240894889?color=ffffff&title=0&byline=0&portrait=0"
-            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            "
             frameborder="0"
             allow="autoplay;"
             allowfullscreen="false"
@@ -60,6 +68,8 @@
 
 <script>
 import DefinitionBox from '~/components/DefinitionBox';
+import MainHeader from '~/components/MainHeader';
+
 export default {
   name: 'VidyoConnectCaseStudy',
   head() {
@@ -69,8 +79,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content:
-            'An Enterprise Meeting Solution for Team Collaboration'
+          content: 'An Enterprise Meeting Solution for Team Collaboration'
         },
         {
           property: 'og:title',
@@ -83,8 +92,7 @@ export default {
         },
         {
           property: 'og:description',
-          content:
-            'An Enterprise Meeting Solution for Team Collaboration'
+          content: 'An Enterprise Meeting Solution for Team Collaboration'
         },
         {
           hid: 'og:url',
@@ -98,8 +106,7 @@ export default {
         },
         {
           name: 'twitter:description',
-          content:
-            'An Enterprise Meeting Solution for Team Collaboration'
+          content: 'An Enterprise Meeting Solution for Team Collaboration'
         },
         {
           name: 'twitter:image',
@@ -109,7 +116,8 @@ export default {
     };
   },
   components: {
-    DefinitionBox
+    DefinitionBox,
+    MainHeader
   }
 };
 </script>

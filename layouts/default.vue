@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainHeader ref="header" />
+    <!-- <MainHeader ref="header" /> -->
     <VueScrollProgressBar height="2px"  zIndex="1050"/>
     <nuxt v-scroll="handleScroll" />
     <MainFooter />

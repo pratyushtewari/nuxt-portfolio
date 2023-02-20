@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MainHeader ref="header" />
     <div class="page-content">
       <div class="intro">
         <grid class col="2" col-s="1">
@@ -50,9 +51,7 @@
       </div>
     </div>
     <div class="container-full">
-      <h2 class="main center">
-        Based on just 3 simple gestures
-      </h2>
+      <h2 class="main center">Based on just 3 simple gestures</h2>
       <div class="steps3">
         <span>
           <img class="phone" src="@/assets/img/projects/eatlas/img/step1.png" />
@@ -111,7 +110,7 @@
         <div class="center">
           <p>
             <img
-              style="width:100%;"
+              style="width: 100%"
               src="@/assets/img/projects/eatlas/img/thinking_about_food.png"
             />
           </p>
@@ -121,7 +120,7 @@
           <p>
             <img
               class="center max-500"
-              style="width:100%;"
+              style="width: 100%"
               src="@/assets/img/projects/eatlas/img/flow-chart-food.png"
             />
           </p>
@@ -141,9 +140,7 @@
       </div>
     </div>
     <div class="container-full">
-      <h2 class="center">
-        Why the spin?
-      </h2>
+      <h2 class="center">Why the spin?</h2>
       <br />
       <p class="max-700">
         During my market research, I found that there are three basic types of
@@ -223,9 +220,7 @@
       <br />
       <br />
       <div class="pt-container-middle">
-        <h2 class="center">
-          Insights
-        </h2>
+        <h2 class="center">Insights</h2>
         <br />
         <h3>Things people do about food at home</h3>
         <p>
@@ -287,9 +282,7 @@
             I feel dumb when I go to french restaurants and have no idea what is
             on the menu.
           </div>
-          <div class="quote">
-            I get distracted when I am browsing online.
-          </div>
+          <div class="quote">I get distracted when I am browsing online.</div>
         </grid>
         <br />
         <h3>Things people do to get more sustainable</h3>
@@ -304,9 +297,7 @@
             I hate when restaurants pack plastic spoons when I order food at
             home.
           </div>
-          <div class="quote">
-            I do not like food wrapped in plastic.
-          </div>
+          <div class="quote">I do not like food wrapped in plastic.</div>
           <div class="quote">
             I would like to save money and share cooked food with friends.
           </div>
@@ -330,47 +321,40 @@
             I just follow my friends and let them pick a cuisine or the
             restaurant.
           </div>
-          <div class="quote">
-            What are people eating in China these days?
-          </div>
-          <div class="quote">
-            When I travel I don't know what to eat.
-          </div>
+          <div class="quote">What are people eating in China these days?</div>
+          <div class="quote">When I travel I don't know what to eat.</div>
         </grid>
       </div>
       <br />
       <br />
     </div>
-    
 
     <div class="container-full">
-      <h2 class="center">
-        The content
-      </h2>
+      <h2 class="center">The content</h2>
       <br />
       <p class="page-content">
-        The design of the app is very simple and based on three primary interaction
-        to discover. Once the user has discovered the country s/he wants to pursue,
-        they can deep dive into it and either read about the country, look into its
-        cuisine and recipes or pick a restaurant to either to go or order from. The
-        other side of the app is the admin content generators where they will be
-        provided with a good editor tool where they can write about the countries,
-        add new recipes or promote restaurants.
+        The design of the app is very simple and based on three primary
+        interaction to discover. Once the user has discovered the country s/he
+        wants to pursue, they can deep dive into it and either read about the
+        country, look into its cuisine and recipes or pick a restaurant to
+        either to go or order from. The other side of the app is the admin
+        content generators where they will be provided with a good editor tool
+        where they can write about the countries, add new recipes or promote
+        restaurants.
       </p>
     </div>
     <br />
 
     <div class="page-content">
-      <h3 class="center">
-        The design system of EATLAS
-      </h3>
+      <h3 class="center">The design system of EATLAS</h3>
       <p>
-        While designing this app, I went through various iterations of design and
-        testing to make sure the app is both informative as well as pleasing and
-        fun. During this phase, I made a design system with grids, typography,
-        colors, and components that can be used over and over and overloaded so that
-        the content generation is geared properly to make templates that can be
-        coded easily. Below is a glimpse of such iterations.
+        While designing this app, I went through various iterations of design
+        and testing to make sure the app is both informative as well as pleasing
+        and fun. During this phase, I made a design system with grids,
+        typography, colors, and components that can be used over and over and
+        overloaded so that the content generation is geared properly to make
+        templates that can be coded easily. Below is a glimpse of such
+        iterations.
       </p>
       <br />
       <br />
@@ -386,9 +370,7 @@
 
       <br />
       <br />
-      <h3 class="center">
-        From wireframes to high fidelity
-      </h3>
+      <h3 class="center">From wireframes to high fidelity</h3>
       <br />
       <TwentyTwenty
         :before="app0"
@@ -408,31 +390,39 @@
 
       <br />
       <br />
-      <h2 class="center">
-        Each component has well defined layout
-      </h2>
+      <h2 class="center">Each component has well defined layout</h2>
       <div class="center">
         and is comprised of variour components to facilitate modular development
       </div>
       <br />
 
       <carousel :navigation-enabled="true" :per-page="1" class="width400">
-        <slide><img src="@/assets/img/projects/eatlas/img/component1.png" /></slide>
-        <slide><img src="@/assets/img/projects/eatlas/img/component2.png" /></slide>
-        <slide><img src="@/assets/img/projects/eatlas/img/component3.png" /></slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/component1.png" />
+        </slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/component2.png" />
+        </slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/component3.png" />
+        </slide>
       </carousel>
 
       <br />
       <br />
-      <h2 class="center">
-        Each component is highly customizable
-      </h2>
+      <h2 class="center">Each component is highly customizable</h2>
       <br />
 
       <carousel :navigation-enabled="true" :per-page="1" class="width400">
-        <slide><img src="@/assets/img/projects/eatlas/img/override1.png" /></slide>
-        <slide><img src="@/assets/img/projects/eatlas/img/override2.png" /></slide>
-        <slide><img src="@/assets/img/projects/eatlas/img/override3.png" /></slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/override1.png" />
+        </slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/override2.png" />
+        </slide>
+        <slide>
+          <img src="@/assets/img/projects/eatlas/img/override3.png" />
+        </slide>
       </carousel>
     </div>
   </div>
@@ -441,11 +431,14 @@
 <script>
 import VideoPlayer from '~/components/VideoPlayer.vue';
 import TwentyTwenty from '~/components/TwentyTwenty.vue';
+import MainHeader from '~/components/MainHeader';
+
 export default {
   name: 'Eatlas',
   head() {
-    return {      
-      title: 'Eatlas - A system that helps you discover new food, cultures, and countries.',
+    return {
+      title:
+        'Eatlas - A system that helps you discover new food, cultures, and countries.',
       meta: [
         {
           name: 'description',
@@ -454,7 +447,8 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'
+          content:
+            'Eatlas - A system that helps you discover new food, cultures, and countries.'
         },
         {
           property: 'og:image',
@@ -465,10 +459,15 @@ export default {
           content:
             'A system that helps you discover new food, cultures, and countries.'
         },
-        { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/projects/eatlas' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'http://ptewari.com/projects/eatlas'
+        },
         {
           name: 'twitter:title',
-          content: 'Eatlas - A system that helps you discover new food, cultures, and countries.'
+          content:
+            'Eatlas - A system that helps you discover new food, cultures, and countries.'
         },
         {
           name: 'twitter:description',
@@ -480,13 +479,14 @@ export default {
           content: 'https://i.imgur.com/CkiAt6c.png'
         }
       ]
-    }
+    };
   },
   components: {
     VideoPlayer,
-    TwentyTwenty
+    TwentyTwenty,
+    MainHeader
   },
-  data: function() {
+  data: function () {
     return {
       affiliny00: require('@/assets/img/projects/eatlas/img/affiliny00.jpg'),
       affiliny0: require('@/assets/img/projects/eatlas/img/affiliny0.jpg'),

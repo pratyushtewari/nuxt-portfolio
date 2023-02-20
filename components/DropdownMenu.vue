@@ -1,40 +1,26 @@
 <template>
-  <div  @mouseover="mouseover" @mouseleave="mouseleave">
-    <div class="buttond">
-      Projects
-    </div>
+  <div @mouseover="mouseover" @mouseleave="mouseleave">
+    <div class="buttond">Side Projects</div>
     <div ref="menu" class="menu">
       <ul ref="links">
         <!-- inser more links here -->
         <nuxt-link to="/projects/eatlas">
-          <li @click="togglemenu">
-            Eatlas
-          </li>
+          <li @click="togglemenu">Eatlas</li>
         </nuxt-link>
-        <nuxt-link to="/projects/vidyoconnect">
-          <li @click="togglemenu">
-            Vidyo Connect
-          </li>
+        <nuxt-link to="/projects/vidyoconnectcasestudy">
+          <li @click="togglemenu">Vidyo Connect</li>
         </nuxt-link>
         <nuxt-link to="/projects/chelada">
-          <li @click="togglemenu">
-            Chelada
-          </li>
+          <li @click="togglemenu">Chelada</li>
         </nuxt-link>
         <nuxt-link to="/projects/dynamo">
-          <li @click="togglemenu">
-            Dynamo
-          </li>
+          <li @click="togglemenu">Dynamo</li>
         </nuxt-link>
         <nuxt-link to="/projects/presquevu">
-          <li @click="togglemenu">
-            Presquevu
-          </li>
+          <li @click="togglemenu">Presquevu</li>
         </nuxt-link>
         <nuxt-link to="/projects/slate">
-          <li @click="togglemenu">
-            Slate
-          </li>
+          <li @click="togglemenu">Slate</li>
         </nuxt-link>
         <!-- <li><a href="contact.html">Contact</a></li> -->
       </ul>
@@ -46,13 +32,13 @@
 export default {
   name: 'DropdownMenu',
   methods: {
-    togglemenu: function(event) {      
+    togglemenu: function (event) {
       $(this.$refs.menu).removeClass('visible');
     },
-    mouseover: function(event) {
+    mouseover: function (event) {
       $(this.$refs.menu).addClass('visible');
     },
-    mouseleave: function(event) {
+    mouseleave: function (event) {
       $(this.$refs.menu).removeClass('visible');
     }
   }
