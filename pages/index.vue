@@ -16,8 +16,8 @@
       </c>
       <c middle>
         <p style="font-size: 24px">Pratyush Tewari</p>
-        <p class="subdued">Design Manager in New York</p>
-        <p><nuxt-link class="subdued" to="/">ptewari.com</nuxt-link></p>
+        <p class="subdued">UX Strategy & growth</p>
+        <p>New York</p>
       </c>
     </grid>
     <h3>About</h3>
@@ -107,7 +107,7 @@
         </p>
 
         <p class="subdued">
-          Managing the design system team for the VTS platform. Partnering with
+          Managing the platform design team at VTS which created a new company wide, cross-product Design System that reduced component redundancy by 6x. Partnering with
           all VTS products to champion cross-product opportunities and help VTS
           customers use VTS product as one platform instead of disparate
           applications. Uniting the design language for VTS and creating
