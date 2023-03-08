@@ -16,7 +16,7 @@
       </c>
       <c middle>
         <p style="font-size: 24px">Pratyush Tewari</p>
-        <p class="subdued">UX Strategy & growth</p>
+        <p class="subdued">UX STRATEGY & GROWTH</p>
         <p>New York</p>
       </c>
     </grid>
