@@ -99,7 +99,7 @@
     >
       <c class="subdued" style="padding-top: 4px">2021 — Now</c>
       <c>
-        <p style="font-size: 18px; font-weight: 600;">Restructuring multiple disparate products into a single platform.</p>
+        <p style="font-size: 18px; font-weight: 600;">Restructuring multiple disparate products into a single platform</p>
         <p style="font-size: 16px">Lead Platform Design Manager at VTS</p>
 
         <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
@@ -185,7 +185,7 @@
     >
       <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
       <c>
-        <p style="font-size: 18px; font-weight: 600;">Enabled entriprise customers to customize unified communication platform</p>
+        <p style="font-size: 18px; font-weight: 600;">Enabled enterprises to create custom communication platforms</p>
         <p style="font-size: 16px">
           Senior UI/UX Designer and Engineer at Vidyo
         </p>
