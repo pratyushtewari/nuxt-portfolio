@@ -25,14 +25,8 @@
       <c>
         <br />
         <p>
-          I love building products and tools, both physical and digital in
-          nature, that simply take away all the difficult, boring & repetitive
-          intricacies of a complex task and bring back the joy to the people.
-        </p>
-        <br />
-        <p>
           I am a Design-System Technologist: a software engineer turned product
-          designer / manager and I enjoy combining my obsession with technology
+          designer / manager. I enjoy combining my obsession with technology
           and human centered design to make people’s lives easier and fun. Over
           the last 14 years, I have helped startups and large corporations build
           products that delight customers and created systems that help good
@@ -40,14 +34,19 @@
         </p>
         <br />
         <p>
-          Currently, I manage the platform design missions at VTS and
+          Currently, I manage the platform design missions at a series-E NYC startup and
           development of a new design-system / design-operations that is
           transforming the design operations and scaling it to the new levels.
         </p>
 
-        <br />
+      <br/>
+        <p>Stop by 
+        <a class="base-text" style="font-size: 16px" href="/projects/eatlas">
+          Eatlas
+          <span class="link-img" style="white-space: nowrap"></span>
+        </a>to learn a bit more about my favorite side project.</p>
 
-        <p>Interested in learning more?</p>
+        <br />
         <div class="btngroup">
           <a
             class="btn"
@@ -98,9 +97,10 @@
       col="2"
       style="grid-template-columns: 100px auto; padding-bottom: 20px"
     >
-      <c class="subdued">2021 — Now</c>
+      <c class="subdued" style="padding-top: 4px">2021 — Now</c>
       <c>
-        <p style="font-size: 16px">Lead Platform Designer [Manager] at VTS</p>
+        <p style="font-size: 18px; font-weight: 600;">Restructuring multiple disparate products into a single platform.</p>
+        <p style="font-size: 16px">Lead Platform Design Manager at VTS</p>
 
         <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
           New York
@@ -145,8 +145,9 @@
       col="2"
       style="grid-template-columns: 100px auto; padding-bottom: 20px"
     >
-      <c class="subdued">2018 — 2021</c>
+      <c class="subdued" style="padding-top: 4px">2018 — 2021</c>
       <c>
+        <p style="font-size: 18px; font-weight: 600;">Empowered large number of designers to integrate into a new design system</p>
         <p style="font-size: 16px">
           VP, User Experience Design Lead at JP Morgan Chase
         </p>
@@ -182,8 +183,9 @@
       col="2"
       style="grid-template-columns: 100px auto; padding-bottom: 20px"
     >
-      <c class="subdued">2014 — 2018</c>
+      <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
       <c>
+        <p style="font-size: 18px; font-weight: 600;">Enabled entriprise customers to customize unified communication platform</p>
         <p style="font-size: 16px">
           Senior UI/UX Designer and Engineer at Vidyo
         </p>
@@ -239,8 +241,9 @@
       col="2"
       style="grid-template-columns: 100px auto; padding-bottom: 20px"
     >
-      <c class="subdued">2009 — 2013</c>
+      <c class="subdued" style="padding-top: 4px">2009 — 2013</c>
       <c>
+        <p style="font-size: 18px; font-weight: 600;">Equipped clients to customize and create their own reports</p>
         <p style="font-size: 16px">Analyst Developer at Goldman Sachs</p>
         <p style="font-size: 16px"></p>
         <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
