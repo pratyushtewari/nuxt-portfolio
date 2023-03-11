@@ -1,131 +1,197 @@
 <template>
-  <div
-    class="home" 
-    
-  ><div class="page-content pt-container-middle" style="max-width: 540px; padding-top: 40px">
-    <br />
-    <grid
-      style="grid-template-columns: min-content auto; padding-bottom: 20px"
-      col="2"
+  <div class="home">
+    <div
+      class="page-content pt-container-middle"
+      style="max-width: 540px; padding-top: 40px"
     >
-      <c>
-        <img
-          src="@/assets/img/pratyush_tewari_profile.jpg"
-          style="height: 100px; display: block; border-radius: 50%; width: auto"
-        />
-      </c>
-      <c middle>
-        <p style="font-size: 24px">Pratyush Tewari</p>
-        <p class="subdued">UX STRATEGY & GROWTH</p>
-        <p>New York</p>
-      </c>
-    </grid>
-    <h3>About</h3>
-    <grid class="middle" col="1">
-      <c>
-        <br />
-        <p>
-          I am a Design-System Technologist: a software engineer turned product
-          designer / manager. I enjoy combining my obsession with technology
-          and human centered design to make people’s lives easier and fun. Over
-          the last 14 years, I have helped startups and large corporations build
-          products that delight customers and created systems that help good
-          design practices permeate organizations.
-        </p>
-        <br />
-        <p>
-          Currently, I manage the platform design missions at a series-E NYC startup and
-          development of a new design-system / design-operations that is
-          transforming the design operations and scaling it to the new levels.
-        </p>
+      <br />
+      <grid
+        style="grid-template-columns: min-content auto; padding-bottom: 20px"
+        col="2"
+      >
+        <c>
+          <img
+            src="@/assets/img/pratyush_tewari_profile.jpg"
+            style="
+              height: 100px;
+              display: block;
+              border-radius: 50%;
+              width: auto;
+            "
+          />
+        </c>
+        <c middle>
+          <p style="font-size: 24px">Pratyush Tewari</p>
+          <p class="subdued">UX STRATEGY & GROWTH</p>
+          <p>New York</p>
+        </c>
+      </grid>
+      <h3>About</h3>
+      <grid class="middle" col="1">
+        <c>
+          <br />
+          <p>
+            Pratyush is a product designer based out of New York. Over the last
+            14 years, he has helped startups and large corporations build
+            products that delight customers and led design teams to effectively
+            use good design practices that permeate organizations. He is a
+            Design-System Technologist: a software engineer turned product
+            designer/manager and is particularly adept at aligning
+            cross-functional partners spanning engineering, product, and design
+            to deliver tangible results.
+          </p>
+          <br />
+          <p>
+            Currently, he manages the platform design missions at a series-E NYC
+            startup which is responsible for restructuring multiple disparate
+            products into a single platform and developing a new design system
+            that is transforming the design operations and scale to new levels.
+          </p>
 
-      <br/>
-        <p>Stop by 
-        <a class="base-text" style="font-size: 16px" href="/projects/eatlas">
-          Eatlas
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>to learn a bit more about my favorite side project.</p>
+          <br />
+          <p>
+            Stop by
+            <a
+              class="base-text"
+              style="font-size: 16px"
+              href="/projects/eatlas"
+            >
+              Eatlas
+              <span class="link-img" style="white-space: nowrap"></span>
+            </a>
+            to learn a bit more about my favorite side project.
+          </p>
 
-        <br />
-        <div class="btngroup">
-          <a
-            class="btn"
-            target="_blank"
-            href="/downloads/Pratyush-Tewari-Resume.pdf"
-          >
-            <span class="imagebtn pdf"></span>
-            Resume
-          </a>
+          <br />
+          <div class="btngroup">
+            <a
+              class="btn"
+              target="_blank"
+              href="/downloads/Pratyush-Tewari-Resume.pdf"
+            >
+              <span class="imagebtn pdf"></span>
+              Resume
+            </a>
 
-          <a class="btn" title="hi@ptewari.com" href="mailto:hi@ptewari.com">
-            <span class="imagebtn email"></span>
-            Email
-          </a>
+            <a class="btn" title="hi@ptewari.com" href="mailto:hi@ptewari.com">
+              <span class="imagebtn email"></span>
+              Email
+            </a>
 
-          <a class="btn" target="_blank" href="https://twitter.com/uxanddesign">
-            <span class="imagebtn twitter"></span>
-            Twitter
-          </a>
+            <a
+              class="btn"
+              target="_blank"
+              href="https://twitter.com/uxanddesign"
+            >
+              <span class="imagebtn twitter"></span>
+              Twitter
+            </a>
 
-          <a
-            class="btn"
-            target="_blank"
-            href="https://linkedin.com/in/pratyushtewari"
-          >
-            <span class="imagebtn linkedin"></span>
-            Linkedin
-          </a>
+            <a
+              class="btn"
+              target="_blank"
+              href="https://linkedin.com/in/pratyushtewari"
+            >
+              <span class="imagebtn linkedin"></span>
+              Linkedin
+            </a>
 
-          <a
-            class="btn"
-            target="_blank"
-            href="https://github.com/pratyushtewari"
-          >
-            <span class="imagebtn github"></span>
-            Github
-          </a>
-        </div>
+            <a
+              class="btn"
+              target="_blank"
+              href="https://github.com/pratyushtewari"
+            >
+              <span class="imagebtn github"></span>
+              Github
+            </a>
+          </div>
 
-        <br />
-        <br />
-      </c>
-    </grid>
-    <h3>Work Experience</h3>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued" style="padding-top: 4px">2021 — Now</c>
-      <c>
-        <p style="font-size: 18px; font-weight: 600;">Restructuring multiple disparate products into a single platform</p>
-        <p style="font-size: 16px">Lead Platform Design Manager at VTS</p>
+          <br />
+          <br />
+        </c>
+      </grid>
+      <h3>Work Experience</h3>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued" style="padding-top: 4px">2021 — Now</c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600">
+            Restructuring multiple disparate products into a single platform
+          </p>
+          <p style="font-size: 16px">Lead Platform Design Manager at VTS</p>
 
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          New York
-        </p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            New York
+          </p>
 
-        <p class="subdued">
-          Managing the platform design team at VTS which created a new company wide, cross-product Design System that reduced component redundancy by 6x. Partnering with
-          all VTS products to champion cross-product opportunities and help VTS
-          customers use VTS product as one platform instead of disparate
-          applications. Uniting the design language for VTS and creating
-          scalable and efficient design processes for the company.
-        </p>
-        <br />
-        <p>
-          <a
-            class="base-text"
-            style="font-size: 16px"
-            href="https://terra.vts.com"
-          >
-            Terra Design system
-            <span class="link-img" style="white-space: nowrap"></span>
-          </a>
-        </p>
-        <div style="margin-top: 10px" class="align-top">
-          <a class="align-top" href="https://terra.vts.com" target="_blank">
+          <p class="subdued">
+            Managing the platform design team at VTS which created a new company
+            wide, cross-product Design System that reduced component redundancy
+            by 6x. Partnering with all VTS products to champion cross-product
+            opportunities and help VTS customers use VTS product as one platform
+            instead of disparate applications. Uniting the design language for
+            VTS and creating scalable and efficient design processes for the
+            company.
+          </p>
+          <br />
+          <p>
+            <a
+              class="base-text"
+              style="font-size: 16px"
+              href="https://terra.vts.com"
+            >
+              Terra Design system
+              <span class="link-img" style="white-space: nowrap"></span>
+            </a>
+          </p>
+          <div style="margin-top: 10px" class="align-top">
+            <a class="align-top" href="https://terra.vts.com" target="_blank">
+              <img
+                style="
+                  height: 100px;
+                  width: auto;
+                  border-radius: 8px;
+                  margin-right: 10px;
+                "
+                src="~/assets/img/vts.png"
+              />
+            </a>
+          </div>
+        </c>
+      </grid>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued" style="padding-top: 4px">2018 — 2021</c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600">
+            Empowered large number of designers to integrate into a new design
+            system
+          </p>
+          <p style="font-size: 16px">
+            VP, User Experience Design Lead at JP Morgan Chase
+          </p>
+
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            New York
+          </p>
+
+          <p class="subdued">
+            Lead the UX design and development of a new enterprise-wide design
+            system. Created services, tools and workflows, that automated the
+            creation new design patterns, and reduced delivery time of specs to
+            engineering by 50%. Partnered with multiple verticals and sub-brands
+            across the organization to contribute and to integrate the new
+            design system into their products.
+          </p>
+          <p style="margin-top: 10px" class="align-top">
             <img
               style="
                 height: 100px;
@@ -133,79 +199,184 @@
                 border-radius: 8px;
                 margin-right: 10px;
               "
-              src="~/assets/img/vts.png"
+              src="~/assets/img/mds.png"
             />
+          </p>
+        </c>
+      </grid>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600">
+            Enabled enterprises to create custom communication platforms
+          </p>
+          <p style="font-size: 16px">
+            Senior UI/UX Designer and Engineer at Vidyo
+          </p>
+          <p style="font-size: 16px"></p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            Hackensack, NJ
+          </p>
+
+          <p class="subdued">
+            Led the design and development of UX for Vidyo Connect - a new
+            platform for enterprise video conferencing. According to just one
+            customer, it logged more than 3 billion minutes of talk time and
+            over 150 million conference calls in just 2 years and became the
+            largest private video conferencing platform (2020). In the first 6
+            days, the same customer reported a 140% increase in calls duration,
+            180% increase in meetings and 280% increase in direct calls.
+          </p>
+
+          <br />
+          <p>
+            <a
+              class="base-text"
+              style="font-size: 16px"
+              href="/projects/vidyoconnectcasestudy"
+            >
+              Vidyo Connect™️
+              <span class="link-img" style="white-space: nowrap"></span>
+            </a>
+          </p>
+
+          <div style="margin-top: 10px" class="align-top">
+            <a
+              class="align-top"
+              href="/projects/vidyoconnectcasestudy"
+              target="_blank"
+            >
+              <img
+                style="
+                  height: 100px;
+                  width: auto;
+                  border-radius: 8px;
+                  margin-right: 10px;
+                "
+                src="~/assets/img/vidyo.png"
+              />
+            </a>
+          </div>
+        </c>
+      </grid>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued" style="padding-top: 4px">2009 — 2013</c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600">
+            Equipped clients to customize and create their own reports
+          </p>
+          <p style="font-size: 16px">Analyst Developer at Goldman Sachs</p>
+          <p style="font-size: 16px"></p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            Bangalore
+          </p>
+
+          <p class="subdued">
+            Led the development of Goldman Sachs web portal for reporting
+            derivative securities. Expanded the web portal development knowledge
+            base to India and South East Asia offices. Developed the .Net UI
+            application for the derivative-clearing factory. Created a new
+            entitlement model and reduced the user interactions by 12 folds.
+            Developed the regression suite that can record and replay the user
+            actions automatically using selenium.
+          </p>
+        </c>
+      </grid>
+
+      <h3>Education</h3>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2013 — 2014</c>
+        <c>
+          <a
+            class="base-text"
+            style="font-size: 16px"
+            href="https://terra.vts.com"
+            target="_blank"
+          >
+            Masters of Human-Computer Interaction at Carnegie Mellon University
+
+            <span class="link-img" style="white-space: nowrap"></span>
           </a>
-        </div>
-      </c>
-    </grid>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued" style="padding-top: 4px">2018 — 2021</c>
-      <c>
-        <p style="font-size: 18px; font-weight: 600;">Empowered large number of designers to integrate into a new design system</p>
-        <p style="font-size: 16px">
-          VP, User Experience Design Lead at JP Morgan Chase
-        </p>
 
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          New York
-        </p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            Pittsburgh, PA
+          </p>
+        </c>
+      </grid>
+      <br />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2005 — 2009</c>
+        <c>
+          <a
+            class="base-text"
+            style="font-size: 16px"
+            href="https://terra.vts.com"
+            target="_blank"
+          >
+            Bachelor of Technology at Motilal Nehru National Institute of
+            Technology
 
-        <p class="subdued">
-          Lead the UX design and development of a new enterprise-wide design
-          system. Created services, tools and workflows, that automated the
-          creation new design patterns, and reduced delivery time of specs to
-          engineering by 50%. Partnered with multiple verticals and sub-brands
-          across the organization to contribute and to integrate the new design
-          system into their products.
-        </p>
-        <p style="margin-top: 10px" class="align-top">
-          <img
-            style="
-              height: 100px;
-              width: auto;
-              border-radius: 8px;
-              margin-right: 10px;
-            "
-            src="~/assets/img/mds.png"
-          />
-        </p>
-      </c>
-    </grid>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
-      <c>
-        <p style="font-size: 18px; font-weight: 600;">Enabled enterprises to create custom communication platforms</p>
-        <p style="font-size: 16px">
-          Senior UI/UX Designer and Engineer at Vidyo
-        </p>
-        <p style="font-size: 16px"></p>
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          Hackensack, NJ
-        </p>
+            <span class="link-img" style="white-space: nowrap"></span>
+          </a>
 
-        <p class="subdued">
-          Led the design and development of UX for Vidyo Connect - a new
-          platform for enterprise video conferencing. According to just one
-          customer, it logged more than 3 billion minutes of talk time and over
-          150 million conference calls in just 2 years and became the largest
-          private video conferencing platform (2020). In the first 6 days, the
-          same customer reported a 140% increase in calls duration, 180%
-          increase in meetings and 280% increase in direct calls.
-        </p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            Allahabad, India
+          </p>
+        </c>
+      </grid>
+      <br />
+      <a class="base-text" href="/sideprojects">
+        <h3 class="base-text">
+          Side Projects
+          <span class="link-img" style="white-space: nowrap"></span>
+        </h3>
+      </a>
+      <br />
 
-        <br />
-        <p>
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2020</c>
+        <c>
+          <a class="base-text" style="font-size: 16px" href="/projects/eatlas">
+            Eatlas
+            <span class="link-img" style="white-space: nowrap"></span>
+          </a>
+          <p class="subdued">
+            Wondering what to eat? Where does a dish come from? What to eat when
+            traveling? Check out Eatlas for all your questions.
+          </p>
+        </c>
+      </grid>
+
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2018</c>
+        <c>
           <a
             class="base-text"
             style="font-size: 16px"
@@ -214,227 +385,91 @@
             Vidyo Connect™️
             <span class="link-img" style="white-space: nowrap"></span>
           </a>
-        </p>
+          <p class="subdued">
+            An Enterprise Meeting Solution for Team Collaboration
+          </p>
+        </c>
+      </grid>
 
-        <div style="margin-top: 10px" class="align-top">
-          <a
-            class="align-top"
-            href="/projects/vidyoconnectcasestudy"
-            target="_blank"
-          >
-            <img
-              style="
-                height: 100px;
-                width: auto;
-                border-radius: 8px;
-                margin-right: 10px;
-              "
-              src="~/assets/img/vidyo.png"
-            />
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2014</c>
+        <c>
+          <a class="base-text" style="font-size: 16px" href="/projects/chelada">
+            Chelada
+            <span class="link-img" style="white-space: nowrap"></span>
           </a>
-        </div>
-      </c>
-    </grid>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued" style="padding-top: 4px">2009 — 2013</c>
-      <c>
-        <p style="font-size: 18px; font-weight: 600;">Equipped clients to customize and create their own reports</p>
-        <p style="font-size: 16px">Analyst Developer at Goldman Sachs</p>
-        <p style="font-size: 16px"></p>
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          Bangalore
-        </p>
+          <p class="subdued">
+            A system by which users, on mobile devices, are able to subscribe to
+            and interact with mobile notification based data feeds provided by
+            an individual or an institution.
+          </p>
+        </c>
+      </grid>
 
-        <p class="subdued">
-          Led the development of Goldman Sachs web portal for reporting
-          derivative securities. Expanded the web portal development knowledge
-          base to India and South East Asia offices. Developed the .Net UI
-          application for the derivative-clearing factory. Created a new
-          entitlement model and reduced the user interactions by 12 folds.
-          Developed the regression suite that can record and replay the user
-          actions automatically using selenium.
-        </p>
-      </c>
-    </grid>
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2014</c>
+        <c>
+          <a
+            class="base-text"
+            style="font-size: 16px"
+            href="/projects/PresqueVu"
+          >
+            PresqueVu
+            <span class="link-img" style="white-space: nowrap"></span>
+          </a>
+          <p class="subdued">
+            Ever wished that you could remember what you needed to tell a person
+            when you met them? PresqueVu can help you with that.
+          </p>
+        </c>
+      </grid>
 
-    <h3>Education</h3>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2013 — 2014</c>
-      <c>
-        <a
-          class="base-text"
-          style="font-size: 16px"
-          href="https://terra.vts.com"
-          target="_blank"
-        >
-          Masters of Human-Computer Interaction at Carnegie Mellon University
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2014</c>
+        <c>
+          <a class="base-text" style="font-size: 16px" href="/projects/Dynamo">
+            Dynamo
+            <span class="link-img" style="white-space: nowrap"></span>
+          </a>
+          <p class="subdued">
+            A mobile information service that helps commuters choose the optimal
+            mode of transportation for their exercise goal.
+          </p>
+        </c>
+      </grid>
 
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
+      <grid
+        class="middle"
+        col="2"
+        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+      >
+        <c class="subdued">2014</c>
+        <c>
+          <a class="base-text" style="font-size: 16px" href="/projects/Slate">
+            Slate
+            <span class="link-img" style="white-space: nowrap"></span>
+          </a>
+          <p class="subdued">
+            A personal learning companion that inspires curiosity and guides
+            students in their pursuit of learning.
+          </p>
+        </c>
+      </grid>
 
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          Pittsburgh, PA
-        </p>
-      </c>
-    </grid>
-    <br />
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2005 — 2009</c>
-      <c>
-        <a
-          class="base-text"
-          style="font-size: 16px"
-          href="https://terra.vts.com"
-          target="_blank"
-        >
-          Bachelor of Technology at Motilal Nehru National Institute of
-          Technology
-
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-
-        <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-          Allahabad, India
-        </p>
-      </c>
-    </grid>
-    <br />
-    <a class="base-text" href="/sideprojects">
-      <h3 class="base-text">
-        Side Projects
-        <span class="link-img" style="white-space: nowrap"></span>
-      </h3>
-    </a>
-    <br />
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2020</c>
-      <c>
-        <a class="base-text" style="font-size: 16px" href="/projects/eatlas">
-          Eatlas
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          Wondering what to eat? Where does a dish come from? What to eat when
-          traveling? Check out Eatlas for all your questions.
-        </p>
-      </c>
-    </grid>
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2018</c>
-      <c>
-        <a
-          class="base-text"
-          style="font-size: 16px"
-          href="/projects/vidyoconnectcasestudy"
-        >
-          Vidyo Connect™️
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          An Enterprise Meeting Solution for Team Collaboration
-        </p>
-      </c>
-    </grid>
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2014</c>
-      <c>
-        <a class="base-text" style="font-size: 16px" href="/projects/chelada">
-          Chelada
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          A system by which users, on mobile devices, are able to subscribe to
-          and interact with mobile notification based data feeds provided by an
-          individual or an institution.
-        </p>
-      </c>
-    </grid>
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2014</c>
-      <c>
-        <a class="base-text" style="font-size: 16px" href="/projects/PresqueVu">
-          PresqueVu
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          Ever wished that you could remember what you needed to tell a person
-          when you met them? PresqueVu can help you with that.
-        </p>
-      </c>
-    </grid>
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2014</c>
-      <c>
-        <a class="base-text" style="font-size: 16px" href="/projects/Dynamo">
-          Dynamo
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          A mobile information service that helps commuters choose the optimal
-          mode of transportation for their exercise goal.
-        </p>
-      </c>
-    </grid>
-
-    <grid
-      class="middle"
-      col="2"
-      style="grid-template-columns: 100px auto; padding-bottom: 20px"
-    >
-      <c class="subdued">2014</c>
-      <c>
-        <a class="base-text" style="font-size: 16px" href="/projects/Slate">
-          Slate
-          <span class="link-img" style="white-space: nowrap"></span>
-        </a>
-        <p class="subdued">
-          A personal learning companion that inspires curiosity and guides
-          students in their pursuit of learning.
-        </p>
-      </c>
-    </grid>
-
-    <br />
-  </div>
+      <br />
+    </div>
   </div>
 </template>
 <script>
