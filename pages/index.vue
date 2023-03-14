@@ -420,7 +420,7 @@
           <a
             class="base-text"
             style="font-size: 16px"
-            href="/projects/PresqueVu"
+            href="/projects/presqueVu"
           >
             PresqueVu
             <span class="link-img" style="white-space: nowrap"></span>
@@ -439,7 +439,7 @@
       >
         <c class="subdued">2014</c>
         <c>
-          <a class="base-text" style="font-size: 16px" href="/projects/Dynamo">
+          <a class="base-text" style="font-size: 16px" href="/projects/dynamo">
             Dynamo
             <span class="link-img" style="white-space: nowrap"></span>
           </a>
@@ -457,7 +457,7 @@
       >
         <c class="subdued">2014</c>
         <c>
-          <a class="base-text" style="font-size: 16px" href="/projects/Slate">
+          <a class="base-text" style="font-size: 16px" href="/projects/slate">
             Slate
             <span class="link-img" style="white-space: nowrap"></span>
           </a>
