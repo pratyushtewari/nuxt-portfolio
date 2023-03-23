@@ -29,13 +29,16 @@ export default {
   },
   methods: {
     handleScroll() {
-      if (window.scrollY > 2) {
-        this.$refs.header.$el.setAttribute(
-          'style',
-          'box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);'
-        );
-      } else {
-        this.$refs.header.$el.setAttribute('style', '');
+      if (this.$refs.header) {
+
+        // if (window.scrollY > 2) {
+        //   this.$refs.header.$el.setAttribute(
+        //     'style',
+        //     'box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);'
+        //   );
+        // } else {
+        //   this.$refs.header.$el.setAttribute('style', '');
+        // }
       }
     }
   },
