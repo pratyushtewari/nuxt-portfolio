@@ -6,6 +6,27 @@
   // font-size: 62.5%;
 }
 
+
+summary {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  // margin: 0px -22px;
+  &:hover {
+    background-color: getColor(baseBackgroundSubdude);
+    outline: getColor(baseBackgrounddarker) solid 1px;
+  }
+}
+
+.big-buttons {
+  border-radius: 4px;
+  padding: 4px;
+  &:hover {
+    background-color: getColor(baseBackgroundSubdude);
+    outline: getColor(baseBackgrounddarker) solid 1px;
+  }
+}
+
 .main-logo {
   background: url('~assets/img/pratyush_logo_onlight.svg') center no-repeat;
   background-size: contain;

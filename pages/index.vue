@@ -193,45 +193,38 @@
                 align-content: center;
               "
             >
-              <div style="margin-top: 10px" class="align-top">
-                <a class="align-top" href="/vts" target="_blank">
+              <a class="big-buttons base-text" href="/vts">
+                <div style="margin-top: 10px">
                   <img
                     style="height: 100px; width: auto; margin-right: 10px"
                     src="~/assets/img/VTS_case_study.png"
                   />
-                </a>
-              </div>
-              <p style="font-size: 16px; margin-top: 8px">
-                <a class="base-text" href="/vts">
+                </div>
+                <p style="font-size: 16px; margin-top: 8px">
                   Case Study
                   <span class="link-img" style="white-space: nowrap"></span>
-                </a>
-              </p>
+                </p>
+              </a>
             </c>
-            <c style="margin-left: 40px">
-              <div style="margin-top: 10px" class="align-top">
-                <a
-                  class="align-top"
-                  href="https://terra.vts.com"
-                  target="_blank"
-                >
+            <c style="margin-left: 40px;
+                text-align: center;
+                align-items: center;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+              ">
+              <a class="big-buttons base-text" href="https://terra.vts.com" target="_blank">
+                <div style="margin-top: 10px">
                   <img
-                    style="
-                      height: 100px;
-                      width: auto;
-                      border-radius: 8px;
-                      margin-right: 10px;
-                    "
+                    style="height: 100px; width: auto; margin-right: 10px"
                     src="~/assets/img/tds_logo.png"
                   />
-                </a>
-              </div>
-              <p style="font-size: 16px; margin-top: 8px">
-                <a class="base-text" href="https://terra.vts.com">
-                  Terra Design system
+                </div>
+                <p style="font-size: 16px; margin-top: 8px">
+                  Terra DS
                   <span class="link-img" style="white-space: nowrap"></span>
-                </a>
-              </p>
+                </p>
+              </a>
             </c>
           </grid>
         </c>
@@ -366,29 +359,34 @@
 
           <br />
 
-          <div style="margin-top: 10px" class="align-top">
-            <a
-              class="align-top"
-              href="/projects/vidyoconnectcasestudy"
-              target="_blank"
-            >
-              <img
-                style="
-                  height: 100px;
-                  width: auto;
-                  border-radius: 8px;
-                  margin-right: 10px;
-                "
-                src="~/assets/img/vidyo.png"
-              />
-            </a>
-          </div>
-          <p style="font-size: 16px; margin-top: 8px">
-            <a class="base-text" href="/projects/vidyoconnectcasestudy">
-              Vidyo Connect™️
-              <span class="link-img" style="white-space: nowrap"></span>
-            </a>
-          </p>
+          <div style="margin-top: 10px;  text-align: center;
+                align-items: center;
+                align-content: center;" class="align-top">
+
+            <!-- <c style="margin-left: 40px;
+                text-align: center;
+                align-items: center;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+              "> -->
+              <a class="big-buttons base-text" href="/projects/vidyoconnectcasestudy">
+                <div style="margin-top: 10px">
+                  <img
+                    style="height: 100px; width: auto; margin: 0px 8px"
+                    src="~/assets/img/vidyo.png"
+                  />
+                </div>
+                <p style="font-size: 16px; margin-top: 8px">
+                  Vidyo Connect™️
+                  <span class="link-img" style="white-space: nowrap"></span>
+                </p>
+              </a>
+            <!-- </c> -->
+
+</div>
+
+
         </c>
       </grid>
       <br />
