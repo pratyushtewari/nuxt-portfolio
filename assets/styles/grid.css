@@ -1,7 +1,8 @@
 /* Raster grid subsystem (rsms.me/raster) */
 grid {
   display: grid;
-  gap: 1.6rem;
+  --grid-gap: 1.6rem;
+  gap: var(--grid-gap);
   --grid-tc: repeat(4, 1fr);
   grid-template-columns: var(--grid-tc);
   --grid-cs: 1; /* column start */
@@ -19,6 +20,7 @@ grid[col="5"] { --grid-tc: repeat(5, 1fr) }
 grid[col="6"] { --grid-tc: repeat(6, 1fr) }
 grid[col="7"] { --grid-tc: repeat(7, 1fr) }
 grid[col="8"] { --grid-tc: repeat(8, 1fr) }
+grid[col="100px auto"] { --grid-tc: 100px auto;  --grid-gap: 40px; }
 
 /* span=start... */
 grid > c[span^="1"] { --grid-cs: 1 }
@@ -61,8 +63,8 @@ grid > c[span*="-"], grid > c[span*=".."] {
 grid > c[span="row"] { grid-column: 1 / -1 }
 
 /* for window width <= 768 */
-@media only screen and (max-width: 768px) {
-  grid[col-s="1"] { --grid-tc: repeat(1, 1fr) }
+@media only screen and (max-width: 375px) {
+  grid[col-s="1"] { --grid-tc: repeat(1, 1fr);  --grid-gap:8px; }
   grid[col-s="2"] { --grid-tc: repeat(2, 1fr) }
   grid[col-s="3"] { --grid-tc: repeat(3, 1fr) }
   grid[col-s="4"] { --grid-tc: repeat(4, 1fr) }

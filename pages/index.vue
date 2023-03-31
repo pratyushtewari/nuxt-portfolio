@@ -107,14 +107,11 @@
       </grid>
       <h3>Work Experience</h3>
       <br />
-      <grid
-        class="middle"
-        col="2"
-        gap="40px"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
-      >
-        <c class="subdued" style="padding-top: 4px">2021 — Now</c>
-        <c>
+      <grid col="100px auto" col-s="1" style="padding-bottom: 20px">
+        <c start class="subdued" style="padding-top: 4px; width: 100px">
+          2021 — Now
+        </c>
+        <c start>
           <p style="font-size: 18px; font-weight: 600">
             Led the design strategy to converge six disparate products into a
             single platform
@@ -128,7 +125,7 @@
           <div class="subdued">
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Created a vision for a single platform to serve multiple
                   personas and functions for the commercial real estate
@@ -179,11 +176,7 @@
             </details>
           </div>
           <br />
-          <grid
-            class="middle"
-            col="2"
-            style="grid-template-columns: 100px auto; padding-bottom: 20px"
-          >
+          <grid class="middle" col="2" col-s="1">
             <c
               style="
                 text-align: center;
@@ -206,14 +199,21 @@
                 </p>
               </a>
             </c>
-            <c style="margin-left: 40px;
+            <c
+              style="
+                margin-left: 40px;
                 text-align: center;
                 align-items: center;
                 display: grid;
                 justify-content: center;
                 align-content: center;
-              ">
-              <a class="big-buttons base-text" href="https://terra.vts.com" target="_blank">
+              "
+            >
+              <a
+                class="big-buttons base-text"
+                href="https://terra.vts.com"
+                target="_blank"
+              >
                 <div style="margin-top: 10px">
                   <img
                     style="height: 100px; width: auto; margin-right: 10px"
@@ -232,8 +232,9 @@
       <br />
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued" style="padding-top: 4px">2018 — 2021</c>
         <c>
@@ -252,7 +253,7 @@
           <div class="subdued">
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Led the UX design and development of a new, enterprise-wide
                   Manhattan Design System
@@ -299,8 +300,9 @@
       <br />
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
         <c>
@@ -318,7 +320,7 @@
           <div class="subdued">
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Partnered with high-proﬁle clients to implement and deploy
                   Vidyo Connect2, the latest video-communication platform to
@@ -359,10 +361,15 @@
 
           <br />
 
-          <div style="margin-top: 10px;  text-align: center;
-                align-items: center;
-                align-content: center;" class="align-top">
-
+          <div
+            style="
+              margin-top: 10px;
+              text-align: center;
+              align-items: center;
+              align-content: center;
+            "
+            class="align-top"
+          >
             <!-- <c style="margin-left: 40px;
                 text-align: center;
                 align-items: center;
@@ -370,30 +377,31 @@
                 justify-content: center;
                 align-content: center;
               "> -->
-              <a class="big-buttons base-text" href="/projects/vidyoconnectcasestudy">
-                <div style="margin-top: 10px">
-                  <img
-                    style="height: 100px; width: auto; margin: 0px 8px"
-                    src="~/assets/img/vidyo.png"
-                  />
-                </div>
-                <p style="font-size: 16px; margin-top: 8px">
-                  Vidyo Connect™️
-                  <span class="link-img" style="white-space: nowrap"></span>
-                </p>
-              </a>
+            <a
+              class="big-buttons base-text"
+              href="/projects/vidyoconnectcasestudy"
+            >
+              <div style="margin-top: 10px">
+                <img
+                  style="height: 100px; width: auto; margin: 0px 8px"
+                  src="~/assets/img/vidyo.png"
+                />
+              </div>
+              <p style="font-size: 16px; margin-top: 8px">
+                Vidyo Connect™️
+                <span class="link-img" style="white-space: nowrap"></span>
+              </p>
+            </a>
             <!-- </c> -->
-
-</div>
-
-
+          </div>
         </c>
       </grid>
       <br />
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued" style="padding-top: 4px">2009 — 2013</c>
         <c>
@@ -409,7 +417,7 @@
           <div class="subdued">
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Led the front-end development of the self-service custom
                   reporting tool for derivative customers
@@ -435,8 +443,9 @@
       <br />
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2013 — 2014</c>
         <c>
@@ -459,8 +468,9 @@
       <br />
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2005 — 2009</c>
         <c>
@@ -492,8 +502,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2020</c>
         <c>
@@ -510,8 +521,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2018</c>
         <c>
@@ -531,8 +543,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2014</c>
         <c>
@@ -550,8 +563,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2014</c>
         <c>
@@ -572,8 +586,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2014</c>
         <c>
@@ -590,8 +605,9 @@
 
       <grid
         class="middle"
-        col="2"
-        style="grid-template-columns: 100px auto; padding-bottom: 20px"
+        col="100px auto"
+        col-s="1"
+        style="padding-bottom: 20px"
       >
         <c class="subdued">2014</c>
         <c>
