@@ -55,7 +55,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Explore awe-inspiring, delightful experiences that bring humans and computers even more closer than before and the HCII &#129309; UX techniques behind them.'
+            'Pratyush is a product design lead based out of New York, particularly adept at aligning cross-functional partners spanning engineering, product, and design to deliver tangible results.'
         },
         { hid: 'google', name: 'google', content: 'notranslate' },
         {
@@ -72,7 +72,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
-            'Explore awe-inspiring, delightful experiences that bring humans and computers even more closer than before and the HCII &#129309; UX techniques behind them.'
+            'Pratyush is a product design lead based out of New York, particularly adept at aligning cross-functional partners spanning engineering, product, and design to deliver tangible results.'
         },
         { hid: 'og:url', property: 'og:url', content: 'http://ptewari.com/' },
         {
@@ -90,7 +90,7 @@ export default {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
-            'Explore awe-inspiring, delightful experiences that bring humans and computers even more closer than before and the HCII &#129309; UX techniques behind them.'
+            'Pratyush is a product design lead based out of New York, particularly adept at aligning cross-functional partners spanning engineering, product, and design to deliver tangible results.'
         },
         {
           hid: 'twitter:image',
