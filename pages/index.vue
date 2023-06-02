@@ -17,7 +17,7 @@
         </c>
         <c middle>
           <p style="font-size: 24px">Pratyush Tewari</p>
-          <p class="subdued">UX STRATEGY & GROWTH</p>
+          <p class="subdued">DESIGN VISIONARY & TECHNOLOGIST</p>
           <p>New York</p>
         </c>
       </grid>
@@ -26,13 +26,13 @@
         <c>
           <br />
           <p>
-            Pratyush is a seasoned product design lead based in New York with 14
-            years of experience. He excels in driving innovation and
-            collaboration within cross-functional teams by leveraging his
-            software engineering acumen and product design expertise. Currently
-            managing platform design missions at a series-E NYC startup, he is
-            focused on unifying disparate products and developing an efficient
-            design system.
+            Pratyush is a seasoned product design lead based out of New York.
+            Over the last 14 years, he has helped startups and large
+            corporations build products that delight customers and led design
+            teams to effectively use good design practices that permeate
+            organizations. Pratyush thrives on cross-functional collaboration,
+            seamlessly aligning teams across engineering, product management,
+            and design.
           </p>
           <br />
           <p>
@@ -122,7 +122,7 @@
 
           <div class="subdued">
             <p>
-              Created single platform to serve multiple personas and functions
+              Created a single platform to serve multiple personas and functions
               for the commercial real estate industry.
             </p>
             <details>
@@ -258,7 +258,7 @@
               <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Managed services, tools and workflows that automated the
-                  creation of new designpatterns, and reduced delivery time of
+                  creation of new design patterns, and reduced delivery time of
                   specs to Engineering by 50%
                 </li>
                 <li>
@@ -322,7 +322,7 @@
 
           <div class="subdued">
             <p>
-              Led the design and development of Vidyo Connect - a constomizable
+              Led the design and development of Vidyo Connect - a customizable
               platform for enterprise video conferencing
             </p>
             <details>
@@ -347,18 +347,19 @@
                   customizable communication platform and enabled clients to
                   customize features to ﬁt individual needs
                 </li>
+
                 <li>Big Wins:</li>
                 <ul style="list-style: circle; margin-left: 16px">
-                <li>
-                  Logged more than 3 Billion minutes of talk time and over 150
-                  Million conference calls in just 2 years and became the
-                  largest private video conferencing platform in 2020
-                </li>
-                <li>
-                  140% increase in calls duration, 180% increase in meetings and
-                  280% increase in direct calls on the new platform, directly
-                  attributed to improvement in UX
-                </li>
+                  <li>
+                    Logged more than 3 Billion minutes of talk time and over 150
+                    Million conference calls in just 2 years and became the
+                    largest private video conferencing platform in 2020
+                  </li>
+                  <li>
+                    140% increase in calls duration, 180% increase in meetings
+                    and 280% increase in direct calls on the new platform,
+                    directly attributed to improvement in UX
+                  </li>
                 </ul>
               </ul>
             </details>
@@ -450,12 +451,8 @@
       >
         <c class="subdued">2013 — 2014</c>
         <c>
-          <p
-            class="base-text"
-            style="font-size: 16px"
-          >
+          <p class="base-text" style="font-size: 16px">
             Masters of Human-Computer Interaction at Carnegie Mellon University
-
           </p>
 
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
@@ -472,13 +469,9 @@
       >
         <c class="subdued">2005 — 2009</c>
         <c>
-          <p
-            class="base-text"
-            style="font-size: 16px"
-          >
+          <p class="base-text" style="font-size: 16px">
             Bachelor of Technology at Motilal Nehru National Institute of
             Technology
-
           </p>
 
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
