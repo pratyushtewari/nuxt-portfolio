@@ -26,21 +26,19 @@
         <c>
           <br />
           <p>
-            Pratyush is a product designer based out of New York. Over the last
-            14 years, he has helped startups and large corporations build
-            products that delight customers and led design teams to effectively
-            use good design practices that permeate organizations. He is a
-            Design-System Technologist: a software engineer turned product
-            designer/manager and is particularly adept at aligning
-            cross-functional partners spanning engineering, product, and design
-            to deliver tangible results.
+            Pratyush is a seasoned product design lead based in New York with 14
+            years of experience. He excels in driving innovation and
+            collaboration within cross-functional teams by leveraging his
+            software engineering acumen and product design expertise. Currently
+            managing platform design missions at a series-E NYC startup, he is
+            focused on unifying disparate products and developing an efficient
+            design system.
           </p>
           <br />
           <p>
-            Currently, he manages the platform design missions at a series-E NYC
-            startup which is responsible for restructuring multiple disparate
-            products into a single platform and developing a new design system
-            that is transforming the design operations and scale to new levels.
+            Pratyush is actively seeking a platform-level cross-functional UX
+            role to enhance cohesive user experiences and help identify new
+            opportunities.
           </p>
 
           <br />
@@ -108,29 +106,28 @@
       <h3>Work Experience</h3>
       <br />
       <grid col="100px auto" col-s="1" style="padding-bottom: 20px">
-        <c start class="subdued" style="padding-top: 4px; width: 100px">
-          2021 — Now
-        </c>
-        <c start>
-          <p style="font-size: 18px; font-weight: 600">
-            Led the design strategy to converge six disparate products into a
-            single platform
-          </p>
-          <p style="font-size: 16px">Lead Platform Design Manager at VTS</p>
-
+        <c start style="padding-top: 4px">
+          <p style="font-weight: 600">2021 — Now</p>
+          <p style="padding-top: 4px">Lead Platform Design Manager</p>
+          <p class="subdued" style="padding-top: 4px">VTS</p>
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             New York
           </p>
+        </c>
+        <c start>
+          <p style="font-size: 18px; font-weight: 600; margin-bottom: 12px">
+            Led the design strategy to converge six disparate products into a
+            single platform
+          </p>
 
           <div class="subdued">
+            <p>
+              Created single platform to serve multiple personas and functions
+              for the commercial real estate industry.
+            </p>
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
               <ul style="list-style: disc; margin-left: 16px">
-                <li>
-                  Created a vision for a single platform to serve multiple
-                  personas and functions for the commercial real estate
-                  industry.
-                </li>
                 <li>
                   Partnered with ﬁve product heads to champion a cross-product
                   vision to transition disparate applications over to a uniﬁed
@@ -224,6 +221,7 @@
                   Terra DS
                   <span class="link-img" style="white-space: nowrap"></span>
                 </p>
+                <p>(external)</p>
               </a>
             </c>
           </grid>
@@ -236,28 +234,28 @@
         col-s="1"
         style="padding-bottom: 20px"
       >
-        <c class="subdued" style="padding-top: 4px">2018 — 2021</c>
-        <c>
-          <p style="font-size: 18px; font-weight: 600">
-            Empowered 200+ designers to integrate into a new organization wide
-            design system
-          </p>
-          <p style="font-size: 16px">
-            VP, User Experience Design Lead at JP Morgan Chase
-          </p>
-
+        <c start style="padding-top: 4px">
+          <p style="font-weight: 600">2018 — 2021</p>
+          <p style="padding-top: 4px">VP, User Experience Design Lead</p>
+          <p class="subdued" style="padding-top: 4px">JPMorgan Chase</p>
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             New York
           </p>
+        </c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600; margin-bottom: 12px">
+            Empowered 200+ designers to integrate into a new organization wide
+            design system
+          </p>
 
           <div class="subdued">
+            <p>
+              Led the UX design and development of a new, enterprise-wide
+              Manhattan Design System
+            </p>
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
               <ul style="list-style: disc; margin-left: 16px">
-                <li>
-                  Led the UX design and development of a new, enterprise-wide
-                  Manhattan Design System
-                </li>
                 <li>
                   Managed services, tools and workflows that automated the
                   creation of new designpatterns, and reduced delivery time of
@@ -295,6 +293,10 @@
               src="~/assets/img/mds.png"
             />
           </p>
+
+          <p class="subdued" style="font-size: 14px; padding-top: 4px">
+            (please contact for deatils)
+          </p>
         </c>
       </grid>
       <br />
@@ -304,35 +306,36 @@
         col-s="1"
         style="padding-bottom: 20px"
       >
-        <c class="subdued" style="padding-top: 4px">2014 — 2018</c>
-        <c>
-          <p style="font-size: 18px; font-weight: 600">
-            Enabled enterprises to create custom communication platforms
-          </p>
-          <p style="font-size: 16px">
-            Senior UI/UX Designer and Engineer at Vidyo
-          </p>
-          <p style="font-size: 16px"></p>
+        <c start style="padding-top: 4px">
+          <p style="font-weight: 600">2014 — 2018</p>
+          <p style="padding-top: 4px">Senior UI/UX Designer and Engineer</p>
+          <p class="subdued" style="padding-top: 4px">Vidyo</p>
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
-            Hackensack, NJ
+            Hackensack
+          </p>
+        </c>
+
+        <c>
+          <p style="font-size: 18px; font-weight: 600; margin-bottom: 12px">
+            Enabled enterprises to create custom communication platforms
           </p>
 
           <div class="subdued">
+            <p>
+              Led the design and development of Vidyo Connect - a constomizable
+              platform for enterprise video conferencing
+            </p>
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
               <ul style="list-style: disc; margin-left: 16px">
                 <li>
                   Partnered with high-proﬁle clients to implement and deploy
-                  Vidyo Connect2, the latest video-communication platform to
+                  Vidyo Connect, the latest video-communication platform to
                   their network, globally
                 </li>
                 <li>
                   Increased the efﬁciency of the front-end stack to increase the
                   number of participants in a video conference by 400%
-                </li>
-                <li>
-                  Led the design and development of UX for Vidyo Connect - a new
-                  platform for enterprise video conferencing
                 </li>
                 <li>
                   Designed the UX for Vidyo Connect that redeﬁned the company’s
@@ -345,6 +348,7 @@
                   customize features to ﬁt individual needs
                 </li>
                 <li>Big Wins:</li>
+                <ul style="list-style: circle; margin-left: 16px">
                 <li>
                   Logged more than 3 Billion minutes of talk time and over 150
                   Million conference calls in just 2 years and became the
@@ -355,6 +359,7 @@
                   280% increase in direct calls on the new platform, directly
                   attributed to improvement in UX
                 </li>
+                </ul>
               </ul>
             </details>
           </div>
@@ -370,13 +375,6 @@
             "
             class="align-top"
           >
-            <!-- <c style="margin-left: 40px;
-                text-align: center;
-                align-items: center;
-                display: grid;
-                justify-content: center;
-                align-content: center;
-              "> -->
             <a
               class="big-buttons base-text"
               href="/projects/vidyoconnectcasestudy"
@@ -403,18 +401,25 @@
         col-s="1"
         style="padding-bottom: 20px"
       >
-        <c class="subdued" style="padding-top: 4px">2009 — 2013</c>
-        <c>
-          <p style="font-size: 18px; font-weight: 600">
-            Equipped clients to customize and create their own reports
-          </p>
-          <p style="font-size: 16px">Analyst Developer at Goldman Sachs</p>
-          <p style="font-size: 16px"></p>
+        <c start style="padding-top: 4px">
+          <p style="font-weight: 600">2009 — 2013</p>
+          <p style="padding-top: 4px">Program Analyst</p>
+          <p class="subdued" style="padding-top: 4px">Goldman Sachs</p>
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             Bangalore
           </p>
+        </c>
+        <c>
+          <p style="font-size: 18px; font-weight: 600; margin-bottom: 12px">
+            Equipped clients to customize and create their own reports
+          </p>
 
           <div class="subdued">
+            <p>
+              Led the development of Goldman Sachs web portal for reporting
+              derivative securities and expanded the web portal development
+              knowledge base from NYC to India and Southeast Asia ofﬁces
+            </p>
             <details>
               <summary style="margin: 8px 0px">Show more</summary>
               <ul style="list-style: disc; margin-left: 16px">
@@ -422,11 +427,7 @@
                   Led the front-end development of the self-service custom
                   reporting tool for derivative customers
                 </li>
-                <li>
-                  Led the development of Goldman Sachs web portal for reporting
-                  derivative securities and expanded the web portal development
-                  knowledge base from NYC to India and Southeast Asia ofﬁces
-                </li>
+
                 <li>
                   Created a new entitlement model and reduced user interactions
                   by a factor of 12. Developed a regression suite that can
@@ -449,16 +450,13 @@
       >
         <c class="subdued">2013 — 2014</c>
         <c>
-          <a
+          <p
             class="base-text"
             style="font-size: 16px"
-            href="https://terra.vts.com"
-            target="_blank"
           >
             Masters of Human-Computer Interaction at Carnegie Mellon University
 
-            <span class="link-img" style="white-space: nowrap"></span>
-          </a>
+          </p>
 
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             Pittsburgh, PA
@@ -474,17 +472,14 @@
       >
         <c class="subdued">2005 — 2009</c>
         <c>
-          <a
+          <p
             class="base-text"
             style="font-size: 16px"
-            href="https://terra.vts.com"
-            target="_blank"
           >
             Bachelor of Technology at Motilal Nehru National Institute of
             Technology
 
-            <span class="link-img" style="white-space: nowrap"></span>
-          </a>
+          </p>
 
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             Allahabad, India
