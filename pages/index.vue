@@ -34,12 +34,6 @@
             seamlessly aligning teams across engineering, product management,
             and design.
           </p>
-          <br />
-          <p>
-            Pratyush is actively seeking a platform-level cross-functional UX
-            role to enhance cohesive user experiences and help identify new
-            opportunities.
-          </p>
 
           <br />
           <p>
@@ -281,22 +275,36 @@
               </ul>
             </details>
           </div>
-
-          <p style="margin-top: 10px" class="align-top">
-            <img
-              style="
-                height: 100px;
-                width: auto;
-                border-radius: 8px;
-                margin-right: 10px;
-              "
-              src="~/assets/img/mds.png"
-            />
-          </p>
-
-          <p class="subdued" style="font-size: 14px; padding-top: 4px">
-            (please contact for deatils)
-          </p>
+          <div
+            style="
+              margin-top: 10px;
+              text-align: center;
+              align-items: center;
+              align-content: center;
+            "
+            class="align-top"
+          >
+            <a
+              class="big-buttons base-text"
+              href="/mds"
+            >
+              <div style="margin-top: 10px">
+                <img
+                  style="
+                    height: 100px;
+                    width: auto;
+                    border-radius: 8px;
+                    margin-right: 10px;
+                  "
+                  src="~/assets/img/mds.png"
+                />
+              </div>
+              <p style="font-size: 16px; margin-top: 8px">
+                MDS Design Assistant
+                <span class="link-img" style="white-space: nowrap"></span>
+              </p>
+            </a>
+          </div>
         </c>
       </grid>
       <br />
