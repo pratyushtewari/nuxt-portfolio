@@ -2,7 +2,9 @@
   <footer id="footer">
     <grid col="4" col-s="2" class="footer-container">
       <c span="2" span-s="2" class="footer-summary">
+        <nuxt-link to="/">
         <div class="footer-logo" />
+        </nuxt-link>
         <div class="footer-summary-text">
           I am a UX designer with expertise in Human-Computer Interaction and
           computer-science background. I am passionate about making people's
