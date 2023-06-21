@@ -335,7 +335,7 @@
       <div class="center max-500">
         <img src="./img/neo1.png" />
         <img src="./img/neo2.png" />
-        <img src="./img/neo3.gif" />
+        <img src="/videos/vidyoconnectcasestudy/neo3.gif" />
         <img src="./img/logo.png" />
       </div>
 
@@ -368,10 +368,10 @@
 
       <grid class col="3" col-s="1">
         <c span="1">
-          <img src="./img/m5.gif" />
+          <img src="/videos/vidyoconnectcasestudy/m5.gif" />
         </c>
         <c span="2">
-          <img src="./img/m6.gif" />
+          <img src="/videos/vidyoconnectcasestudy/m6.gif" />
         </c>
       </grid>
 
@@ -425,16 +425,16 @@
 
       <grid class="center" col="3" col-s="1">
         <c style="grid-row: 1/3" span="1">
-          <img src="./img/calendar.gif" />
+          <img src="/videos/vidyoconnectcasestudy/calendar.gif" />
           Calendar integration
         </c>
         <c span="2">
-          <img src="./img/layoutdrag.gif" />
+          <img src="/videos/vidyoconnectcasestudy/layoutdrag.gif" />
           Prototyping with layout
         </c>
 
         <c span="2">
-          <img src="./img/reconnect.gif" />
+          <img src="/videos/vidyoconnectcasestudy/reconnect.gif" />
           Call reconnection
         </c>
       </grid>
@@ -561,7 +561,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/pages/projects/vidyoconnectcasestudy/video/1.mp4')
+            src: '/videos/vidyoconnectcasestudy/1.mp4'
           }
         ]
         // ,
@@ -576,7 +576,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/pages/projects/vidyoconnectcasestudy/video/2.mp4')
+            src: '/videos/vidyoconnectcasestudy/2.mp4'
           }
         ]
         // ,
@@ -591,7 +591,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/pages/projects/vidyoconnectcasestudy/video/3.mp4')
+            src: '/videos/vidyoconnectcasestudy/3.mp4'
           }
         ]
         // ,
@@ -606,7 +606,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/pages/projects/vidyoconnectcasestudy/video/4.mp4')
+            src: '/videos/vidyoconnectcasestudy/4.mp4'
           }
         ],
         poster: require('@/pages/projects/vidyoconnectcasestudy/img/posterneo.png')

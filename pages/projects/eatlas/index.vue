@@ -523,7 +523,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/assets/img/projects/eatlas/video/eatlas-intro.mp4')
+            src: '/videos/eatlas/eatlas-intro.mp4'
           }
         ],
         poster: require('@/assets/img/projects/eatlas/img/eatlas-home.png')
@@ -540,7 +540,7 @@ export default {
         sources: [
           {
             type: 'video/mp4',
-            src: require('@/assets/img/projects/eatlas/video/eatlas-rotation-home.mp4')
+            src: '/videos/eatlas/eatlas-rotation-home.mp4'
           }
         ],
         poster: require('@/assets/img/projects/eatlas/img/eatlas-home.png')
