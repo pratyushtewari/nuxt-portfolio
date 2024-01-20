@@ -101,8 +101,65 @@
       <br />
       <grid col="100px auto" col-s="1" style="padding-bottom: 20px">
         <c start style="padding-top: 4px">
-          <p style="font-weight: 600">2021 — Now</p>
-          <p style="padding-top: 4px">Lead Platform Design Manager</p>
+          <p style="font-weight: 600">2023 — Now</p>
+          <p style="padding-top: 4px">Head of UX Design</p>
+          <p class="subdued" style="padding-top: 4px">Blue Book Services</p>
+          <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
+            New York (remote)
+          </p>
+        </c>
+        <c start>
+          <p style="font-size: 18px; font-weight: 600; margin-bottom: 12px">
+            Transforming UX and technology for 120 year old company
+          </p>
+
+          <div class="subdued">
+            <p>
+              Upgrading and improving all things about Product, Design, and
+              Technology to unblock growth.
+            </p>
+            <!-- <details>
+              <summary style="margin: 8px 0px">Show more</summary>
+              <ul style="list-style: disc; margin-left: 16px">
+                <li>
+                  Partnered with tech, product, business
+                </li>
+
+              </ul>
+            </details> -->
+          </div>
+          <br />
+          <grid class="middle" col="2" col-s="1">
+            <c
+              style="
+                text-align: center;
+                align-items: center;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+              "
+            >
+              <a class="big-buttons base-text" href="/bbs">
+                <div style="margin-top: 10px">
+                  <img
+                    style="height: 100px; width: auto; margin-right: 10px"
+                    src="~/assets/img/projects/bbs/BBOS_logo_full.svg"
+                  />
+                </div>
+                <p style="font-size: 16px; margin-top: 8px">
+                  Case Study
+                  <span class="link-img" style="white-space: nowrap"></span>
+                </p>
+              </a>
+            </c>
+          </grid>
+        </c>
+      </grid>
+      <br />
+      <grid col="100px auto" col-s="1" style="padding-bottom: 20px">
+        <c start style="padding-top: 4px">
+          <p style="font-weight: 600">2021 — 2023</p>
+          <p style="padding-top: 4px">Lead Platform Designer / Manager</p>
           <p class="subdued" style="padding-top: 4px">VTS</p>
           <p class="subdued" style="font-size: 12px; padding-bottom: 4px">
             New York
@@ -284,10 +341,7 @@
             "
             class="align-top"
           >
-            <a
-              class="big-buttons base-text"
-              href="/chase"
-            >
+            <a class="big-buttons base-text" href="/chase">
               <div style="margin-top: 10px">
                 <img
                   style="
@@ -651,11 +705,13 @@ export default {
   justify-self: center;
   align-self: start;
 }
+
 .btngroup {
   margin-top: 8px;
   display: flex;
   flex-wrap: wrap;
 }
+
 .btn {
   display: flex;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
@@ -666,16 +722,20 @@ export default {
   margin-right: 8px;
   margin-top: 8px;
   color: getColor(baseText);
+
   &:hover {
     background-color: getColor(baseBackgrounddarker);
   }
+
   &:active {
     background-color: getColor(baseBackgroundHighlight);
     box-shadow: none;
   }
+
   text-decoration: none;
   align-items: center;
 }
+
 .imagebtn {
   width: 24px;
   height: 24px;
@@ -685,40 +745,52 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .contact {
   background-image: url('~@/assets/img/share/contact_onlight.svg');
 }
+
 .email {
   background-image: url('~@/assets/img/share/email_onlight.svg');
 }
+
 .pdf {
   background-image: url('~@/assets/img/share/pdf_onlight.svg');
 }
+
 .github {
   background-image: url('~@/assets/img/share/github_onlight.svg');
 }
+
 .linkedin {
   background-image: url('~@/assets/img/share/linkedin_onlight.svg');
 }
+
 .twitter {
   background-image: url('~@/assets/img/share/twitter_onlight.svg');
 }
+
 @media (prefers-color-scheme: dark) {
   .pdf {
     background-image: url('~@/assets/img/share/pdf_ondark.svg');
   }
+
   .contact {
     background-image: url('~@/assets/img/share/contact_ondark.svg');
   }
+
   .email {
     background-image: url('~@/assets/img/share/email_ondark.svg');
   }
+
   .github {
     background-image: url('~@/assets/img/share/github_ondark.svg');
   }
+
   .linkedin {
     background-image: url('~@/assets/img/share/linkedin_ondark.svg');
   }
+
   .twitter {
     background-image: url('~@/assets/img/share/twitter_ondark.svg');
   }
