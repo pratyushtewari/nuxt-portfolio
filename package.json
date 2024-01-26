@@ -12,6 +12,10 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
+  "engines" : {
+    "npm" : ">=6.0.0 <7.0.0",
+    "node" : ">=14.0.0 <15.0.0"
+  },
   "dependencies": {
     "jquery": "^3.6.0",
     "nuxt": "2.15.8",
@@ -20,6 +24,7 @@
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@nuxtjs/style-resources": "1.2.1",
     "babel-eslint": "^10.1.0",
     "eslint": "8.6.0",
