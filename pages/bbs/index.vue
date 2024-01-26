@@ -14,14 +14,14 @@
         <h3>
           In an ambitious endeavor to revitalize the user experience (UX) and
           technological landscape, I am spearheading a comprehensive upgrade for
-          a venerable 120-year-old company. The existing UX, marred by 20 years
+          a 120-year-old company. The existing UX, marred by years
           of outdated design and tech stack has hindered seamless integration of
           new business ideas and has blocked company growth.
         </h3>
 
         <h3>
           Recognizing the imperative for a modern and user-friendly interface in
-          a traditional and venerable industry, I am embarking on a
+          a today's world and the need to preserve traditional values of the produce industry, I am embarking on a
           transformative journey to not only enhance the visual appeal but also
           streamline the overall user journey. This strategic initiative aims to
           breathe new life into the company's digital presence, ensuring a more
